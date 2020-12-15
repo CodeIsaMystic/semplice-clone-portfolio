@@ -1,0 +1,13 @@
+/*   typo nav-link  */
+.typo-nl {
+  font-size: 1.556rem;
+  font-weight: 200;
+  font-family: 'Canela', serif;
+  line-height: 1;
+  text-transform: none;
+  color: $textColorLight;
+}
+
+.is-active {
+  color: $textColor;
+} 

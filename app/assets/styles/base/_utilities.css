@@ -1,0 +1,10 @@
+
+.u-container {
+  /*height: 100%;*/
+  width: auto;
+  display: block;
+
+  @mixin atLarge {  
+    max-width: 1344px;
+  }
+}
