@@ -1,22 +1,23 @@
 .navbar {
-  /*display: flex;
-  justify-content: space-between;*/
+  /* display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 0;
-  
+   */
   width: 100%;
   background: transparent;
   padding-top: 5.555rem;
   padding-bottom: 5.55rem;
   z-index: 150;
   
+  /* 
   & nav > ul {
     display: flex;
     align-items: center;
     justify-content: center;
 
     &> li:first-child {
-      padding-right: 1.66rem;
+      padding-right: 1.66rem;npm 
     }
   }
 
@@ -40,5 +41,5 @@
     position: absolute;
     right: 0;
   }
-
+ */
 }
