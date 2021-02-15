@@ -13,11 +13,27 @@
     padding-bottom: 6.875rem;    
   }
 
-  & nav > ul {   
-    &> li:first-child {
-      padding-right: 1.66rem;
-
+  & nav > ul {  
+    display: flex;
+    flex-direction: column;
+    
+    
+    @mixin atMedium {
+      flex-direction: row;
     }
+
+    &> li {
+      
+      &:first-child {
+      padding-right: 0;
+      
+        @mixin atMedium {
+          padding-right: 1.66rem;
+        }
+  
+      }
+    }
+    
   } 
   
   &-left {
@@ -27,11 +43,6 @@
   }
 
   &-right {
-    
-    .is-hidden {
-      display: none;
-      visibility: hidden;
-    }
   }
  
 }

@@ -1,11 +1,16 @@
 /*   typo nav-link  */
 .typo-nl {
-  font-size: 1.7rem;
   font-weight: 200;
   font-family: 'Canela', serif;
-  line-height: 1;
+  font-size: 2.5rem;
+  line-height: 40px;
   text-transform: none;
   color: $textColorLight;
+  
+  @mixin atMedium {
+    font-size: 1.7rem;
+    line-height: 28px;
+  }
 }
 
 .is-active {
