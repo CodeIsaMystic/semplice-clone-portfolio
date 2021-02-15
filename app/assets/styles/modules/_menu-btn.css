@@ -1,0 +1,35 @@
+.menu-btn {
+  cursor: pointer;
+
+  .line {
+    height: .09rem;
+    width: 1.5rem;
+    background-color: $textColor;
+    margin-bottom: .3rem;
+
+  }
+}
+
+
+/*   animation   
+?????
+.side-bar__nav {
+  left: 6rem;
+}
+?????
+
+
+
+__fixed .line-1 {
+  transform: rotate(-405deg) translate(-5px, 6px);
+  width: 2.5rem;
+}
+
+__fixed .line-3 {
+  transform: rotate(405deg) translate(-5px, -6px);
+  width: 2.5rem;
+}
+
+__fixed .line-2 {
+  opacity: 0;
+}*/
