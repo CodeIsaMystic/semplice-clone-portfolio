@@ -1,11 +1,32 @@
-/*  U-CONTAINER  */
-/* 
+/*  u-container  */
 .u-container {
-  /*height: 100%;*/
-  width: auto;
-  display: block;
-
-  @mixin atLarge {  
-    max-width: 1344px;
+  /*display: block;*/
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  padding: 0 1.25rem;
+  
+  @mixin atXXSmall {
+    padding: 0 2.5rem;
   }
-} */
+
+  @mixin atMedium {
+    padding: 0 3.125rem;
+  }
+  
+  @mixin atLarge {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+  }
+} 
+
+/* u-flex */
+.u-flx {
+  display: flex;
+
+  &--spB {
+    justify-content: space-between;
+    align-items: center;
+  }
+}  

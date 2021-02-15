@@ -1,45 +1,32 @@
 .navbar {
-  /* display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-   */
-  width: 100%;
-  background: transparent;
-  padding-top: 5.555rem;
-  padding-bottom: 5.55rem;
-  z-index: 150;
-  
-  /* 
-  & nav > ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: auto;
+  padding-top: 1.25rem; 
+  padding-bottom: 1.25rem;
 
+  @mixin atXXSmall {
+    padding-top: 2.5rem;  
+    padding-bottom: 2.5rem;    
+  }
+  
+  @mixin atXSmall {
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;    
+  }
+
+  & nav > ul {   
     &> li:first-child {
-      padding-right: 1.66rem;npm 
+      padding-right: 1.66rem;
+
+    }
+  } 
+  
+  &-left {
+    & img {
+      width: 40px;
     }
   }
 
-  &-inner {
-    /*height: 100%;*/
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-
-    /*vertical-align: baseline;*/
- }
-
-
-  &-left {
-    position: absolute;
-    left: 0;
-  }
   &-right {
-    /*display: flex;
-    vertical-align: middle;*/
-    position: absolute;
-    right: 0;
   }
- */
+ 
 }

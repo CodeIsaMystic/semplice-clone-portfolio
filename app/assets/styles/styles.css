@@ -1,8 +1,17 @@
 @import 'normalize.css';
+
+/*  abstracts  */
 @import 'abstracts/_mixins';
+
+/*  base  */
 @import 'base/_variables';
 @import 'base/_typography';
 @import 'base/_global';
 @import 'base/_utilities';
+
+/*  layout  */
+@import 'layout/_site-header';
+
+/*  modules  */
 @import 'modules/_navbar';
 
