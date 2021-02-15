@@ -1,19 +1,21 @@
 .navbar {
-  width: auto;
-  padding-top: 1.25rem; 
-  padding-bottom: 1.25rem;
+  position: absolute;
+  top: 33.2vh;
+  left: 0;
+  padding-left: 1.25rem;
+  
+  @mixin  atXXSmall {
+    top: 35.8vh;
+    padding-left: 2.5rem;
+  }
 
-  @mixin atXXSmall {
-    padding-top: 2.5rem;  
-    padding-bottom: 2.5rem;    
+  @mixin atMedium {
+    position: relative;
+    top: 0;
+    padding-left: 0;
   }
   
-  @mixin atXSmall {
-    padding-top: 6.875rem;
-    padding-bottom: 6.875rem;    
-  }
-
-  & nav > ul {  
+  & ul {  
     display: flex;
     flex-direction: column;
     
@@ -22,27 +24,20 @@
       flex-direction: row;
     }
 
-    &> li {
-      
+    .nav-item {
+      margin: 4px 0;
+
+      @mixin atMedium {
+        margin: 0;
+      }
+
       &:first-child {
       padding-right: 0;
       
         @mixin atMedium {
           padding-right: 1.66rem;
         }
-  
       }
     }
-    
   } 
-  
-  &-left {
-    & img {
-      width: 40px;
-    }
-  }
-
-  &-right {
-  }
- 
 }

@@ -13,9 +13,10 @@
 @import 'layout/_site-header';
 
 /*  modules  */
-@import 'modules/_menu-btn';
+@import 'modules/_top-bar';
 @import 'modules/_navbar';
 
 /*  state  */
+@import 'state/_menu-btn';
 @import 'state/_animate-menu';
 

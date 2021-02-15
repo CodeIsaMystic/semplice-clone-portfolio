@@ -1,0 +1,23 @@
+.top-bar {
+  position: relative;
+  width: auto;
+
+  padding-top: 1.25rem; 
+  padding-bottom: 1.25rem;
+  
+    @mixin atXXSmall {
+      padding-top: 2.5rem;  
+      padding-bottom: 2.5rem;    
+    }
+    
+    @mixin atXSmall {
+      padding-top: 6.875rem;
+      padding-bottom: 6.875rem;    
+    }
+
+  .logo {
+    & img {
+      width: 40px;
+    }
+  }
+}
