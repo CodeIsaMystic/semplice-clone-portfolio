@@ -1,3 +1,9 @@
+@define-mixin atXSmallY {
+  @media screen and (max-height: 475px) {
+    @mixin-content;
+  }
+}
+
 @define-mixin atXXSmall {
   @media screen and (min-width: 475px) {
     @mixin-content;
