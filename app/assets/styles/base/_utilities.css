@@ -1,7 +1,4 @@
-/*  u-container  */
 .u-container {
-  /*display: block;
-  position: relative;*/
   height: auto;
   max-width: 100%;
   padding: 0 1.25rem;
@@ -21,7 +18,7 @@
   }
 } 
 
-/* u-flex */
+
 .u-flx {
   display: flex;
 

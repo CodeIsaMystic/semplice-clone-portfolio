@@ -6,29 +6,23 @@
     width: 1.5rem;
     background-color: $textColor;
     margin-bottom: .3rem;
-
+    transition: transform .3s ease-out;
   }
 
   @mixin atMedium {
     display: none;
   }
 
-
-
   &--closeX {
     display: block;
-    transform-origin: 0 0;
-    transition: all .3s ease-out;
 
     .line-1 {
       transform: rotate(-408deg) translate(-5px, 3px);
       width: 1.3rem;
     }
-
     .line-2 {
       opacity: 0;
     }
-    
     .line-3 {
       transform: rotate(405deg) translate(-6px, -5px);
       width: 1.3rem;

@@ -1,22 +1,21 @@
 @import 'normalize.css';
 
-/*  abstracts  */
-@import 'abstracts/_mixins';
 
-/*  base  */
-@import 'base/_variables';
+@import 'abstracts/_mixins';
+@import 'abstracts/_variables';
+
+
 @import 'base/_global';
 @import 'base/_typography';
 @import 'base/_utilities';
 
-/*  layout  */
+
 @import 'layout/_site-header';
 
-/*  modules  */
+
 @import 'modules/_top-bar';
 @import 'modules/_navbar';
 
-/*  state  */
+
 @import 'state/_menu-btn';
-@import 'state/_animate-menu';
 

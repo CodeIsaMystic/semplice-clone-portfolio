@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/b1edfa746f416280b3502ba39df2c3ae?family=Canela');
+
+
+
+
+$documentBackground:            #fff;
+$background:                    #E7E7E3;
+$textColorLight:                #888888;
+$textColor:                     #222222;
+
+
+
+$mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
+$typoHeading:                   'Canela', Helvetica;
+
+
+

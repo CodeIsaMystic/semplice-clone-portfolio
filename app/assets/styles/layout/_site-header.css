@@ -6,12 +6,8 @@
   background: transparent;
   z-index: 150;
 
-
-
-
-  
   &--is-expanded {
     height: 100vh;
-    padding: 0;/**/
+    padding: 0;
   }
 }
