@@ -38,6 +38,19 @@
           padding-right: 1.66rem;
         }
       }
+
+      .nav-link {
+        color: $textColorLight;
+        transition: color .3s linear;
+
+        &:hover {
+          color: $textColor;
+        }
+      }
+      
+      .is-active {
+        color: $textColor;
+      } 
     }
   } 
 }
