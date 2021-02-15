@@ -11,6 +11,8 @@
 
 
 @import 'layout/_site-header';
+@import 'layout/_hero';
+@import 'layout/_pl';
 
 
 @import 'modules/_top-bar';

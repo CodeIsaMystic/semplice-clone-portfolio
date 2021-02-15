@@ -1,13 +1,52 @@
-.typo-nl {
-  font-weight: 200;
+.typo {
   font-family: 'Canela', serif;
-  font-size: 2.5rem;
-  line-height: 40px;
-  text-transform: none;
+  font-weight: 200;
+  font-style: normal;
+  color: $textColor;
+
+  &-heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    @mixin atXSmall {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+
+
+    @mixin atMedium {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+  }
+
+  &-muted {
+    font-family: $mainTypo;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.55rem;
+    opacity: .45;
+
+    @mixin atXXSmall {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
   
-  @mixin atMedium {
-    font-size: 1.7rem;
-    line-height: 28px;
+  &-nl {
+    font-size: 2.5rem;
+    line-height: 40px;
+    text-transform: none;
+    
+    @mixin atMedium {
+      font-size: 1.7rem;
+      line-height: 28px;
+    }
   }
 }
+  
+
+
 
