@@ -1,8 +1,10 @@
 .navbar {
+  display: none;
   position: absolute;
   top: 33.2vh;
   left: 0;
   padding-left: 1.25rem;
+  opacity: 0;
   
   @mixin  atXXSmall {
     top: 35.8vh;
@@ -10,9 +12,11 @@
   }
 
   @mixin atMedium {
+    display: block;
     position: relative;
     top: 0;
     padding-left: 0;
+    opacity: 1;
   }
   
   & ul {  
@@ -41,7 +45,7 @@
 
       .nav-link {
         color: $textColorLight;
-        transition: color .3s linear;
+        transition: color .2s linear;
 
         &:hover {
           color: $textColor;
@@ -53,4 +57,18 @@
       } 
     }
   } 
+
+
+
+
+
+  
+  &--is-visible {
+    display: block;
+    opacity: 1;
+
+    z-index: 1;
+
+    /*transform: scale(1);*/
+  }
 }
