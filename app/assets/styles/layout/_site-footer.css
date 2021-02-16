@@ -31,11 +31,26 @@
     }
   }
   .mail-wrap {
-    padding: 2.2rem 1rem 0 0;
+    padding: 2.2rem 0 0;
+    margin: 0 auto;
+    text-align: center;
+    
+    @mixin atXSmall {
+      margin: 0;
+      padding: 2.2rem 1rem 0 0;
+      text-align: left;
+    }
   }
 
   .links-wrap {
-    padding: 2.2rem 0 0 1rem;
-    text-align: right;
+    margin: 0 auto;
+    padding: 2.2rem 0 0;
+    text-align: center;
+    
+    @mixin atXSmall {
+      margin: 0;
+      text-align: right;
+      padding: 2.2rem 0 0 1rem;
+    }
   }
 }
