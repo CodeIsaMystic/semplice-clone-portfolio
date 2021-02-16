@@ -1,21 +1,24 @@
 .h {
   margin-top: 10rem;
-
+  
+  position: absolute;
+  left: 0;
+  width: 100%;
+  
   @mixin atXSmall {
     margin-top: 18.75rem;
   }
   @mixin atXSmallY {
     margin-top: 10rem;
   }
-
-
-  &-container {
+  
+  &-content {  
+    margin: 0 auto 0 0;
     max-width: 520px;
-    margin: 0 auto;
-
+    
     @mixin atXSmall {
+      /*margin: 0 auto 0 0;*/
       max-width: 640px;
-      margin: 0 auto 0 0;
     }
     @mixin atSmall {
       max-width: 700px;
@@ -23,11 +26,11 @@
     @mixin atLarge {
       max-width: 880px;
     }
-
+    
     & > h6 {
       margin: 0 0 1.5rem;
     }
-
+  
     & > h1 {
       margin: 0;
     }

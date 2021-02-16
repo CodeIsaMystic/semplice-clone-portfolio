@@ -12,7 +12,8 @@
 
 @import 'layout/_site-header';
 @import 'layout/_hero';
-@import 'layout/_pl';
+@import 'layout/_left-project';
+@import 'layout/_site-footer';
 
 
 @import 'modules/_top-bar';

@@ -29,19 +29,3 @@ ul, li {
   margin: 0;
   list-style: none;
 }
-
-.content-post {
-  width: 100%;
-  height: 100%;
-  border: none;
-  
-  @mixin atXXSmall {
-    border-right: 20px solid #FFF;
-    border-left: 20px solid #FFF;
-    border-top: 20px solid #FFF;
-  }
-  
-  @mixin atXSmallY {
-    border: none;
-  }
-}
