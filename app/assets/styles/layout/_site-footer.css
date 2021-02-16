@@ -52,5 +52,9 @@
       text-align: right;
       padding: 2.2rem 0 0 1rem;
     }
+
+    & span {
+      padding: 5px;
+    }
   }
 }
