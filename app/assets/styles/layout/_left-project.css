@@ -1,3 +1,25 @@
 .lp {
+  position: relative;
   
+  
+  &-content {
+    display: flex;
+
+    .img-wrap {
+      width: 100%;
+      height: 445px;
+      background-color: #B4C6D9;
+
+      @mixin atSmall {
+        width: 60%;
+      }
+    }
+    .desc-wrap {
+      width: 100%;
+
+      @mixin atSmall {
+        width: 40%;
+      }
+    }
+  }
 }

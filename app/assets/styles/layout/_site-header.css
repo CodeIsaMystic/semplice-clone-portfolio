@@ -14,17 +14,5 @@
     height: 100vh;
     padding: 0;
     
-    /*
-    border: none;
-
-    @mixin atXXSmall {
-      border-right: 20px solid #FFF;
-      border-left: 20px solid #FFF;
-      border-top: 20px solid #FFF;
-    }
-
-    @mixin atXSmallY {
-      border: none;
-    }*/
     }
 }

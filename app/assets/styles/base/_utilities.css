@@ -1,18 +1,36 @@
 .u-border {
   width: 100%;
-  height: 100%;
   border: none;
+  z-index: 1000;
   
   @mixin atXXSmall {
     border-right: 20px solid #FFF;
     border-left: 20px solid #FFF;
-    border-top: 20px solid #FFF;
   }
   
   @mixin atXSmallY {
     border: none;
   }
 
+  &-t {
+    @mixin atXXSmall {
+      border-top: 20px solid #FFF;
+    }
+    @mixin atXSmallY {
+      border: none;
+    }
+  }
+
+  &-b {
+    @mixin atXXSmall {
+      border-bottom: 20px solid #FFF;
+    }
+    @mixin atXSmallY {
+      border: none;
+    }
+  }
+
+/*
   &--is-displayed {
     background-color: $background;
     height: 100vh;
@@ -32,6 +50,7 @@
       border: none;
     } 
   }
+*/
 }
 
 
@@ -51,7 +70,14 @@
   
   @mixin atLarge {
     max-width: 1350px;
-    /*width: 100%;*/
+  }
+
+  &-s {
+    padding: 0 1.25rem;
+  
+    @mixin atMedium {
+      padding: 0 1.875rem;
+    } 
   }
 } 
 
