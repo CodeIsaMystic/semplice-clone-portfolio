@@ -1,13 +1,14 @@
 @import 'normalize.css';
 
 
-@import 'abstracts/_mixins';
 @import 'abstracts/_variables';
+@import 'abstracts/_mixins';
+@import 'abstracts/_flex';
+@import 'abstracts/_utilities';
 
 
 @import 'base/_global';
 @import 'base/_typography';
-@import 'base/_utilities';
 
 
 @import 'layout/_site-header';

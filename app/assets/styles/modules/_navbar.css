@@ -21,14 +21,6 @@
   }
   
   & ul {  
-    display: flex;
-    flex-direction: column;
-    
-    
-    @mixin atMedium {
-      flex-direction: row;
-    }
-
     .nav-item {
       margin: 4px 0;
 

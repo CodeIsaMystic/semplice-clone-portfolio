@@ -1,0 +1,34 @@
+.flx {
+  display: flex;
+}
+.flx-spB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flx-rowOnXS {
+  display: flex;
+  flex-direction: column;
+
+  @mixin atXSmall {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.flx-rowOnSM {
+  display: flex;
+  flex-direction: column;
+
+  @mixin atSmall {
+    flex-direction: row;
+  }
+}
+.flx-rowOnMD {
+  display: flex;
+  flex-direction: column;
+
+  @mixin atMedium {
+    flex-direction: row;
+  }
+}
