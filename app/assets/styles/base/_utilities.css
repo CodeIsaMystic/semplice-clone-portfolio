@@ -57,37 +57,39 @@
 .u-container {
   height: auto;
   max-width: 100%;
-  padding: 0 1.25rem;
   margin: 0 auto;
-  
-  @mixin atXXSmall {
-    padding: 0 2.5rem;
-  }
-
-  @mixin atMedium {
-    padding: 0 3.125rem;
-  }
   
   @mixin atLarge {
     max-width: 1350px;
-  }
+  } 
+  /*@mixin atLarge {
+    max-width: 1180px;
+  } */
+} 
 
-  &-s {
-    padding: 0 1.25rem;
-  
+.u-padd {
+  padding: 0 1.25rem;
+    
     @mixin atMedium {
       padding: 0 1.875rem;
     } 
-  }
-} 
+}
 
 
 .u-flx {
   display: flex;
 
-  &--spB {
+  &-spB {
     justify-content: space-between;
     align-items: center;
+  }
+
+  &-Col {
+    flex-direction: column;
+
+    @mixin atSmall {
+      flex-direction: row;
+    }
   }
 }  
 

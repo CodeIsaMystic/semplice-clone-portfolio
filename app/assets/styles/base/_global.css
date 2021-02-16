@@ -17,6 +17,10 @@ body {
   height: 100%;
 }
 
+h1, h2, h3, h4, h6 {
+  margin: 0;
+}
+
 img {
   height: auto;
   max-width: 100%;
@@ -24,6 +28,7 @@ img {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 ul, li {
   padding: 0;

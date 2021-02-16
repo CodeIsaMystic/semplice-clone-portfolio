@@ -9,10 +9,15 @@ $background:                    #E7E7E3;
 $textColorLight:                #888888;
 $textColor:                     #222222;
 
+$contentBg1:                    #AED6DC;
+$contentBg2:                    #B4C6D9;
+$contentBg3:                    #F6DCB4;
+$contentBg4:                    #EFE7E3;
+
 
 
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
-$typoHeading:                   'Canela', Helvetica;
+$headingTypo:                   'Canela', Helvetica, serif;
 
 
 
