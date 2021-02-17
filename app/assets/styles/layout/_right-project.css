@@ -66,9 +66,8 @@
     .img-wrap {
       order: 1;
       width: 100%;
-      padding-bottom: 56.25%;
       height: 0;
-      /*height: 445px;*/
+      padding-bottom: 56.25%;
       
       @mixin atSmall {
         order: 2;
