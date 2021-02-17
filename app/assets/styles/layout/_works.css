@@ -22,16 +22,21 @@
     .img-wrap {
       width: 100%;
       height: 0;
-      padding-bottom: 56.25%;
-
+      padding-bottom: 100%;
+      
       @mixin atSmall {
+        height: 0;
         margin-bottom: 1.5rem;
+        padding-bottom: 39.14%;
       }
-
+      @mixin atMedium {
+        padding-bottom: 39.14%;
+      }
+      
       &-l {
-
+        
         @mixin atSmall {
-          width: 60%;
+          width: 64.8%;
           margin-right: 1rem;
         }
       }
@@ -41,7 +46,7 @@
         
         @mixin atSmall {
           order: 2;
-          width: 60%;
+          width: 64.8%;
           margin-left: 1rem;
         }
         
@@ -57,7 +62,7 @@
     
           &-l {
             @mixin atSmall {
-              width: 40%;
+              width: 35.2%;
             }
           }
           
@@ -66,7 +71,7 @@
     
             @mixin atSmall {
               order: 1;
-              width: 40%;
+              width: 35.2%;
             }
           }
     
