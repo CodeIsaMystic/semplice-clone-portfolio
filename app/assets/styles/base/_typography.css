@@ -69,6 +69,7 @@
 
   &-italic {
     font-style: oblique;
+    font-size: 1.5rem;
   }
   
 }

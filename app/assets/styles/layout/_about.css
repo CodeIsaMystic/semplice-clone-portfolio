@@ -1,0 +1,87 @@
+.a {
+  position: relative;
+
+  &-content {
+    padding-top: 15rem;
+
+    .pw {
+      height: 0;
+      
+      
+      
+      width: 100%;
+      height: auto;
+      /*padding-bottom: 45%;*/
+      
+      margin-bottom: 1.5rem;
+
+
+        
+    @mixin atXSmall {
+      padding-bottom: 66.5%;
+    }
+    
+    @mixin atSmall {
+      width: 45%;
+      height: 0;
+      padding-bottom: 46%;
+      /*padding-bottom: 42.53%;*/
+  
+
+      
+      > img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        /*
+        max-width: 800px;
+        max-height: 1047px;
+        */
+      }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .rw {
+      text-align: left;
+
+      @mixin atSmall {
+        margin: 0 1rem;
+        width: 62%;
+      }
+
+      .head {
+        margin-top: 0;
+        padding-bottom: 1rem;
+        
+        @mixin atSmall {
+          margin-top: 3.375rem;
+          padding-bottom: 1.5rem;
+        }
+
+        &-left {
+          margin-left: 0;
+
+          @mixin atSmall {
+            margin-left: -6rem;
+          }
+        }
+
+      }
+    }    
+  }
+}

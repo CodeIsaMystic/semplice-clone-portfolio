@@ -13,6 +13,7 @@
 
 @import 'layout/_site-header';
 @import 'layout/_hero';
+@import 'layout/_about';
 @import 'layout/_works';
 @import 'layout/_site-footer';
 
