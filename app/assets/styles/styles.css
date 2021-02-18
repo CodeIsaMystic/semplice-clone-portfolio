@@ -19,6 +19,8 @@
 
 @import 'modules/_top-bar';
 @import 'modules/_navbar';
+@import 'modules/_img-wrap';
+@import 'modules/_txt-wrap';
 
 
 @import 'state/_menu-btn';
