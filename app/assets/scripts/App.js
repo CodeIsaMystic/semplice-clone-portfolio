@@ -1,8 +1,10 @@
 import '../styles/styles.css';
-import MobileMenu from './modules/MobileMenu';
 
 
-new MobileMenu();
+import mobileMenu from './modules/mobileMenu';
+
+
+mobileMenu();
 
 
 if (module.hot) {
