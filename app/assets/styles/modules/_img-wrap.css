@@ -1,13 +1,18 @@
 .img-wrap {
   width: 100%;
   height: auto;
-  padding-bottom: 50%;
+  padding-bottom: 69.5%;
+  margin-bottom: 1.5rem;
+
+  @mixin atXSmall {
+    padding-bottom: 66.5%;
+  }
   
   @mixin atSmall {
-    width: 64.8%;
+    width: 77%;
     height: 0;
-    margin-bottom: 1.5rem;
-    padding-bottom: 39.14%;
+    padding-bottom: 46%;
+    /*padding-bottom: 42.53%;*/
 
 
     &-left {

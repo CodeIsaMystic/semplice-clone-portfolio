@@ -37,12 +37,17 @@
   max-width: 100%;
   margin: 0 auto;
   
-  /*@mixin atLarge {
+  @mixin atLarge {
+    max-width: 1250px;
+  }
+  /*
+  @mixin atLarge {
     max-width: 1350px;
-  }*/ 
+  }
   @mixin atLarge {
     max-width: 1180px;
   } 
+  */
 } 
 
 .u-padd {
@@ -55,11 +60,4 @@
 
 .u-air-s {
   padding-top: 5rem;
-
-  @mixin atXSmall {
-    padding-top: 8.75rem;
-  }
-  @mixin atXSmallY {
-    padding-top: 5rem;
-  }
 }

@@ -15,8 +15,13 @@
   }
 
   .head {
-    margin-top: 3.375rem;
-    padding-bottom: 1.5rem;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    
+    @mixin atSmall {
+      margin-top: 3.375rem;
+      padding-bottom: 1.5rem;
+    }
 
     &-left {
       margin-left: 0;
@@ -40,7 +45,7 @@
 
   .desc {
     
-    & > h4 { padding-bottom: 1rem; }
+    & > h4 { padding-bottom: 1.875rem; }
 
     & h6 > span {
       display: none;

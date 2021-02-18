@@ -39,7 +39,10 @@
   
   &-txt {
     font-family: $mainTypo;
-    font-size: 1.125rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    word-spacing: 1px;
   }
   
   &-muted {
@@ -48,13 +51,8 @@
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1rem;
-    letter-spacing: 0.05rem;
-    opacity: .45;
-
-    @mixin atXXSmall {
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
+    color: $typoMuted;
+    letter-spacing: 0.15rem;
   }
 
   &-sm {
