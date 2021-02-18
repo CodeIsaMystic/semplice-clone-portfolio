@@ -8,5 +8,14 @@
     height: 0;
     margin-bottom: 1.5rem;
     padding-bottom: 39.14%;
+
+
+    &-left {
+      margin-right: 1rem;
+    }
+
+    &-right {
+      margin-left: 1rem;
+    }
   }
 }

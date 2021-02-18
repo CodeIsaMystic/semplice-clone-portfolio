@@ -32,12 +32,21 @@
     flex-direction: row;
   }
 }
-/*
-.flx-inverted {
+
+.flx-o1 {
   display: flex;
+  order: 1;
+
+  @mixin atSmall {
+    order: 2;
+  }
+}
+.flx-o2 {
+  display: flex;
+  flex-direction: column;
   order: 2;
 
   @mixin atSmall {
     order: 1;
   }
-}*/
+}

@@ -3,11 +3,7 @@
   
   
   &-content {
-    display: block;
-
-    @mixin atSmall {
-      display: flex;
-    }
+    
 
     .bg1 {
       background-color: $contentBg1;
@@ -18,74 +14,5 @@
     .bg3 {
       background-color: $contentBg3;
     }
-
-
-/* --------------------------------------------
------------------------------------------------
------------------------------------------------
------------------------------------------------
---------------------------------------------- */
-
-    
-  .img-wrap-l {
-    
-    @mixin atSmall {
-      margin-right: 1rem;
-    }
-  }
-
-  .img-wrap-r {
-    order: 1;
-    
-    @mixin atSmall {
-      order: 2;
-      margin-left: 1rem;
-    }
-    
-  }
-
-
-
-    
-  .txt-wrap-r {
-    order: 2;
-
-    @mixin atSmall {
-      order: 1;
-    }
-  }
-
-  
-  .head-l {
-    margin-left: 0;
-    
-    @mixin atSmall {
-      margin-left: -6rem;
-    }
-  }
-  .head-r {
-    position: relative;
-    text-align: left;
-    z-index: 25;
-    margin-right: 0;
-
-    @mixin atSmall {
-      text-align: right;
-      margin-right: -6rem;
-    }
-  }
-
-  .desc-r {
-    text-align: left;
-
-    @mixin  atSmall {
-      text-align: right;
-    }
-  }
-
-
-       
-
-
   }
 }

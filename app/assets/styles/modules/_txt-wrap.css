@@ -1,15 +1,41 @@
 .txt-wrap {
-  width: 100%;
+  text-align: left;
 
   @mixin atSmall {
     margin: 0 1rem;
     width: 35.2%;
-  }
 
+  }
+  
+  &-right {
+
+    @mixin atSmall {
+      text-align: right;
+    }
+  }
 
   .head {
     margin-top: 3.375rem;
     padding-bottom: 1.5rem;
+
+    &-left {
+      margin-left: 0;
+
+      @mixin atSmall {
+        margin-left: -6rem;
+      }
+    }
+
+    &-right {
+      margin-right: 0;
+      
+      @mixin atSmall {
+        position: relative;
+        z-index: 25;
+        text-align: right;
+        margin-right: -6rem;
+      }
+    }
   }
 
   .desc {
