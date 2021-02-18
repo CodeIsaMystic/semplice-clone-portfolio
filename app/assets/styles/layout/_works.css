@@ -19,108 +19,72 @@
       background-color: $contentBg3;
     }
 
-    .img-wrap {
-      width: 100%;
-      height: auto;
-      padding-bottom: 50%;
-      
-      @mixin atSmall {
-        height: 0;
-        margin-bottom: 1.5rem;
-        padding-bottom: 39.14%;
-      }
-      
-      &-l {
-        
-        @mixin atSmall {
-          width: 64.8%;
-          margin-right: 1rem;
-        }
-      }
 
-      &-r {
-        order: 1;
-        
-        @mixin atSmall {
-          order: 2;
-          width: 64.8%;
-          margin-left: 1rem;
-        }
-        
-      }
+/* --------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+--------------------------------------------- */
 
+    
+  .img-wrap-l {
+    
+    @mixin atSmall {
+      margin-right: 1rem;
     }
-        .txt-wrap {
-          width: 100%;
-    
-          @mixin atSmall {
-            margin: 0 1rem;
-          }
-    
-          &-l {
-            @mixin atSmall {
-              width: 35.2%;
-            }
-          }
-          
-          &-r {
-            order: 2;
-    
-            @mixin atSmall {
-              order: 1;
-              width: 35.2%;
-            }
-          }
-    
-          .head {
-            margin-top: 3.375rem;
-            padding-bottom: 1.5rem;
-            
-            
-            &-l {
-              margin-left: 0;
-              
-              @mixin atSmall {
-                margin-left: -6rem;
-              }
-            }
-            &-r {
-              position: relative;
-              text-align: left;
-              z-index: 25;
-              margin-right: 0;
-    
-              @mixin atSmall {
-                text-align: right;
-                margin-right: -6rem;
-              }
-    
-            }
-          }
-    
-          .desc {
-            &-r {
-              text-align: left;
-    
-              @mixin  atSmall {
-                text-align: right;
-              }
-            }
-    
-            & > h4 {
-              padding-bottom: 1rem;
-            }
-    
-            & h6 > span {
-              display: none;
-    
-              @mixin atSmall {
-                display: inline-block;
-              }
-            }
-          } 
-        }
+  }
 
+  .img-wrap-r {
+    order: 1;
+    
+    @mixin atSmall {
+      order: 2;
+      margin-left: 1rem;
+    }
+    
+  }
+
+
+
+    
+  .txt-wrap-r {
+    order: 2;
+
+    @mixin atSmall {
+      order: 1;
+    }
+  }
+
+  
+  .head-l {
+    margin-left: 0;
+    
+    @mixin atSmall {
+      margin-left: -6rem;
+    }
+  }
+  .head-r {
+    position: relative;
+    text-align: left;
+    z-index: 25;
+    margin-right: 0;
+
+    @mixin atSmall {
+      text-align: right;
+      margin-right: -6rem;
+    }
+  }
+
+  .desc-r {
+    text-align: left;
+
+    @mixin  atSmall {
+      text-align: right;
+    }
+  }
+
+
+       
 
 
   }

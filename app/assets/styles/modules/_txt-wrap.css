@@ -1,0 +1,27 @@
+.txt-wrap {
+  width: 100%;
+
+  @mixin atSmall {
+    margin: 0 1rem;
+    width: 35.2%;
+  }
+
+
+  .head {
+    margin-top: 3.375rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .desc {
+    
+    & > h4 { padding-bottom: 1rem; }
+
+    & h6 > span {
+      display: none;
+
+      @mixin atSmall {
+        display: inline-block;
+      }
+    }
+  } 
+}

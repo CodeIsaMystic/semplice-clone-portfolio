@@ -1,0 +1,12 @@
+.img-wrap {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50%;
+  
+  @mixin atSmall {
+    width: 64.8%;
+    height: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 39.14%;
+  }
+}
