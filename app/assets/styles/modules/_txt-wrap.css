@@ -1,4 +1,4 @@
-.txt-wrap {
+.tw {
   text-align: left;
 
   @mixin atSmall {
