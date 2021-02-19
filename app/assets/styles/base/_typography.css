@@ -1,5 +1,5 @@
 .typo {
-  font-weight: 200;
+  /*font-weight: 200;*/
   font-style: normal;
   color: $textColor;
 
@@ -17,6 +17,7 @@
 
   &-heading {
     font-family: $headingTypo;
+    font-weight: 200;
     font-size: 2.5rem;
     line-height: 3rem;
     
@@ -24,12 +25,19 @@
       font-size: 4rem;
       line-height: 5rem;
     }
-    
-    
+      /*
     @mixin atMedium {
       font-size: 4rem;
       line-height: 5rem;
-    }
+    }*/
+
+  }
+
+  &-headingFixed {
+    font-weight: 200;
+    font-family: $headingTypo;
+    font-size: 4rem;
+    line-height: 5rem;
   }
   
   &-subheading {
@@ -78,6 +86,7 @@
   &-italic {
     font-style: oblique;
     font-size: 1.5rem;
+    font-weight: 100;
   }
   
 }

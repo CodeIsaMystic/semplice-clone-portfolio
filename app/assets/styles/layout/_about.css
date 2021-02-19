@@ -1,58 +1,61 @@
-.a {
+.ab {
   position: relative;
-
+  display: block;
+  
   &-content {
-    padding-top: 15rem;
+    padding-top: 0;
+    margin: 2rem auto 0;
+    width: 100%;
+    
+    @mixin atXSmall {
+      margin: 0;
+      padding-top: 15rem;
+    }
     
 
     .pw {
 
       width: 100%;
-      height: auto;
-
-
+      height: 0;
+      /*height: 0;*/
+      /*margin-bottom: 1.5rem;*/
+      
       /*padding-bottom: 45%;*/
       /*padding-bottom: 75%;*/
       
-      margin-bottom: 1.5rem;
-
-
-     /*   
-    @mixin atXSmall {
-      padding-bottom: 66.5%;
-    }*/
-    
-    @mixin atSmall {
-      width: 45%;
-      height: 0;
-      /*padding-bottom: 46%;*/
-      /*padding-bottom: 42.53%;*/
-  
-
+      /*   
+      @mixin atXSmall {
+        padding-bottom: 66.5%;
+      }*/
       
-      > img {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        /*
-        max-width: 800px;
-        max-height: 1047px;
-        */
+      @mixin atSmall {
+        /*padding-bottom: 46%;*/
+        /*padding-bottom: 42.53%;*/
+        
+        width: 41.5%;
+        margin: 0 0 5.25rem 5rem;
+
+
       }
-
+        
+        & > img {
+          width: 100%;
+          height: auto;
+          padding: 0;
+          /*margin: 0 6.25rem 5rem 1rem;*/
+          /*width: 100%;
+          height: auto;*/
+          /*
+          max-width: 800px;
+          max-height: 1047px;
+          */
+          
+          @mixin atXSmall {
+            padding: 0 1rem;
+          }
+        }
     }
-  }
   
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -60,21 +63,28 @@
 
 
     .rw {
-      text-align: center;
+      margin: 29rem auto 0;
+      text-align: left;
 
       @mixin atSmall {
-        text-align: left;
+        width: 58.5%;
         margin: 0 1rem;
         width: 62%;
       }
 
       .head {
+        text-align: center;
         margin-top: 5rem;
-        padding-bottom: 1rem;
+        /*padding-bottom: 1rem;*/
+
+        @mixin atXSmall {
+          text-align: left;
+        }
         
         @mixin atSmall {
-          margin-top: 3.375rem;
-          padding-bottom: 1.5rem;
+          margin-top: 7.5rem;
+          margin-left: 1.875rem;
+          /*padding-bottom: 1.5rem;*/
         }
 
         &-left {
@@ -87,31 +97,27 @@
       }
 
       .desc {
-        
         & > h6 {
-          padding-bottom: 4rem;
+          text-align: center;
+          padding-bottom: 1rem;
           margin: 0;  
-  
+          
+          @mixin atXSmall {
+            text-align: left;
+            padding-bottom: 4rem;
+          }
+
           @mixin atSmall {
             padding-bottom: 2rem;
           }
         }
 
-        & div > p {
-          margin: 0 0 2rem;
-          padding: 0;
-          text-align: left;
-          margin: 0;
-        }
-
         & div > h6 {
-          text-align: left;
-          padding: 2.125rem 0 1.875rem;
-          margin: 0;
+          /*text-align: left;*/
+          padding: 1.5rem 0 1.125rem;
         }
 
-        & div > a {
-          text-align: left;
+        .links-res {
           display: block;
           text-decoration-line: line-through;
           transition: font-weight .25s ease-in-out;
