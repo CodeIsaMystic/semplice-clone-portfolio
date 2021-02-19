@@ -8,8 +8,12 @@
 
     @mixin atSmall {
       margin: 0;
-      padding-top: 15rem;
-    }   
+      padding-top: 10rem;
+    } 
+    
+    @mixin atXSmallY {
+      padding-top: 6rem;
+    }
 
     .pw {
       width: 100%;
@@ -40,7 +44,7 @@
         margin: 0 auto;   
 
         @mixin atXSmall {
-          margin: 12rem auto 0;
+          margin: 8.5rem auto 0;
         }
         @mixin atSmall {
           padding: 0 1rem;
@@ -59,7 +63,7 @@
       margin: 0 auto;
       
       @mixin atXSmall {
-        margin: 12rem auto 0;
+        margin: 6.5rem auto 0;
       }
       
       @mixin atSmall {
