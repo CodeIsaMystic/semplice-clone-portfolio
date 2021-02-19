@@ -108,7 +108,7 @@
         }
       }
 
-      .desc {
+      .body {
         & > h6 {
           text-align: center;
           padding-bottom: 1rem;
@@ -124,7 +124,13 @@
         }
 
         & div > h6 {
-          padding: 1.5rem 0 1.125rem;
+          padding: 2rem 0 .75rem;
+        }
+
+        & div > div > p,
+        & div > div > a {
+          margin: 0;
+          padding: 0;
         }
 
         .links-res {
