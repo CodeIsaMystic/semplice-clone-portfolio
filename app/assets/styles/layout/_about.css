@@ -1,59 +1,52 @@
 .ab {
-  position: relative;
-  display: block;
+  height: auto;
   
   &-content {
     padding-top: 0;
     margin: 2rem auto 0;
-    width: 100%;
-    
-    @mixin atXSmall {
+    width: 100%;  
+
+    @mixin atSmall {
       margin: 0;
       padding-top: 15rem;
-    }
-    
+    }   
 
     .pw {
-
       width: 100%;
       height: 0;
-      /*height: 0;*/
-      /*margin-bottom: 1.5rem;*/
-      
-      /*padding-bottom: 45%;*/
-      /*padding-bottom: 75%;*/
-      
-      /*   
+      padding-bottom: 50%;
+
+         
       @mixin atXSmall {
-        padding-bottom: 66.5%;
-      }*/
-      
-      @mixin atSmall {
-        /*padding-bottom: 46%;*/
-        /*padding-bottom: 42.53%;*/
-        
-        width: 41.5%;
-        margin: 0 0 5.25rem 5rem;
-
-
+        width: 38%;
+        margin: 0 auto;
       }
+      @mixin atSmall {
+        width: 41.5%;
+        height: 0;
+        margin: 0 0 5.25rem 5rem;
         
-        & > img {
-          width: 100%;
-          height: auto;
-          padding: 0;
-          /*margin: 0 6.25rem 5rem 1rem;*/
-          /*width: 100%;
-          height: auto;*/
-          /*
-          max-width: 800px;
-          max-height: 1047px;
-          */
-          
-          @mixin atXSmall {
-            padding: 0 1rem;
-          }
+       /* padding-bottom: 86.4%;*/
+      }
+      
+      @mixin atMedium {
+        padding-bottom: 86.4%;
+      }
+      
+      & > img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;   
+
+        @mixin atXSmall {
+          margin: 12rem auto 0;
         }
+        @mixin atSmall {
+          padding: 0 1rem;
+          margin: 0;
+        }
+      }
     }
   
 
@@ -63,34 +56,49 @@
 
 
     .rw {
-      margin: 29rem auto 0;
-      text-align: left;
-
+      margin: 0 auto;
+      
+      @mixin atXSmall {
+        margin: 12rem auto 0;
+      }
+      
       @mixin atSmall {
         width: 58.5%;
-        margin: 0 1rem;
-        width: 62%;
-      }
+        /*width: 62%;*/
+        padding: 0 1rem;
+        margin: 0 5rem 0 0;
 
+      }
+      
       .head {
         text-align: center;
-        margin-top: 5rem;
-        /*padding-bottom: 1rem;*/
+        margin-top: 22.5rem;
 
         @mixin atXSmall {
+          margin-top: 3.5rem;
+        }
+        @mixin atSmall {
           text-align: left;
         }
-        
-        @mixin atSmall {
-          margin-top: 7.5rem;
-          margin-left: 1.875rem;
-          /*padding-bottom: 1.5rem;*/
+        @mixin atMedium {
+          margin-top: 3.375rem;
         }
+        @mixin atLarge {
+          margin-top: 6rem;
+        }
+
+
+
+
+
 
         &-left {
           margin-left: 0;
 
           @mixin atSmall {
+            margin-left: -5.25rem;
+          }
+          @mixin atMedium {
             margin-left: -6rem;
           }
         }
@@ -103,17 +111,15 @@
           margin: 0;  
           
           @mixin atXSmall {
-            text-align: left;
             padding-bottom: 4rem;
           }
-
           @mixin atSmall {
+            text-align: left;
             padding-bottom: 2rem;
           }
         }
 
         & div > h6 {
-          /*text-align: left;*/
           padding: 1.5rem 0 1.125rem;
         }
 
@@ -128,10 +134,7 @@
             color: #000;
           }
         }
-
       }
     }
-    
-    
   }
 }
