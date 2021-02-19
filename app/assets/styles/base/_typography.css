@@ -69,7 +69,7 @@
   &-muted {
     font-family: $mainTypo;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 0.875rem;
     line-height: 1rem;
     color: $typoMuted;
