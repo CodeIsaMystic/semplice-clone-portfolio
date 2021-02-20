@@ -16,10 +16,10 @@ const animationEnter = (container) => {
 
   tl
     .fromTo(progressBar, { xPercent: -101, autoAlpha: 0 }, { xPercent: 0, transformOrigin: 'left', autoAlpha: 1 }, 0)
+    .to(progressBar, { duration: 4, autoAlpha: 0 })
     .fromTo(activeLink, { xPercent: -101 }, { xPercent: 0, transformOrigin: 'left' }, 0)
-    .to(progressBar, 3, { autoAlpha: 0 }, 0.5)
 
-  tl.timeScale(0.5);
+  tl.timeScale(0.4);
 
 
 

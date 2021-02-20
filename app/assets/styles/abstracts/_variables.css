@@ -11,9 +11,9 @@ $textColor:                     #222222;
 
 $typoMuted:                     #c6b9b1;
 
-$contentBg1:                    #AED6DC;
+$contentBg1:                    #F6DCB4;
 $contentBg2:                    #B4C6D9;
-$contentBg3:                    #F6DCB4;
+$contentBg3:                    #AED6DC;
 $contentBg4:                    #EFE7E3;
 
 
@@ -25,10 +25,20 @@ $headingTypo:                   'Canela', Helvetica, serif;
 
 .bgHome {
   background-color:              #E7E7E3;
+  
+  @mixin atXSmallY {
+    background-color:              #E7E7E3;
+  }
 
 }
+
+
 .bgAbout {
   background-color:              #EFE7E3;
+  
+  @mixin atXSmallY {
+    background-color:              #EFE7E3;
+  }
 }
 
 

@@ -3,11 +3,11 @@
   
   &-content {
     padding-top: 0;
-    margin: 2rem auto 0;
+    margin: 0 auto;
+    padding-top: 2rem;
     width: 100%;  
 
     @mixin atSmall {
-      margin: 0;
       padding-top: 10rem;
     } 
     

@@ -11,13 +11,13 @@ import {
   animationLeave
 } from './modules';
 
+mobileMenu();
 
 const myRoutes = [
   { name: 'home', path: '/index.html' },
   { name: 'about', path: '/about.html' }
 ]
 
-mobileMenu();
 
 barba.use(barbaRouter, {
   routes: myRoutes

@@ -1,12 +1,12 @@
 .h {
-  margin-top: 10rem;
+  padding-top: 10rem;
   width: 100%;
   
   @mixin atXSmall {
-    margin-top: 18.75rem;
+    padding-top: 18.75rem;
   }
   @mixin atXSmallY {
-    margin-top: 10rem;
+    padding-top: 10rem;
   }
   
   &-content {  

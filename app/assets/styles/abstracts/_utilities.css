@@ -1,5 +1,6 @@
 .u-border {
   width: 100%;
+  width: 100vw;
   border: none;
   z-index: 1000;
   
@@ -9,7 +10,8 @@
   }
   
   @mixin atXSmallY {
-    border: none;
+    border-right: 20px solid #FFF;
+    border-left: 20px solid #FFF;
   }
 
   &-t {
@@ -17,7 +19,7 @@
       border-top: 20px solid #FFF;
     }
     @mixin atXSmallY {
-      border: none;
+      border-top: 20px solid #FFF;
     }
   }
 
