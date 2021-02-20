@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/CodeIsaMystic/personal-website#readme",
   "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@barba/router": "^2.1.10",
+    "gsap": "^3.6.0",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1"
   },

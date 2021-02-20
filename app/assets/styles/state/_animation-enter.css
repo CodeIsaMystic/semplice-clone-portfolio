@@ -1,0 +1,34 @@
+.progress-bar {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  z-index: 1500;
+
+  &::after,
+  &-on-load > span {
+      position: absolute;
+      display: block;
+      content: ' ';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      
+      
+      top: 0px;
+      height: 10px;
+      /*background-color: #e8e8e8;*/
+      /*background-color: #FFFFFF;*/
+      /* top: -50PX; */
+      background-color: red;
+      z-index: 1700;
+  }
+  
+  &-on-load {
+      & span {
+          /*background-color: #e8e8e8;*/
+          background-color: #202020;
+          z-index: 1800;
+      }
+  }
+}
