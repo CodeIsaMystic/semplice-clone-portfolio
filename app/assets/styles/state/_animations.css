@@ -7,7 +7,7 @@
 
   &::after,
   &-on-load > span {
-      position: absolute;
+      position: fixed;
       display: block;
       content: ' ';
       top: 0px;
