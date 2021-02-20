@@ -2,13 +2,8 @@ import gsap from 'gsap';
 
 const animationEnter = (container) => {
 
-
   const activeLink = container.querySelector('.nav-item .is-active');
-
   const progressBar = container.querySelector('.progress-bar-on-load span');
-
-  console.log(activeLink, progressBar, "animationEnter func");
-
 
   const tl = gsap.timeline({
     defaults: {
@@ -16,16 +11,19 @@ const animationEnter = (container) => {
     }
   });
 
+
+
+
   tl
-    .set(activeLink, { autoAlpha: 0, ease: 'none' }, 0)
-    .fromTo(progressBar, { xPercent: -101 }, { xPercent: 0, transformOrigin: 'left' }, 0)
+    .fromTo(progressBar, { xPercent: -101, autoAlpha: 0 }, { xPercent: 0, transformOrigin: 'left', autoAlpha: 1 }, 0)
+    .fromTo(activeLink, { xPercent: -101 }, { xPercent: 0, transformOrigin: 'left' }, 0)
+    .to(progressBar, 3, { autoAlpha: 0 }, 0.5)
 
   tl.timeScale(0.5);
 
-  console.log(activeLink, progressBar, "after animationEnter func");
+
 
   return tl;
-
 };
 
 

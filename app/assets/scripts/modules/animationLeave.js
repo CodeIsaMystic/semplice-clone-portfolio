@@ -3,9 +3,8 @@ import gsap from 'gsap';
 
 const animationLeave = (container) => {
 
-  const activeLink = container.querySelector('a.is-active span');
-  const images = container.querySelectorAll('.image');
-  const img = container.querySelectorAll('img');
+  const activeLink = container.querySelector('nav-item .is-active');
+  const progressBar = container.querySelector('.progress-bar-on-load span');
 
   const tl = gsap.timeline({
     defaults: {
@@ -13,12 +12,15 @@ const animationLeave = (container) => {
     }
   });
 
+
+
   tl
     .to(activeLink, { xPercent: 101 }, 0)
-    .to(images, { xPercent: 101, stagger: 0.05 }, 0)
-    .to(img, { xPercent: -101, stagger: 0.05 }, 0);
+    .to(progressBar, { xPercent: -101, autoAlpha: 0 }, 0)
 
   tl.timeScale(0.5);
+
+
 
   return tl;
 };

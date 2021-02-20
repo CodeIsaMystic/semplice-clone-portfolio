@@ -10,25 +10,18 @@
       position: absolute;
       display: block;
       content: ' ';
+      top: 0px;
       bottom: 0;
       left: 0;
       width: 100%;
-      
-      background-color: #FFFFFF;
-      
-      top: 0px;
-      height: 10px;
+      height: 5px;
       z-index: 1700;
-
-
-      /*background-color: #e8e8e8;*/
-      /* background-color: red; */ 
+      background-color: #FFFFFF;
   }
   
   &-on-load {
       & span {
-          /*background-color: #e8e8e8;*/
-          background-color: #202020;
+          background-color: #e8e8e8;
           z-index: 1800;
       }
   }
