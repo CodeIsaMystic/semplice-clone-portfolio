@@ -28,7 +28,7 @@ barba.use(barbaRouter, {
 
 
 const resetActiveLink = () => {
-  gsap.set('.nav-item a.is-active', { xPercent: -100, transformOrigin: 'left' });
+  gsap.set('.nav-item .is-active', { autoAlpha: 0 });
   gsap.set('.progress-bar-on-load span', { xPercent: -100, transformOrigin: 'left' });
 }
 
@@ -51,6 +51,19 @@ barba.init({
   ],
   transitions: [
     {
+      name: 'detail',
+      to: {
+        namespace: ['detail']
+      },
+      once({ next }) {
+        revealProject(next.container)
+      },
+      leave: ({ current }) => leaveToProject(current.container),
+      enter({ next }) {
+        revealProject(next.container)
+      }
+    },
+    {
       name: 'general-transition',
       once({ next }) {
         resetActiveLink();
@@ -63,7 +76,23 @@ barba.init({
         })
 
       },
+      leave: ({ current }) => animationLeave(current.container),
       enter({ next }) {
+        animationEnter(next.container);
+      }
+    }, {
+      name: 'from-detail',
+      from: {
+        namespace: ['detail']
+      },
+      leave: ({ current }) => leaveFromProject(current.container),
+      enter({ next }) {
+        gsap.from('header a', {
+          duration: .6,
+          yPercent: 100,
+          stagger: .2,
+          ease: 'power1.out'
+        });
         animationEnter(next.container);
       }
     }

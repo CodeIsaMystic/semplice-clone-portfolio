@@ -45,9 +45,6 @@
         }
       }
       
-      .is-active {
-        color: $textColor;
-      } 
     }
   } 
 

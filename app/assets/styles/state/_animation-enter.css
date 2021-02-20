@@ -14,14 +14,15 @@
       left: 0;
       width: 100%;
       
+      background-color: #FFFFFF;
       
       top: 0px;
       height: 10px;
-      /*background-color: #e8e8e8;*/
-      /*background-color: #FFFFFF;*/
-      /* top: -50PX; */
-      background-color: red;
       z-index: 1700;
+
+
+      /*background-color: #e8e8e8;*/
+      /* background-color: red; */ 
   }
   
   &-on-load {
@@ -31,4 +32,8 @@
           z-index: 1800;
       }
   }
+}
+
+.nav-item  > .is-active {
+    color: $textColor!important;
 }
