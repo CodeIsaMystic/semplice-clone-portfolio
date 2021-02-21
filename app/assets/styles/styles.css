@@ -22,6 +22,8 @@
 @import 'modules/_navbar';
 @import 'modules/_img-wrap';
 @import 'modules/_txt-wrap';
+@import 'modules/_gallery';
+@import 'modules/_latest-greatest';
 
 
 @import 'state/_menu-btn';

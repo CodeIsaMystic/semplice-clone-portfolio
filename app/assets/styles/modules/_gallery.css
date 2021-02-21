@@ -1,0 +1,32 @@
+.gallery {
+  display: none;
+  
+  @mixin atSmall {
+    width: 100%;
+    display: flex;
+    margin: 0;
+
+    /*     padding: 0 1rem; */
+
+    &-content {
+      width: 100%;
+      margin-top: 10rem;
+
+      @mixin atXSmall {
+        margin-top: 7rem;
+      }
+      @mixin atSmall {
+        margin-top: 4.5rem;
+      }
+      
+      .col {
+        width: 100%;
+
+        @mixin atSmall {
+          width: 33.3%;
+        }
+        
+      }
+    }
+  }
+}

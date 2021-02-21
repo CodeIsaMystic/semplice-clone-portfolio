@@ -9,12 +9,19 @@
 .flx-rowOnXS {
   display: flex;
   flex-direction: column;
-
+  
   @mixin atXSmall {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+}
+.flx-spBTonSM {
+  @mixin atSmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  } 
 }
 .flx-rowOnSM {
   display: flex;
