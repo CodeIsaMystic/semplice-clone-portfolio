@@ -19,7 +19,7 @@
             margin-top: 7rem;
           }
           @mixin atSmall {
-            margin-top: 4.5rem;
+            margin-top: 3.5rem;
           }
           /* @mixin atMedium {
             margin-top: 3.375rem;
