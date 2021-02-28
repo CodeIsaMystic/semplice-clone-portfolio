@@ -13,8 +13,9 @@
 
 @import 'layout/_site-header';
 @import 'layout/_hero';
-@import 'layout/_about';
 @import 'layout/_work';
+@import 'layout/_about';
+@import 'layout/_proj-hero';
 @import 'layout/_site-footer';
 
 
@@ -24,7 +25,7 @@
 @import 'modules/_headings';
 @import 'modules/_offset-txt';
 @import 'modules/_txt-box';
-@import 'modules/_latest-greatest';
+@import 'modules/_greatest';
 @import 'modules/_gallery';
 
 

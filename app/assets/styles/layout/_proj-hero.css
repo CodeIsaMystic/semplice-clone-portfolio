@@ -1,0 +1,20 @@
+.proj-hero {
+  height: 100vh;
+  
+  &-content {
+    width: 100%;  
+    text-align: center;
+    padding-top: 11.25rem;
+    
+    & > div {
+      max-width: 70rem;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+    
+  }
+}
+
+.gaw {  background-color: $contentBg1;  }
+.awm {  background-color: $contentBg2;  }
+.cfa {  background-color: $contentBg3;  }

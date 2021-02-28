@@ -24,8 +24,10 @@
       @mixin atSmall {
         width: 58.5%;
         padding: 0 1rem;
-        margin: 0 5rem 0 0;
+        margin: 0;
       }
+
+      @mixin atLarge { margin: 0 5rem 0 0;}
 
 
 

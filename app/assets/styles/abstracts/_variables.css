@@ -1,30 +1,27 @@
-
-$documentBackground:            #fff;
-$background:                    #E7E7E3;
-$textColorLight:                #888888;
-$textColor:                     #222222;
-
-$typoMuted:                     #c6b9b1;
-
-$contentBg1:                    #B4C6D9;
-$contentBg2:                    #AED6DC;
-$contentBg3:                    #F6DCB4;
-$contentBg4:                    #EFE7E3;
-
-
-
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
 $headingTypo:                   'Canela', Helvetica, serif;
 
 
 
-.bgHome {
-  background-color:              #E7E7E3;
+$textColor:                     #222222;
+$textColorLight:                #888888;
+$typoMuted:                     #c6b9b1;
 
-}
-.bgAbout {
-  background-color:              #EFE7E3;
-}
+$documentBackground:            #fff;
+$background:                    #E7E7E3;
+
+$contentBg1:                    #B4C6D9;
+$contentBg2:                    #F6DCB4;
+$contentBg3:                    #AED6DC;
+$contentBg4:                    #EFE7E3;
+
+.bgHome {  background-color:    #E7E7E3;  }
+.bgAbout { background-color:    #EFE7E3; }
+
+
+
+
+
 
 
 
