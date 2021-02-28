@@ -90,22 +90,6 @@
         @mixin atLarge {
           margin-top: 6rem;
         }
-
-
-
-
-
-
-        &-left {
-          margin-left: 0;
-
-          @mixin atSmall {
-            margin-left: -5.25rem;
-          }
-          @mixin atMedium {
-            margin-left: -6rem;
-          }
-        }
       }
 
       .body {
