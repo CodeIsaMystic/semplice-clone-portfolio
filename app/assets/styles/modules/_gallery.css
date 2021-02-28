@@ -1,12 +1,10 @@
 .gallery {
   display: none;
   
-  @mixin atSmall {
+  @mixin atXSmall {
     width: 100%;
     display: flex;
     margin: 0;
-
-    /*     padding: 0 1rem; */
 
     &-content {
       width: 100%;
@@ -21,11 +19,39 @@
       
       .col {
         width: 100%;
+        /* for now */
+        margin: 0;
+        padding: 0;
 
-        @mixin atSmall {
+        @mixin atXSmall {
           width: 33.3%;
         }
-        
+
+        &:first-of-type {
+          @mixin atXSmall {  margin-top: 3.125rem;  } 
+          @mixin atLarge {  margin-top: 12.5rem;  }
+
+          & > div {
+          @mixin atXSmall {  padding: .5rem .5rem .5rem 0;   }
+          @mixin atLarge {  padding: 1rem 1rem 1rem 0;  }
+          }
+        }
+
+        &:nth-of-type(2) > div {
+          @mixin atXSmall {  padding: .5rem;  } 
+          @mixin atLarge {  padding: 1rem;  }
+        }
+
+        &:last-of-type {
+          @mixin atXSmall {  margin-top: 3.125rem;  } 
+          @mixin atLarge {  margin-top: 3.125rem;  }
+
+          & > div {
+            @mixin atXSmall {  padding: .5rem 0 .5rem .5rem;  } 
+            @mixin atLarge {  padding: 1rem 0 1rem 1rem;  }
+          }
+        }
+
       }
     }
   }

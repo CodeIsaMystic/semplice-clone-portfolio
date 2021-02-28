@@ -16,8 +16,18 @@
     align-items: center;
   }
 }
+
+
+
 .flx-spBTonSM {
   @mixin atSmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  } 
+}
+.flx-spBTonXS {
+  @mixin atXSmall {
     display: flex;
     justify-content: space-between;
     align-items: top;
@@ -31,6 +41,13 @@
     flex-direction: row;
   }
 }
+
+
+
+
+
+
+
 .flx-rowOnMD {
   display: flex;
   flex-direction: column;
