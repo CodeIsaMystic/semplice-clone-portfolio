@@ -1,5 +1,6 @@
 .tw {
   text-align: left;
+  z-index: 2;
 
   @mixin atSmall {
     margin: 0 1rem;
@@ -22,12 +23,19 @@
       margin-top: 3.375rem;
       padding-bottom: 1.5rem;
     }
+    @mixin atLarge {
+      margin-top: 7.5rem;
+    }
 
     &-left {
       margin-left: 0;
 
       @mixin atSmall {
-        margin-left: -6rem;
+        margin-left: -3.5rem;
+      }
+
+      @mixin atMedium {
+        margin-left: -4.3rem;
       }
     }
 
@@ -38,7 +46,11 @@
         position: relative;
         z-index: 25;
         text-align: right;
-        margin-right: -6rem;
+        margin-right: -3.5rem;
+      }
+
+      @mixin atMedium {
+        margin-right: -4.3rem;
       }
     }
   }

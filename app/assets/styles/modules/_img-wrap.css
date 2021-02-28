@@ -1,8 +1,9 @@
 .iw {
   width: 100%;
-  height: auto;
+  height: 0;
   padding-bottom: 69.5%;
   margin-bottom: 1.5rem;
+  z-index: 1;
 
   @mixin atXSmall {
     padding-bottom: 66.5%;
@@ -10,10 +11,7 @@
   
   @mixin atSmall {
     width: 77%;
-    height: 0;
     padding-bottom: 46%;
-    /*padding-bottom: 42.53%;*/
-
 
     &-left {
       margin-right: 1rem;
@@ -21,6 +19,35 @@
 
     &-right {
       margin-left: 1rem;
+      position: relative;
+    }
+
+  }
+  
+  & img {
+    max-width: 225px;
+    
+    @mixin atXXSmall {
+      max-width: 350px;
+    }
+
+    @mixin atXSmall {
+      max-width: 420px;
+      padding-bottom: 66.5%;
+    }
+
+    @mixin atSmall {
+      max-width: 420px;
+    }
+    
+    @mixin atMedium {
+      max-width: 550px;
+    }
+
+    @mixin atLarge {
+      max-width: 667px;
     }
   }
+
+
 }
