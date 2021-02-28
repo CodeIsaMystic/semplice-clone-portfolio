@@ -1,0 +1,46 @@
+.w {
+  /* to test .w class if useless find out another sibling way to do it */ 
+  position: relative;
+
+  
+  &-content {
+    & div:first-child {
+      position: relative;
+
+      & img {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 0;    
+      }
+
+    }
+
+    & > div:nth-child(2) {
+      z-index: 2;
+
+      @mixin atSmall { width: 35.2%; }
+      
+      & div a h6 span {
+        display: none;
+  
+        @mixin atSmall {  display: inline-block;  }
+      }
+    }
+
+
+
+    .mr { 
+      @mixin atSmall {  margin-right: 1rem;  }
+    }
+    .mr-reverse { 
+      @mixin atSmall {  margin-left: 1rem;  }
+    }
+
+    .bg1 {  background-color: $contentBg1;  }      
+    .bg2 {  background-color: $contentBg2;  }
+    .bg3 {  background-color: $contentBg3;  }
+
+  }
+}

@@ -1,0 +1,31 @@
+.txt-box {
+  /*  margin or padding => ??? */
+  @mixin atSmall {  margin: 0 1rem; }
+  
+  &-reverse { 
+    @mixin atSmall {  text-align: right;  }
+  }
+
+
+  &-work {
+    & > h4 { padding-bottom: 1.875rem; }
+  }
+  
+  
+  &-about {
+
+    & > h6 {
+      text-align: center;
+      padding-bottom: 1rem;
+      
+      @mixin atXSmall {  padding-bottom: 4rem;  }
+      
+      @mixin atSmall {
+        text-align: left;
+        padding-bottom: 2rem;
+      }
+    }
+
+    & div > h6 {  padding: 2rem 0 .75rem;  }
+  }
+}

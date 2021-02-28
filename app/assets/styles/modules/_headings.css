@@ -1,0 +1,23 @@
+.headings {
+
+  &-work {
+    margin-top: 0;
+    padding-bottom: 1rem;
+    
+    @mixin atSmall {
+      margin-top: 3.375rem;
+      padding-bottom: 1.5rem;
+    }
+    @mixin atLarge {  margin-top: 7.5rem;  }
+  }
+
+  &-about {
+    text-align: center;
+    margin-top: 22.5rem;
+
+    @mixin atXSmall {  margin-top: 3.5rem;  }
+    @mixin atSmall {  text-align: left;  }
+    @mixin atMedium {  margin-top: 3.375rem;  }
+    @mixin atLarge {  margin-top: 6rem;  }
+  }
+}

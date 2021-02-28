@@ -14,17 +14,18 @@
 @import 'layout/_site-header';
 @import 'layout/_hero';
 @import 'layout/_about';
-@import 'layout/_works';
+@import 'layout/_work';
 @import 'layout/_site-footer';
 
 
 @import 'modules/_top-bar';
 @import 'modules/_navbar';
-@import 'modules/_img-wrap';
-@import 'modules/_txt-wrap';
-@import 'modules/_gallery';
-@import 'modules/_latest-greatest';
+@import 'modules/_img-box';
+@import 'modules/_headings';
 @import 'modules/_offset-txt';
+@import 'modules/_txt-box';
+@import 'modules/_latest-greatest';
+@import 'modules/_gallery';
 
 
 @import 'state/_menu-btn';

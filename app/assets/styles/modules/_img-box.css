@@ -1,0 +1,70 @@
+.img-box {
+  width: 100%;
+  height: 0;
+  z-index: 1;
+
+  &-work {
+    padding-bottom: 69.5%;
+    margin-bottom: 1.5rem;
+
+    @mixin atXSmall {  padding-bottom: 66.5%;  }
+    
+    @mixin atSmall {
+      width: 77%;
+      padding-bottom: 46%;
+    }
+
+
+    
+    & img {
+      max-width: 225px;
+      
+      @mixin atXXSmall {  max-width: 350px;  }
+
+      @mixin atXSmall {
+        max-width: 420px;
+        padding-bottom: 66.5%;
+      }
+
+      @mixin atSmall {  max-width: 420px;  }
+      
+      @mixin atMedium {  max-width: 550px;  }
+
+      @mixin atLarge {  max-width: 667px;  }
+    }
+
+
+  }
+
+  &-about {
+    padding-bottom: 50%;
+
+    @mixin atXSmall {
+      width: 38%;
+      margin: 0 auto;
+    }
+    @mixin atSmall {
+      width: 41.5%;
+      height: 0;
+      margin: 0 0 5.25rem 5rem;
+    }
+    
+    @mixin atMedium {  padding-bottom: 86.4%;  }
+
+
+
+    & > img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0 auto;   
+
+      @mixin atXSmall {  margin: 8.5rem auto 0; }
+      
+      @mixin atSmall {
+        padding: 0 1rem;
+        margin: 0;
+      }
+    }
+  }
+}
