@@ -27,47 +27,7 @@
         margin: 0;
       }
 
-      @mixin atLarge { margin: 0 5rem 0 0;}
-
-
-
-
-
-
-
-      
-
-
-      /* rename class? or use sibling direct el?
-      .links-res {
-        display: block;
-        text-decoration-line: line-through;
-        transition: font-weight .25s ease-in-out;
-        
-        &:hover {
-          text-decoration: none;
-          font-weight: 700;
-          color: $colorDark;
-        }
-      }  
-      .links-res {
-        display: inline-block;
-        line-height: .8rem;
-        text-decoration: none;
-        
-      */
-        /*
-        transition: font-weight .25s ease-in-out;
-        transition: all .3s ease-in-out;
-        opacity: 0;
-        
-        &:hover {
-            color: $colorWhite;
-            background-color: $colorDark;
-            transform: translateY(10px);
-        }*/
-      }
-
+      @mixin atLarge { margin: 0 5rem 0 0;  }
     }
   }
 }
