@@ -1,0 +1,33 @@
+.proj-intro {
+
+
+  &-content {
+
+    & .col {
+      width: 100%;
+
+
+      @mixin atSmall {
+        &:first-of-type {
+            width: 66.6%;
+            margin-right: 6.25rem;
+            padding-right: 1rem;
+        }
+        &:last-of-type {
+            width: 33.3%;
+            margin: 0 1rem;
+
+            & h6 {
+              padding: 0 0 .75rem;
+            }
+            & div:first-of-type {
+              margin-bottom: 2rem;
+            }
+        }
+
+      }
+
+
+    }
+  }
+}

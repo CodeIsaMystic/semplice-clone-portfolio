@@ -2,23 +2,33 @@ $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-ser
 $headingTypo:                   'Canela', Helvetica, serif;
 
 
-
 $textColor:                     #222222;
 $textColorLight:                #888888;
 $typoMuted:                     #c6b9b1;
 
-$documentBackground:            #fff;
-$background:                    #E7E7E3;
+
+
+
+
+$bg:                            #FFFFFF;
+$bgLight:                       #F4F1EF;
 
 $contentBg1:                    #B4C6D9;
 $contentBg2:                    #F6DCB4;
 $contentBg3:                    #AED6DC;
+
 $contentBg4:                    #EFE7E3;
+$contentBg5:                    #E7E7E3;
 
-.bgHome {  background-color:    #E7E7E3;  }
+
+
+
+/* to clean, replace and filter what s useless  */
+
 .bgAbout { background-color:    #EFE7E3; }
-
-
+.bgHome {  background-color:    #E7E7E3;  }
+$background:                    #E7E7E3;
+$documentBackground:            #fff;
 
 
 

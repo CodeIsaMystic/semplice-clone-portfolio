@@ -39,9 +39,28 @@
     @mixin atMedium {  padding: 0 1.875rem;  } 
 
     &-tl {
-      padding: 1.5rem 0 1.5rem;
+      padding: 1rem 0 0;
       margin: 0;
+
+      @mixin atSmall   { padding: 1.5rem 0 1rem;  }
+      @mixin atXSmallY { padding: 1rem 0 0;  }
     }
 }
 
-.u-air-s {  padding-top: 5rem;}
+.u-air {
+  &-s  {  padding-top: 5rem; }
+  &-md  {  padding-top: 12.5rem; }
+  &-lg {  padding-top: 37.5rem; }
+}
+
+
+
+/* handling background here as utility */
+.u-bg         { background-color: $bg; }
+.u-bgLight    { background-color: $bgLight; }
+.u-bg1        { background-color: $contentBg1; }
+.u-bg2        { background-color: $contentBg2; }
+.u-bg3        { background-color: $contentBg3; }
+.u-bg4        { background-color: $contentBg4; }
+/*  compare and clean it up on variables, proj-hero, work, introduce, img-box css files  */
+

@@ -21,6 +21,8 @@
           @mixin atSmall {
             margin-top: 3.5rem;
           }
+
+          /*  to check  */
           /* @mixin atMedium {
             margin-top: 3.375rem;
           } 
@@ -44,7 +46,7 @@
                   }
                 }
                 
-                
+                /*  to check  */
                 .head {
                 }
                 
@@ -52,6 +54,7 @@
                   padding: 2rem 0 .75rem;
                 }
           
+                /*  to check  */
                 & div > p {
                   margin: 0;
                   padding: 0;
