@@ -1,65 +1,34 @@
 .greatest {
-    width: 100%;
-    margin: 0 auto;
-    
-    @mixin atXSmall {
-      margin: 6.5rem auto 0;
-    }
-    
-    @mixin atSmall {
-      padding: 0 1rem;
-      margin: 0;
-    }
-    
-        &-content {
-          width: 100%;
-          margin-top: 10rem;
-    
-          @mixin atXSmall {
-            margin-top: 7rem;
-          }
-          @mixin atSmall {
-            margin-top: 3.5rem;
-          }
-
-          /*  to check  */
-          /* @mixin atMedium {
-            margin-top: 3.375rem;
-          } 
-          @mixin atLarge {
-            margin-top: 6rem;
-          }*/
-          
-              .col {
-                width: 100%;
-
-                @mixin atSmall {
-                  width: 33.3%;
-
-                  &:nth-of-type(2) {
-                    margin-right: 20px;
-                  }
+  width: 100%;
+  margin: 0 auto;
   
-                  &:nth-child(2),
-                  &:nth-child(3) {
-                    padding-top: 6rem;
-                  }
-                }
-                
-                /*  to check  */
-                .head {
-                }
-                
-                & h6 {
-                  padding: 2rem 0 .75rem;
-                }
-          
-                /*  to check  */
-                & div > p {
-                  margin: 0;
-                  padding: 0;
-                }
-              }
+  @mixin atXSmall {  margin: 6.5rem auto 0;  }
+  
+  @mixin atSmall {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  
+  &-content {
+    width: 100%;
+    margin-top: 10rem;
+
+    @mixin atXSmall {  margin-top: 7rem;  }
+    @mixin atSmall {  margin-top: 3.5rem;  }
     
-        }
+    .col {
+      width: 100%;
+
+      @mixin atSmall {
+        width: 33.3%;
+
+        &:nth-of-type(2) {  margin-right: 20px;  }
+
+        &:nth-child(2),
+        &:nth-child(3) {  padding-top: 6rem;  }
+      }
+
+      & h6 {  padding: 2rem 0 .75rem;  }
+    }   
+  }
 }

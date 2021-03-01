@@ -1,7 +1,8 @@
 .proj-hero {
   height: 70vh;
   
-  @mixin atXSmall {  height: 100vh;  }
+  @mixin atXSmall {  height: 85vh;  }
+  @mixin atSmall {  height: 100vh;  }
   
   &-content {
     width: 100%;  
@@ -19,9 +20,6 @@
         @mixin atXSmallY {  width: 85%;  }
       }
     }
-    
+  
   }
 }
-
-.awm {  background-color: $contentBg2;  }
-.cfa {  background-color: $contentBg3;  }

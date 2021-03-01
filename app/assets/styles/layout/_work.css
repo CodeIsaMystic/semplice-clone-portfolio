@@ -1,7 +1,6 @@
 .work {
   position: relative;
 
-  
   &-content {
     & div:first-child {
       position: relative;
@@ -13,7 +12,6 @@
         transform: translate(-50%, -50%);
         padding-bottom: 0;    
       }
-
     }
 
     & > div:nth-child(2) {
@@ -28,18 +26,11 @@
       }
     }
 
-
-
     .mr { 
       @mixin atSmall {  margin-right: 1rem;  }
     }
     .mr-reverse { 
       @mixin atSmall {  margin-left: 1rem;  }
     }
-
-    .bg1 {  background-color: $contentBg1;  }      
-    .bg2 {  background-color: $contentBg2;  }
-    .bg3 {  background-color: $contentBg3;  }
-
   }
 }
