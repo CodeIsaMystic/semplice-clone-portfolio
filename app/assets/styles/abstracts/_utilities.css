@@ -49,22 +49,28 @@
 
 .u-air {
   &-sm  {  padding-top: 5rem; }
-  &-md  {  padding-top: 12.5rem; }
-  &-lg {  padding-top: 37.5rem; }
+  &-md  {  
+    padding-top: 12.5rem; 
+  }
+  &-lg {  
+    padding-top: 12.5rem; 
+
+    @mixin atMedium {  padding-top: 37.5rem;  }
+  }
 }
+
 
 
 
 .u-bg         { background-color: $colorWhite; }
 .u-bgLight    { background-color: $colorLight; }
 .u-bgLight2   { background-color: $colorGrayLight3; }
-
 .u-bg1        { background-color: $colorContent1; }
 .u-bg2        { background-color: $colorContent2; }
 .u-bg3        { background-color: $colorContent3; }
 
 
-
+/*  fix and test */
 .u-mask-light { 
   background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
 
