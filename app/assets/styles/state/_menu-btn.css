@@ -4,16 +4,12 @@
   .line {
     height: .09rem;
     width: 1.5rem;
-    background-color: $textColor;
+    background-color: $colorDark;
     margin-bottom: .3rem;
     transition: all .3s ease-out;
   }
 
-  @mixin atMedium {
-    display: none;
-  }
-
-
+  @mixin atMedium {  display: none;  }
 
   &--closeX {
     display: block;
@@ -22,9 +18,7 @@
       width: 1.3rem;
       transform: rotate(-408deg) translate(-5px, 3px);
     }
-    .line-2 {
-      opacity: 0;
-    }
+    .line-2 {  opacity: 0;  }
     .line-3 {
       width: 1.3rem;
       transform: rotate(405deg) translate(-6px, -5px);

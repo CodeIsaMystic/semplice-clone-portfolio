@@ -10,7 +10,7 @@
 
   
   &--is-expanded {
-    background-color: $background;
+    background-color: $colorGrayLight3;
     height: 100vh;
     padding: 0;
     

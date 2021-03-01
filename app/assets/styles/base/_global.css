@@ -1,6 +1,6 @@
 ::selection {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: $colorDark;
+  color: $colorWhite;
 }
 
 * {

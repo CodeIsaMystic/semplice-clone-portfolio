@@ -1,6 +1,6 @@
 .typo {
   font-style: normal;
-  color: $textColor;
+  color: $colorDark;
 
   &-nl {
     font-family: $headingTypo;
@@ -75,7 +75,7 @@
     font-weight: 500;
     line-height: 1rem;
     letter-spacing: 0.15rem;
-    color: $typoMuted;
+    color: $colorGrayMuted;
   }
   &-upper {
     font-family: $mainTypo;
@@ -100,8 +100,7 @@
     font-style: oblique;
     font-size: 1.5rem;
     font-weight: 100;
-  }
-  
+  } 
 }
   
 

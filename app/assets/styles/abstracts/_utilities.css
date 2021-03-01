@@ -55,19 +55,19 @@
 
 
 
-/* handling background here as utility */
-.u-bg         { background-color: $bg; }
-.u-bgLight    { background-color: $bgLight; }
-.u-bg1        { background-color: $contentBg1; }
-.u-bg2        { background-color: $contentBg2; }
-.u-bg3        { background-color: $contentBg3; }
-.u-bg4        { background-color: $contentBg4; }
-/*  compare and clean it up on variables, proj-hero, work, introduce, img-box css files  */
+.u-bg         { background-color: $colorWhite; }
+.u-bgLight    { background-color: $colorLight; }
+.u-bgLight2   { background-color: $colorGrayLight3; }
+
+.u-bg1        { background-color: $colorContent1; }
+.u-bg2        { background-color: $colorContent2; }
+.u-bg3        { background-color: $colorContent3; }
+
 
 
 .u-mask-light { 
   background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
-  
+
   position: absolute;
   /*width: 1142px;*/
   height: 809px;
