@@ -20,4 +20,16 @@
     @mixin atMedium {  margin-top: 3.375rem;  }
     @mixin atLarge {  margin-top: 6rem;  }
   }
+
+  &-proj-hero {
+
+  }
+
+  &-proj-intro {
+
+  }
+
+  &-proj-coming {
+
+  }
 }

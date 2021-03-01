@@ -4,11 +4,6 @@
   
   @mixin atXSmall {  margin: 6.5rem auto 0;  }
   
-  @mixin atSmall {
-    padding: 0 1rem;
-    margin: 0;
-  }
-  
   &-content {
     width: 100%;
     margin-top: 10rem;
