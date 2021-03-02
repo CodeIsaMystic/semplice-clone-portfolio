@@ -22,11 +22,7 @@
   /* does it usefull repeating the default offset setting? */
     margin-left: 0;
 
-    @mixin atSmall {
-      margin-left: -4.5rem;
-    }
-    @mixin atMedium {
-      margin-left: -6rem;
-    }
+    @mixin atSmall {  margin-left: -4.5rem;  }
+    @mixin atMedium {  margin-left: -6rem;  }
   }
 }

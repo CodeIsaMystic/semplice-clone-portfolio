@@ -4,22 +4,14 @@
   &-content {
     text-align: center;
     display: block;
-    margin: 0 auto 2.05rem;
+    margin: 0 auto;
 
     & a {
       display: block;
-      margin-top: 1.5rem;
+      width: 22rem;
+      margin: 1.5rem auto 0;
+      z-index: 2000;
     }
 
-  }
-
-  .divider {
-    height: 1px;
-    width: 14rem;
-    background-color: $colorDark;
-    margin: 2.05rem auto 0;
-
-    @mixin atXSmall {  width: 18.5rem;  }
-    @mixin atSmall {  display: none;  }
   }
 }
