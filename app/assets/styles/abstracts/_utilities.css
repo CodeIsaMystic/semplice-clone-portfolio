@@ -33,6 +33,10 @@
   @mixin atLarge {  max-width: 1250px;  }
 } 
 
+
+/* to define as u-p rather than u-padd, 
+    then checkout utility targets: txt only or other pattern too
+*/
 .u-padd {
   padding: 0 1.25rem;
     
@@ -47,11 +51,11 @@
     }
 }
 
+
+/*   to unify as margin not padding then checkout render  */
 .u-air {
   &-sm  {  padding-top: 5rem; }
-  &-md  {  
-    padding-top: 12.5rem; 
-  }
+  &-md  {  margin-top: 12.5rem;  }
   &-lg {  
     padding-top: 12.5rem; 
 
@@ -70,7 +74,7 @@
 .u-bg3        { background-color: $colorContent3; }
 
 
-/*  fix and test */
+/*  think,fix and test */
 .u-mask-light { 
   background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
 

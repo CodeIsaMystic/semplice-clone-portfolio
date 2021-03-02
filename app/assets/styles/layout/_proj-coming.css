@@ -1,0 +1,30 @@
+.proj-coming {
+  &-content {
+    /*  is that necessary  */
+    padding-bottom: 0;
+
+    @mixin atXSmall {  padding-bottom: 5rem;  }
+    @mixin atSmall {  padding-bottom: 0;  }
+
+    .col {
+      width: 100%;
+
+      &:first-of-type {
+        @mixin atSmall {
+          width: 40%;
+          text-align: center;
+          margin: 0 3.875rem;
+        }
+      }
+      &:last-of-type {
+        & p:first-of-type {  padding-top: 0;  }
+
+
+        @mixin atSmall {  
+          width: 60%;
+          margin-right: 3.875rem;  
+        }
+      }
+    }
+  }
+}

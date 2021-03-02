@@ -29,7 +29,10 @@
 
   }
 
+  /* to checkout with u-padd */
   &-proj-coming {
+    padding-bottom: 1.5rem;
 
+    @mixin atSmall { padding-bottom: 0; }
   }
 }
