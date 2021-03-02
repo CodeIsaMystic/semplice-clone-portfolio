@@ -1,6 +1,7 @@
 .offset-txt {
   margin-left: 0;
 
+  /* does it not the work pattern & ot the default!? */
   @mixin atSmall {  margin-left: -3.5rem;  }
   @mixin atMedium {  margin-left: -4.3rem;  }
 
@@ -18,6 +19,7 @@
   }
 
   &--about {
+  /* does it usefull repeating the default offset setting? */
     margin-left: 0;
 
     @mixin atSmall {

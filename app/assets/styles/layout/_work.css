@@ -1,5 +1,4 @@
 .work {
-  position: relative;
 
   &-content {
     & div:first-child {
@@ -10,14 +9,19 @@
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
-        padding-bottom: 0;    
+        padding-bottom: 0;  
       }
     }
 
     & > div:nth-child(2) {
       z-index: 2;
+      margin-top: 0;
 
-      @mixin atSmall { width: 35.2%; }
+      @mixin atSmall { 
+        width: 35.2%; 
+        margin-top: 3.375rem;
+      }
+      @mixin atLarge { margin-top: 7.5rem; }
       
       & div a h6 span {
         display: none;

@@ -4,23 +4,26 @@
 
     & .col {
       width: 100%;
+      
+      /*  to test & checkout more right space on small devices and enough from Small to large  */
+      &:first-of-type {
+        margin-right: 3.125rem;
 
-      @mixin atSmall {
-        &:first-of-type {
-            width: 66.6%;
-            margin-right: 6.25rem;
-            padding-right: 1rem;
+        @mixin atSmall {
+          width: 66.6%;
+          margin-right: 6.25rem;
+          padding-right: 1rem;
         }
-        &:last-of-type {  width: 33.3%;  }
       }
 
       &:last-of-type {
-        padding: 0;
         margin-top: 2rem;
+        padding: 0;
         
         @mixin atSmall {
-          padding: 0 1rem;
+          width: 33.3%;
           margin-top: 0;
+          padding: 0 1rem;
         }
 
         & h6 {  padding: 0 0 .75rem;  }

@@ -1,26 +1,27 @@
 .about {
-  /* is that necessary  */
-  height: auto;
   
   &-content {
-    /*  to test ab-content => is useless!?? */
     width: 100%;  
     padding-top: 0;
-    /*  margin top to parent & child => to analize DRY */
-    margin: 2rem auto 0;
+    margin: 0 auto;
 
-    @mixin atSmall {
-      margin: 0;
-      padding-top: 10rem;
-    } 
-    
+    @mixin atSmall {  padding-top: 10rem;  } 
     @mixin atXSmallY {  padding-top: 6rem;  }
+
+    & > div:first-of-type {
+      @mixin atXSmall { margin: 10.5rem auto 0; }
+      @mixin atSmall { margin: 0 0 5.25rem 5rem; }
+
+      & > img {
+        margin: 0 auto;
+
+        @mixin atSmall  { margin: 0; }
+      }
+    }
 
     & > div:nth-child(2) {
       margin: 0 auto;
       z-index: 2;
-      
-      @mixin atXSmall {  margin: 6.5rem auto 0;  }
       
       @mixin atSmall {
         width: 58.5%;

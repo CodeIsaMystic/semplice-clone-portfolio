@@ -36,6 +36,10 @@
 
 /* to define as u-p rather than u-padd, 
     then checkout utility targets: txt only or other pattern too
+
+    u-pl, u-pr, u-pt, u-pb, u-py, u-px
+    &-sm, -md, -xs, -lg
+    handled with media mixins
 */
 .u-padd {
   padding: 0 1.25rem;
