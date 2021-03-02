@@ -1,0 +1,13 @@
+.proj-footer {
+  /*width: 100%;*/
+
+  .col {
+    width: 50%;
+
+    /* 
+    &:first-of-type {
+      border-right: 1px solid $colorDark;
+    }
+    */
+  }
+}
