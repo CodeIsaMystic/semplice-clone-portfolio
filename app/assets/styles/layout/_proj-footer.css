@@ -1,13 +1,25 @@
 .proj-footer {
-  /*width: 100%;*/
+  width: 100%;
 
-  .col {
-    width: 50%;
+  &-content {
+    text-align: center;
+    display: block;
+    margin: 0 auto 2.05rem;
 
-    /* 
-    &:first-of-type {
-      border-right: 1px solid $colorDark;
+    & a {
+      display: block;
+      margin-top: 1.5rem;
     }
-    */
+
+  }
+
+  .divider {
+    height: 1px;
+    width: 14rem;
+    background-color: $colorDark;
+    margin: 2.05rem auto 0;
+
+    @mixin atXSmall {  width: 18.5rem;  }
+    @mixin atSmall {  display: none;  }
   }
 }

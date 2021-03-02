@@ -4,7 +4,9 @@
 
 
   &-content {
-    & div {
+    width: 100%;
+
+    & > div {
       width: 100%;
       max-width: 100%;
       vertical-align: baseline;
@@ -18,26 +20,24 @@
         color: $colorDark;
         transition: color .3s linear;
         
-        &:hover {
-          color: $colorDarkHover;
-        }      
+        &:hover {  color: $colorDarkHover;  }      
       }
     }
 
     /* to test it out => useless */
-    & div:first-of-type {
+    & > div:first-of-type {
       padding: 2.2rem 0 0;
       margin: 0 auto;
       text-align: center;
       
       @mixin atXSmall {
         margin: 0;
-       padding: 2.2rem 1rem 0 0;
+        padding: 2.2rem 1rem 0 0;
         text-align: left;
       }
     }
     /* to test it out => useless */
-    & div:last-of-type {
+    & > div:last-of-type {
       margin: 0 auto;
       padding: 2.2rem 0 0;
       text-align: center;
