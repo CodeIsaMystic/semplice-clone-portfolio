@@ -44,3 +44,12 @@
     color: $colorWhite;
   } 
 }
+
+.links-hover {
+  color: $colorGrayLight;
+  transition: color .2s linear;
+
+  &:hover {
+    color: $colorDark;
+  }
+}

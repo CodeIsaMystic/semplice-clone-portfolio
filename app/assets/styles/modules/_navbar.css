@@ -35,15 +35,6 @@
           padding-right: 1.66rem;
         }
       }
-
-      .nav-link {
-        color: $colorGrayLight;
-        transition: color .2s linear;
-
-        &:hover {
-          color: $colorDark;
-        }
-      }
     }
   } 
 
