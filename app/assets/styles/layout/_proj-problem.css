@@ -28,9 +28,19 @@
     }
 
     & .prob-img {
-      width: 100%;
-
-      & div { width: 50%; } 
+      
+      & div { 
+        width: 100%;
+        margin: 0 auto;
+        
+        @mixin atSmall {
+          width: 50%; 
+        }
+      }
+      & p {
+        width: 80%;
+        text-align: center;
+      } 
     }
   }
 }
