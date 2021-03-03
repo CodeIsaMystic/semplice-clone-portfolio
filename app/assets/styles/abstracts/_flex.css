@@ -1,6 +1,11 @@
 .flx {
   display: flex;
 }
+.flx-alI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .flx-spB {
   display: flex;
   justify-content: space-between;

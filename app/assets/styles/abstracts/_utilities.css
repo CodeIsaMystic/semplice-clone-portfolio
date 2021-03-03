@@ -24,7 +24,6 @@
   }
 }
 
-
 .u-container {
   height: auto;
   max-width: 100%;
@@ -34,13 +33,7 @@
 } 
 
 
-/* to define as u-p rather than u-padd, 
-    then checkout utility targets: txt only or other pattern too
 
-    u-pl, u-pr, u-pt, u-pb, u-py, u-px
-    &-sm, -md, -xs, -lg
-    handled with media mixins
-*/
 .u-padd {
   padding: 0 1.25rem;
     
@@ -53,6 +46,16 @@
       @mixin atXSmallY { padding: 1rem 0 0;  }
     }
 }
+
+
+
+/* to define as u-p rather than u-padd, 
+    then checkout utility targets: txt only or other pattern too
+
+    u-pl, u-pr, u-pt, u-pb, u-py, u-px
+    &-sm, -md, -xs, -lg
+    handled with media mixins
+*/
 .u-pt {
   &-xs { 
     padding-top: 1rem ;
@@ -82,12 +85,12 @@
 }
 
 
-
-
-
-
-
 /*   to unify as margin not padding then checkout render  */
+
+.u-mt {
+  &-md { margin-top: 12.5rem; }
+}
+
 .u-air {
   &-sm  {  padding-top: 5rem; }
   &-md  {  padding-top: 12.5rem;  }
@@ -97,9 +100,7 @@
     @mixin atMedium {  padding-top: 37.5rem;  }
   }
 }
-.u-mt {
-  &-md { margin-top: 12.5rem; }
-}
+
 
 
 

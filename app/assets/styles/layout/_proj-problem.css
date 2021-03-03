@@ -2,7 +2,7 @@
   &-content {
     margin-left: 0;
     
-    & div:first-of-type {
+    & .prob-head {
       width: 100%;
       padding: 0;
 
@@ -15,7 +15,7 @@
       & h4 { margin-top: 1.625rem; }
     }
 
-    & div:nth-of-type(2) {
+    & .prob-txt {
       margin-top: 10rem;
       width: 100%;
       padding: 0;
@@ -25,11 +25,12 @@
         padding: 0 1rem; 
         margin-left: 25.3125rem;
       }
+    }
 
-      &:last-child {
-        align-items: center;
-      }
+    & .prob-img {
+      width: 100%;
 
+      & div { width: 50%; } 
     }
   }
 }
