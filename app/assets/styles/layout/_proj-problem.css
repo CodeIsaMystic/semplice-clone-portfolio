@@ -1,0 +1,19 @@
+.proj-prob {
+  &-content {
+    width: 100%;
+    margin-left: 0;
+
+    & div {
+      padding: 0;
+
+      @mixin atSmall { padding: 0 1rem; }
+
+      & h4 { margin-top: 1.625rem; }
+    }
+
+    @mixin atSmall {
+      width: 75%;
+      margin-left: 5.3125rem;
+    }
+  }
+}

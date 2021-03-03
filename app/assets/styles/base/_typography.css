@@ -42,6 +42,7 @@
     font-family: $headingTypo;
     font-size: 2.625rem;
     font-weight: 200;
+    line-height: 3rem;
   }
   
   &-txt {

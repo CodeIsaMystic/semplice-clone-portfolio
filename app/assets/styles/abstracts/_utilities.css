@@ -59,7 +59,7 @@
 /*   to unify as margin not padding then checkout render  */
 .u-air {
   &-sm  {  padding-top: 5rem; }
-  &-md  {  margin-top: 12.5rem;  }
+  &-md  {  padding-top: 12.5rem;  }
   &-lg {  
     padding-top: 12.5rem; 
 
