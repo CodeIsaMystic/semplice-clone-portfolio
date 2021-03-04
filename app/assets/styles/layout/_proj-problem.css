@@ -26,26 +26,31 @@
         padding: 0 1rem; 
         margin-left: 25.3125rem;
       }
-      @mixin atLargeY {
-        margin-left: 0;
-      }
+      @mixin atLargeY {  margin-left: 0;  }
     }
 
     & .prob-img {
       
-      & div { 
+      & > div { 
         width: 100%;
         margin: 0 auto;
         
-        @mixin atSmall {
-          width: 50%; 
+        @mixin atSmall {  width: 75%;  }
+        @mixin atLarge {  width: 100%; }
+
+        & div {
+          height: 80%;
+
+          @mixin atSmall {  max-height: 29.625rem;  }
+          @mixin atLarge {  max-height: 33.375rem;  } 
+        }
+
+        & > p {
+          width: 60%;
+          margin: 0 auto;
+          text-align: center;
         }
       }
-      & p {
-        width: 40%;
-        margin: 0 auto;
-        text-align: center;
-      } 
     }
   }
 }
