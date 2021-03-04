@@ -5,7 +5,7 @@
 }
 
 @define-mixin atLargeY {
-  @media screen and (max-height: 1500px) {
+  @media screen and (min-height: 770px) {
     @mixin-content;
   }
 }

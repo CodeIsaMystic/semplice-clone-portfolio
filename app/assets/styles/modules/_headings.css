@@ -19,12 +19,18 @@
   &-proj-hero {
     padding-top: 8rem;
     
-    @mixin atSmall   {  padding-top: 11.25rem;  }
+    @mixin atSmall   {  padding-top: 8rem;  }
     @mixin atXSmallY {  padding-top: 3.5rem;    }
     @mixin atLargeY  {  padding-top: 20rem;  }
   }
 
-  &-proj-intro {}
+  &-proj-intro {
+    padding-top: 8rem;
+
+    @mixin atSmall  { padding-top: 12.5rem; }
+    @mixin atLargeY { padding-top: 17.5rem; }
+
+  }
 
   /* to checkout with u-padd, */
   &-proj-coming {

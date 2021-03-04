@@ -104,6 +104,7 @@
   &-md { margin-top: 12.5rem; }
 }
 
+/*  to removed => switched by headings positioning & u-p utility */
 .u-air {
   &-sm  {  padding-top: 5rem; }
   &-md  {  padding-top: 12.5rem;  }
