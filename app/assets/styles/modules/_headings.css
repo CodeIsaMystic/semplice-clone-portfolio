@@ -19,7 +19,7 @@
   &-proj-hero {
     padding-top: 8rem;
     
-    @mixin atSmall   {  padding-top: 8rem;  }
+    @mixin atSmall   {  padding-top: 12.5rem;  }
     @mixin atXSmallY {  padding-top: 3.5rem;    }
     @mixin atLargeY  {  padding-top: 20rem;  }
   }
