@@ -20,7 +20,8 @@
     padding-top: 8rem;
     
     @mixin atSmall   {  padding-top: 11.25rem;  }
-    @mixin atXSmallY {  padding-top: 3.5rem;   }
+    @mixin atXSmallY {  padding-top: 3.5rem;    }
+    @mixin atLargeY  {  padding-top: 20rem;  }
   }
 
   &-proj-intro {}
