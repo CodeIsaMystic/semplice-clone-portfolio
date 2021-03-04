@@ -19,11 +19,15 @@
       margin-top: 10rem;
       width: 100%;
       padding: 0;
+      margin-left: 0;
       
       @mixin atSmall { 
         width: 75%;
         padding: 0 1rem; 
         margin-left: 25.3125rem;
+      }
+      @mixin atLargeY {
+        margin-left: 0;
       }
     }
 
@@ -38,7 +42,8 @@
         }
       }
       & p {
-        width: 80%;
+        width: 40%;
+        margin: 0 auto;
         text-align: center;
       } 
     }

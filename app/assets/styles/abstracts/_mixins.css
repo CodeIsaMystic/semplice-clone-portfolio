@@ -4,6 +4,12 @@
   }
 }
 
+@define-mixin atLargeY {
+  @media screen and (max-height: 1500px) {
+    @mixin-content;
+  }
+}
+
 @define-mixin atXXSmall {
   @media screen and (min-width: 475px) {
     @mixin-content;
