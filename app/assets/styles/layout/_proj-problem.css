@@ -1,5 +1,6 @@
 .proj-prob {
   &-content {
+    max-width: 100%;
     margin-left: 0;
     
     & .prob-head {
@@ -22,9 +23,9 @@
       margin-left: 0;
       
       @mixin atSmall { 
-        width: 75%;
+        width: 60%;
         padding: 0 1rem; 
-        margin-left: 25.3125rem;
+        margin-left: 33%;
       }
       @mixin atXSmallY { margin-left: 0;  }
       @mixin atLargeY  { margin-left: 0;  }
