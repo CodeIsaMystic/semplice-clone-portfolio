@@ -26,7 +26,8 @@
         padding: 0 1rem; 
         margin-left: 25.3125rem;
       }
-      @mixin atLargeY {  margin-left: 0;  }
+      @mixin atXSmallY { margin-left: 0;  }
+      @mixin atLargeY  { margin-left: 0;  }
     }
 
     & .prob-img {

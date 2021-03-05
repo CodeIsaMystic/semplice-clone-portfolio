@@ -31,6 +31,7 @@
     @mixin atMedium  { padding-top: 22.5rem; }
     @mixin atLarge   { padding-top: 32rem;  }
     @mixin atLargeY  { padding-top: 17.5rem; }
+    @mixin atMediumY { padding-top: 32rem; }
 
   }
 

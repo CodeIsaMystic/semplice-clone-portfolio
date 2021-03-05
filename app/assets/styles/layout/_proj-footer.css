@@ -1,5 +1,6 @@
 .proj-footer {
   width: 100%;
+  max-width: 100%;
 
   &-content {
     text-align: center;
@@ -8,9 +9,13 @@
 
     & a {
       display: block;
-      width: 22rem;
+      width: 15rem;
       margin: 1.5rem auto 0;
       z-index: 2000;
+      
+      @mixin atXSmall {
+        width: 22rem;
+      }
     }
 
   }
