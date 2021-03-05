@@ -11,7 +11,7 @@
 }
 
 @define-mixin atLargeY {
-  @media screen and (min-height: 801px) {
+  @media screen and (min-height: 801px) and (min-width: 990px) {
     @mixin-content;
   }
 }
