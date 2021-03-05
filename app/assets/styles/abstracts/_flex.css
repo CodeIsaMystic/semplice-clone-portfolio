@@ -1,6 +1,5 @@
-.flx {
-  display: flex;
-}
+.flx { display: flex; }
+
 .flx-col {
   display: flex;
   flex-direction: column;
@@ -46,9 +45,8 @@
   display: flex;
   flex-direction: column;
 
-  @mixin atSmall {
-    flex-direction: row;
-  }
+  @mixin atSmall {  flex-direction: row;  }
+  @mixin atMediumY { flex-direction: row; }
 }
 
 
@@ -61,25 +59,19 @@
   display: flex;
   flex-direction: column;
 
-  @mixin atMedium {
-    flex-direction: row;
-  }
+  @mixin atMedium {  flex-direction: row;  }
 }
 
 .flx-o1 {
   display: flex;
   order: 1;
 
-  @mixin atSmall {
-    order: 2;
-  }
+  @mixin atSmall {  order: 2;  }
 }
 .flx-o2 {
   display: flex;
   flex-direction: column;
   order: 2;
 
-  @mixin atSmall {
-    order: 1;
-  }
+  @mixin atSmall {  order: 1;  }
 }

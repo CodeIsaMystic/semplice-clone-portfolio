@@ -5,7 +5,7 @@
 }
 
 @define-mixin atMediumY {
-  @media screen and (min-width: 1030px) and (min-height: 950px) {
+  @media screen and (min-width: 1020px) and (min-height: 950px) {
     @mixin-content;
   }
 }
