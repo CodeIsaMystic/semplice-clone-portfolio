@@ -3,6 +3,7 @@
 
 @import 'abstracts/_variables';
 @import 'abstracts/_mixins';
+@import 'abstracts/_grid';
 @import 'abstracts/_flex';
 @import 'abstracts/_utilities';
 

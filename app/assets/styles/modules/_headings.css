@@ -21,8 +21,8 @@
     
     @mixin atXSmall  {  padding-top: 18rem;  }
     @mixin atSmall   {  padding-top: 15rem;  }
-    @mixin atXSmallY {  padding-top: 3.5rem;    }
-    @mixin atLargeY  {  padding-top: 20rem;  }
+/*     @mixin atXSmallY {  padding-top: 3.5rem; }
+    @mixin atLargeY  {  padding-top: 20rem;  } */
   }
 
   &-proj-intro {
@@ -30,8 +30,8 @@
 
     @mixin atXSmall  { padding-top: 24.5rem; }
     @mixin atMedium  { padding-top: 32rem; }
-    @mixin atLargeY  { padding-top: 17.5rem; }
-    @mixin atMediumY { padding-top: 32rem; }
+/*     @mixin atLargeY  { padding-top: 17.5rem; }
+    @mixin atMediumY { padding-top: 32rem; } */
 
   }
 
