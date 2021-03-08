@@ -1,7 +1,9 @@
 .typo {
-  font-style: normal;
   color: $colorDark;
+  
+  font-style: normal;
 
+  /*  nav-link typo  */
   &-nl {
     font-family: $headingTypo;
     font-size: 2.5rem;
@@ -14,35 +16,41 @@
     }
   }
 
+
+  /*  headings typo  */
   &-heading {
     font-family: $headingTypo;
     font-weight: 200;
-    font-size: 2.5rem;
-    line-height: 3rem;
     
-    @mixin atXSmall {
+    
+    &-small {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      
+      @mixin atXSmall {
       font-size: 4rem;
-      line-height: 5rem;
+        line-height: 5rem;
+      }
+    }
+
+    &-large {
+      font-size: 3rem;
+      line-height: 3rem;
+      
+      @mixin atXXSmall {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
     }
   }
 
-  &-headingFixed {
+  
+  /* sub headings typo  */
+  &-subheading {
     font-weight: 200;
     font-family: $headingTypo;
-    font-size: 3rem;
-    line-height: 3rem;
-    
-    @mixin atXXSmall {
-      font-size: 4rem;
-      line-height: 5rem;
-    }
-  }
-  
-  &-subheading {
     font-size: 1.8rem;
     line-height: 2rem;
-    font-family: $headingTypo;
-    font-weight: 200;
     
     @mixin atXSmall {
       font-size: 2.625rem;
@@ -50,51 +58,62 @@
     }
   }
   
+
+  /*  text typos  */
   &-txt {
+    font-weight: 400;
     font-family: $mainTypo;
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 400;
     word-spacing: 1px;
   }
-
+  
   &-txt2 {
-    font-family: $mainTypo;
-    font-size: 1.125rem;
-    line-height: 2rem;
-    font-weight: 300;
-    word-spacing: 1px;
-  }
-
-  &-txt3 {
+    font-weight: 400;
     font-family: $mainTypo;
     font-size: .9rem;
     line-height: 1.4rem;
-    font-weight: 400;
     word-spacing: 2px;
   }
   
-  &-muted {
+  &-txt3 {
+    font-weight: 300;
     font-family: $mainTypo;
-    text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    word-spacing: 1px;
+  }
+  
+
+  /*  texts styled typo  */
+  &-muted {
+    color: $colorGrayMuted;
     font-weight: 500;
+    font-family: $mainTypo;
+    font-size: 0.875rem;
+    text-transform: uppercase;
     line-height: 1rem;
     letter-spacing: 0.15rem;
-    color: $colorGrayMuted;
   }
   &-upper {
-    font-family: $mainTypo;
-    text-transform: uppercase;
-    font-size: 0.875rem;
     font-weight: 100;
+    font-family: $mainTypo;
+    font-size: 0.875rem;
+    text-transform: uppercase;
     letter-spacing: .15rem;
   }
   
+  &-italic {
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 1.5rem;
+  } 
+
+  /*   small texts typo  */  
   &-sm {
     font-family: $mainTypo;
-    font-size: 0.89rem;
     font-weight: 400;
+    font-size: 0.89rem;
     line-height: 0.89rem;
 
     @mixin atSmall {
@@ -102,12 +121,6 @@
       line-height: 1rem;
     }
   }
-
-  &-italic {
-    font-style: oblique;
-    font-size: 1.5rem;
-    font-weight: 100;
-  } 
 }
   
 
