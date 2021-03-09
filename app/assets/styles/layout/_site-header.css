@@ -1,10 +1,14 @@
 .site-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   background: transparent;
   z-index: 150;
+  
+  @mixin atSmall {
+    position: fixed;
+  }
   
 
 

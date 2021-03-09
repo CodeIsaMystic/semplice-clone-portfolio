@@ -4,22 +4,22 @@
   z-index: 1000;
   
   @mixin atXXSmall {
-    border-right: 20px solid #FFF;
-    border-left: 20px solid #FFF;
+    border-right: 1.25rem solid #FFF;
+    border-left: 1.25rem solid #FFF;
   }
   
   @mixin atXSmallY {
-    border-right: 20px solid #FFF;
-    border-left: 20px solid #FFF;
+    border-right: 1.25rem solid #FFF;
+    border-left: 1.25rem solid #FFF;
   }
 
   &-t {
-    @mixin atXXSmall {  border-top: 20px solid #FFF;  }
-    @mixin atXSmallY {  border-top: 20px solid #FFF;  }
+    @mixin atXXSmall {  border-top: 1.25rem solid #FFF;  }
+    @mixin atXSmallY {  border-top: 1.25rem solid #FFF;  }
   }
 
   &-b {
-    @mixin atXXSmall {  border-bottom: 20px solid #FFF;  }
+    @mixin atXXSmall {  border-bottom: 1.25rem solid #FFF;  }
     @mixin atXSmallY {  border: none;  }
   }
 }
@@ -29,16 +29,19 @@
   max-width: 100%;
   margin: 0 auto;
   
-  @mixin atLarge {  max-width: 1250px;  }
+  @mixin atLarge {  max-width: 78.125rem;  }
 } 
 
 
 
+/*  changed html structure on proj-hero and proj-intro ...
+need to checking up the effects and consequences  */
 .u-padd {
   padding: 0 1.25rem;
     
     @mixin atMedium {  padding: 0 1.875rem;  } 
 
+    /*  removed from proj-hero h1 checkup utility  */
     &-tl {
       padding: 1rem 0 0;
 
@@ -127,12 +130,19 @@
 .u-bg3        { background-color: $colorContent3; }
 
 
-/*  think,fix and test */
+
+
+
+
+
+
+
+/*  think,fix and test
 .u-mask-light { 
   background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
 
   position: absolute;
-  /*width: 1142px;*/
+  width: 1142px;
   height: 809px;
   left: -11px;
   top: 0px;
@@ -142,4 +152,4 @@
   z-index: 1500;
   height: 37.5rem;
 }
-
+ */

@@ -3,20 +3,6 @@
     @mixin-content;
   }
 }
-/* removed some media, during grid system set up 
-
-@define-mixin atMediumY {
-  @media screen and (min-width: 1020px) and (min-height: 950px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin atLargeY {
-  @media screen and (min-height: 801px) and (min-width: 990px) {
-    @mixin-content;
-  }
-}
-*/
 
 @define-mixin atXXSmall {
   @media screen and (min-width: 475px) {

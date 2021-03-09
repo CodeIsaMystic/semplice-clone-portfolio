@@ -6,7 +6,7 @@
   padding-bottom: 0;
   
   
-  @mixin atXXSmall {
+  @mixin atXSmall {
     padding-top: 2.5rem;   
   }
   

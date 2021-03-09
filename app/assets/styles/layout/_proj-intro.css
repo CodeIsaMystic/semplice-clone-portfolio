@@ -1,38 +1,43 @@
 .proj-intro {
+  padding-top: 12.5rem;
 
-  &-content {
+  @mixin atXSmall  { padding-top: 18rem; }
+  @mixin atXSmall  { padding-top: 24.5rem; }
+  @mixin atMedium  { padding-top: 32rem; }
+}
 
-    & > div {
-      /* width: 100%; */
-      
-      /*  to test & checkout more right space on small devices and enough from Small to large  */
-      &:first-of-type {
-        margin-right: 3.125rem;
+.projIH {
+  width: 100%;
 
-        @mixin atSmall {
-          /* width: 66.6%; */
-          margin-right: 6.25rem;
-          padding-right: 1rem;
-        }
-      }
-
-      &:last-of-type {
-        margin-top: 2rem;
-        padding: 0;
-        
-        @mixin atSmall {
-          /* width: 33.3%; */
-          margin-top: 0;
-          padding: 0 1rem;
-        }
-
-        & h6 {  padding: 0 0 .75rem;  }
-        
-        & div:first-of-type,
-        & div:nth-of-type(2) {
-          margin-bottom: 2rem;
-        }
-      }
+  /*  to test & checkout more right space on small devices and enough from Small to large */
+  &-child1 {
+    width: 100%;
+    margin-right: 3.125rem;
+    
+    @mixin atSmall {
+      width: 66%;
+      margin-right: 4.125rem;
+      padding-right: 1rem;
     }
   }
+
+  &-child2 {
+    width: 100%;
+    margin-top: 2rem;
+    
+    @mixin atSmall {
+      width: 33.3%;
+      margin-top: 0;
+    }
+
+    & h6 {  padding: 0 0 .75rem;  }
+    & div:not(:last-child) {  margin-bottom: 2rem;  }
+  }
+}
+
+.projII {
+  width: 100%;
+  padding-top: 5rem;
+
+  @mixin atSmall { padding-top: 12.5rem ; }
 }
