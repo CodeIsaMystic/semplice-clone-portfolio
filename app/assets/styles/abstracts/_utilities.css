@@ -140,6 +140,9 @@ need to checking up the effects and consequences  */
 
 
 /*   to unify as margin not padding then checkout render  */
+/*  removed from proj-coming div with u-bg 
+    & site-footer, proj-footer
+ */
 .u-mt {
   &-md { margin-top: 12.5rem; }
 }

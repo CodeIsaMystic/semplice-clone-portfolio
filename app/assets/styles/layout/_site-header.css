@@ -9,10 +9,8 @@
   @mixin atSmall {
     position: fixed;
   }
-  
 
-
-  
+  /*  JAVASCRIPT  to handle  */
   &--is-expanded {
     background-color: $colorGrayLight3;
     height: 100vh;

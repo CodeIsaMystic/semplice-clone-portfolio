@@ -2,7 +2,7 @@
   max-width: 100%;
   margin-left: 0;
   
-  .probH {
+  .projPH {
     width: 100%;
     padding: 0;
 
@@ -15,7 +15,7 @@
     & h4 { margin-top: 1.625rem; }
   }
 
-  .probT {
+  .projPT {
     margin-top: 10rem;
     width: 100%;
     padding: 0;
@@ -28,7 +28,7 @@
     }
   }
 
-  .probI {
+  .projPI {
     & > div { 
       width: 100%;
       margin: 0 auto;

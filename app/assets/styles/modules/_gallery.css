@@ -1,56 +1,51 @@
 .gallery {
   display: none;
+  width: 100%;
+  margin-top: 10rem;
   
   @mixin atXSmall {
     width: 100%;
     display: flex;
+    margin-top: 7rem;
+
+  @mixin atSmall {
+    margin-top: 4.5rem;
+  }
+  
+  .col {
+    width: 100%;
+    /* for now */
     margin: 0;
+    padding: 0;
 
-    &-content {
-      width: 100%;
-      margin-top: 10rem;
+    @mixin atXSmall {
+      width: 33.3%;
+    }
 
-      @mixin atXSmall {
-        margin-top: 7rem;
-      }
-      @mixin atSmall {
-        margin-top: 4.5rem;
-      }
-      
-      .col {
-        width: 100%;
-        /* for now */
-        margin: 0;
-        padding: 0;
+    &:first-of-type {
+      @mixin atXSmall {  margin-top: 2.125rem;  }
 
-        @mixin atXSmall {
-          width: 33.3%;
-        }
-
-        &:first-of-type {
-          @mixin atXSmall {  margin-top: 2.125rem;  }
-
-          & > div {
-          @mixin atXSmall {  padding: .5rem .5rem .5rem 0;   }
-          @mixin atLarge {  padding: 1rem 1rem 1rem 0;  }
-          }
-        }
-
-        &:nth-of-type(2) > div {
-          @mixin atXSmall {  padding: .5rem;  } 
-          @mixin atLarge {  padding: 1rem;  }
-        }
-
-        &:last-of-type {
-          @mixin atXSmall {  margin-top: 4.5rem;  }
-
-          & > div {
-            @mixin atXSmall {  padding: .5rem 0 .5rem .5rem;  } 
-            @mixin atLarge {  padding: 1rem 0 1rem 1rem;  }
-          }
-        }
-
+      & > div {
+      @mixin atXSmall {  padding: .5rem .5rem .5rem 0;   }
+      @mixin atLarge {  padding: 1rem 1rem 1rem 0;  }
       }
     }
+
+    &:nth-of-type(2) > div {
+      @mixin atXSmall {  padding: .5rem;  } 
+      @mixin atLarge {  padding: 1rem;  }
+    }
+
+    &:last-of-type {
+      @mixin atXSmall {  margin-top: 4.5rem;  }
+
+      & > div {
+        @mixin atXSmall {  padding: .5rem 0 .5rem .5rem;  } 
+        @mixin atLarge {  padding: 1rem 0 1rem 1rem;  }
+      }
+    }
+
   }
+}
+
 }

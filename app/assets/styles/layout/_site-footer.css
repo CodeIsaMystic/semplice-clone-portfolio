@@ -1,52 +1,48 @@
 .site-footer {
   width: 100%;
-  padding: 4.45rem 0;
+  max-width: 100%;
 
-
-  &-content {
+  & > div {
     width: 100%;
-
-    & > div {
-      width: 100%;
-      max-width: 100%;
-      vertical-align: baseline;
-      
-      @mixin atLarge {
-        width: 25%;
-        max-width: 25%;
-      }
-      
-      & > a {
-        color: $colorDark;
-        transition: color .3s linear;
-        
-        &:hover {  color: $colorDarkHover;  }      
-      }
+    max-width: 100%;
+    vertical-align: baseline;
+    
+    @mixin atLarge {
+      width: 25%;
+      max-width: 25%;
     }
-
-    /* to test it out => useless */
-    & > div:first-of-type {
-      padding: 2.2rem 0 0;
-      margin: 0 auto;
-      text-align: center;
+    
+    & > a {
+      color: $colorDark;
+      transition: color .3s linear;
       
-      @mixin atXSmall {
-        margin: 0;
-        padding: 2.2rem 1rem 0 0;
-        text-align: left;
-      }
+      &:hover {  color: $colorDarkHover;  }      
     }
-    /* to test it out => useless */
-    & > div:last-of-type {
-      margin: 0 auto;
-      padding: 2.2rem 0 0;
-      text-align: center;
-      
-      @mixin atXSmall {
-        margin: 0;
-        text-align: right;
-        padding: 2.2rem 0 0 1rem;
-      }
+  }
+
+  &-child1 {
+    padding: 0 0 2.2rem 0;
+    margin: 0 auto;
+    text-align: center;
+    
+    @mixin atXSmall {
+      margin: 0;
+      /* padding: 2.2rem 1rem 0 0; */
+      padding: 0 0 2.2rem 1rem;
+      text-align: left;
+    }
+  }
+
+  &-child2 {
+    margin: 0 auto;
+    padding: 0 0 2.2rem;
+    text-align: center;
+    
+    @mixin atXSmall {
+      margin: 0;
+      text-align: right;
+      /* padding: 2.2rem 0 0 1rem; */
+      padding: 0 1rem 2.2rem 0;
     }
   }
 }

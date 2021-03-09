@@ -1,40 +1,46 @@
 .work {
+  margin-bottom: 4.45rem;
 
-  &-content {
-    & div:first-child {
-      position: relative;
-
-      & img {
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-bottom: 0;  
-      }
-    }
-
-    & > div:nth-child(2) {
-      z-index: 2;
-      margin-top: 0;
-
-      @mixin atSmall { 
-        width: 35.2%; 
-        margin-top: 3.375rem;
-      }
-      @mixin atLarge { margin-top: 7.5rem; }
-      
-      & div a h6 span {
-        display: none;
+  &-child1 {
+    position: relative;
   
-        @mixin atSmall {  display: inline-block;  }
-      }
-    }
-
-    .mr { 
-      @mixin atSmall {  margin-right: 1rem;  }
-    }
-    .mr-reverse { 
-      @mixin atSmall {  margin-left: 1rem;  }
+    & img {
+      position: absolute;
+      top: 50%; 
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 0;  
     }
   }
+
+  &-child2 {
+    z-index: 2;
+    margin-top: 0;
+  
+    @mixin atSmall { 
+      width: 35.2%; 
+      margin-top: 3.375rem;
+    }
+    @mixin atLarge { margin-top: 7.5rem; }
+
+    & div {
+      padding: 1.3rem 0 1rem;
+      
+      @mixin atSmall {  padding: 0 0 1.3rem;  }
+    }
+    
+    & div a h6 span {
+      display: none;
+  
+      @mixin atSmall {  display: inline-block;  }
+    }
+  }
+  
+  /*  review class naming mr => margin right / margin-right reverse !!!???  */
+  .mr { 
+    @mixin atSmall {  margin-right: 1rem;  }
+  }
+  .mr-reverse { 
+    @mixin atSmall {  margin-left: 1rem;  }
+  }  
 }

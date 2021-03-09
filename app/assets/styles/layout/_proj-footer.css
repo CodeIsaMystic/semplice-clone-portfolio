@@ -1,22 +1,19 @@
 .proj-footer {
   width: 100%;
   max-width: 100%;
+  text-align: center;
+  display: block;
+  margin: 12.5rem auto 0;
+  padding: 4.45rem 0;
 
-  &-content {
-    text-align: center;
+  & > a {
     display: block;
-    margin: 0 auto;
-
-    & a {
-      display: block;
-      width: 15rem;
-      margin: 1.5rem auto 0;
-      z-index: 2000;
-      
-      @mixin atXSmall {
-        width: 22rem;
-      }
+    width: 15rem;
+    margin: 1.5rem auto 0;
+    z-index: 2000;
+    
+    @mixin atXSmall {
+      width: 22rem;
     }
-
   }
 }

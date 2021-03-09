@@ -1,35 +1,43 @@
 .about {
-  
-  &-content {
-    width: 100%;  
-    padding-top: 0;
-    margin: 0 auto;
+  width: 100%;  
+  padding-top: 0;
+  margin: 0 auto;
 
-    @mixin atSmall {  padding-top: 10rem;  } 
-    @mixin atXSmallY {  padding-top: 6rem;  }
+  @mixin atSmall {  padding-top: 10rem;  } 
+  @mixin atXSmallY {  padding-top: 0rem;  }
+
+  &-child1 {
+    @mixin atXSmall { margin: 10.5rem auto 0; }
+    @mixin atSmall { margin: 0 0 5.25rem 5rem; }
+  
+    & > img {
+      margin: 0 auto;
+  
+      @mixin atSmall  { margin: 0; }
+    }
+  }
+
+  &-child2 {
+    margin: 0 auto;
+    z-index: 2;
+    
+    @mixin atSmall {
+      width: 58.5%;
+      padding: 0 1rem;
+      margin: 0;
+    }
+    @mixin atLarge { margin: 0 5rem 0 0;  }
 
     & > div:first-of-type {
-      @mixin atXSmall { margin: 10.5rem auto 0; }
-      @mixin atSmall { margin: 0 0 5.25rem 5rem; }
-
-      & > img {
-        margin: 0 auto;
-
-        @mixin atSmall  { margin: 0; }
-      }
-    }
-
-    & > div:nth-child(2) {
-      margin: 0 auto;
-      z-index: 2;
+      padding-top: 22.5rem;
+      text-align: center;
       
-      @mixin atSmall {
-        width: 58.5%;
-        padding: 0 1rem;
-        margin: 0;
+      @mixin atXSmall  {  padding-top: 3.5rem;  }
+      @mixin atSmall   {  
+        padding-top: 5rem; 
+        text-align: left; 
       }
-
-      @mixin atLarge { margin: 0 5rem 0 0;  }
+      @mixin atMedium  {  padding-top: 7rem;  }
     }
   }
 }
