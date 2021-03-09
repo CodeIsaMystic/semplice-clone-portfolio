@@ -35,7 +35,7 @@ npm install
 You can now run the frontend on your `localhost`.
 
 ```shell
-npm run start
+npm run dev
 ```
 
 ## Privacy
