@@ -1,8 +1,10 @@
 .txt-box {
+  /*  MUST BE a utility class appart, type u-padd OR u-paddX */
   padding: 0;
 
   @mixin atSmall {  padding: 0 1rem; }
-  
+  /*  u-padd OR u-paddX  */
+
   &-reverse { 
     @mixin atSmall {  text-align: right;  }
   }

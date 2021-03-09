@@ -24,6 +24,16 @@
   }
 }
 
+
+.u-bg         { background-color: $colorWhite; }
+.u-bgLight    { background-color: $colorLight; }
+.u-bgLight2   { background-color: $colorGrayLight3; }
+.u-bg1        { background-color: $colorContent1; }
+.u-bg2        { background-color: $colorContent2; }
+.u-bg3        { background-color: $colorContent3; }
+
+
+
 .u-container {
   height: auto;
   max-width: 100%;
@@ -32,52 +42,64 @@
   @mixin atLarge {  max-width: 78.125rem;  }
 } 
 
-
-
+/*************************************************************
+**************************************************************
+**************************************************************
+*/
 /*  changed html structure on proj-hero and proj-intro ...
 need to checking up the effects and consequences  */
+/* Paddings X on u-padd Or u-paddX  */
 .u-padd {
   padding: 0 1.25rem;
+  
+  @mixin atMedium {  padding: 0 1.875rem;  } 
+  
+  /*  removed from proj-hero h1 checkup utility  
+  wrong setting !!! must be X padding not Y
+  => thought on u-air-pY classname to unit with u-py 
+  */
+  &-tl {
+    padding: 1rem 0 0;
     
-    @mixin atMedium {  padding: 0 1.875rem;  } 
+    @mixin atSmall   { padding: 1.5rem 0 1rem;  }
+    @mixin atXSmallY { padding: 1rem 0 0;  }
+  }
+}
+/************************************************************
+*/
+.u-px { 
+  padding: 0 1.25rem;
+  
+  @mixin atMedium { padding: 0 1.875rem; }
+}
+/************************************************************
+*************************************************************
+*************************************************************
+*/
 
-    /*  removed from proj-hero h1 checkup utility  */
-    &-tl {
-      padding: 1rem 0 0;
 
-      @mixin atSmall   { padding: 1.5rem 0 1rem;  }
-      @mixin atXSmallY { padding: 1rem 0 0;  }
-    }
+
+
+
+
+
+.u-pb {
+  @mixin atSmall { padding-bottom: 1rem;  }
 }
 
 
 
-/* to define as u-p rather than u-padd, 
-    then checkout utility targets: txt only or other pattern too
 
-    u-pl, u-pr, u-pt, u-pb, u-py, u-px
-    &-sm, -md, -xs, -lg
-    handled with media mixins
+
+
+
+/*************************************************************
+**************************************************************
+**************************************************************
 */
-/*
-.u-pt {
-  &-xs { 
-    padding-top: 1rem ;
-
-      @mixin atSmall    { padding-top: 1.5rem; }
-      @mixin atXSmallY  { padding-top: 1rem; }
-  }
-  &-sm { padding-top: 5rem; }
-  &-md { padding-top: 12.5rem; }
-  &-lg { 
-    padding-top: 12.5rem;
-
-    @mixin atMedium { padding-top: 37.5rem; }
-  }
-}
-*/
-
-
+/*  Paddings Top on u-air class  */
+/*  Possibly insert rule on u-air-Y  */
+/*  to check and removed all u-pt utility */
 .u-pt {
   &-xs {  padding-top: 3rem;  }
   &-sm {  padding-top: 5rem; }
@@ -88,27 +110,13 @@ need to checking up the effects and consequences  */
     @mixin atMedium { padding-top: 37.5rem; }
   }
 }
-.u-pb {
-  @mixin atSmall { padding-bottom: 1rem;  }
-}
-.u-px { 
-  padding: 0 1.25rem;
-
-  @mixin atMedium { padding: 0 1.875rem; }
-}
 .u-py {
   &-md { padding: 12.5rem 0; }
 }
-
-
-/*   to unify as margin not padding then checkout render  */
-
-.u-mt {
-  &-md { margin-top: 12.5rem; }
-}
-
-/*  to removed => switched by headings positioning & u-p utility */
+/*************************************************************
+*/
 .u-air {
+  &-xs  {  padding-top: 3rem; }
   &-sm  {  padding-top: 5rem; }
   &-md  {  padding-top: 12.5rem;  }
   &-lg {  
@@ -116,18 +124,35 @@ need to checking up the effects and consequences  */
 
     @mixin atMedium {  padding-top: 37.5rem;  }
   }
+
+  &Y {
+    padding: 12.5rem 0;
+  }
+}
+/*************************************************************
+**************************************************************
+**************************************************************
+*/
+
+
+
+
+
+
+/*   to unify as margin not padding then checkout render  */
+.u-mt {
+  &-md { margin-top: 12.5rem; }
 }
 
 
 
 
 
-.u-bg         { background-color: $colorWhite; }
-.u-bgLight    { background-color: $colorLight; }
-.u-bgLight2   { background-color: $colorGrayLight3; }
-.u-bg1        { background-color: $colorContent1; }
-.u-bg2        { background-color: $colorContent2; }
-.u-bg3        { background-color: $colorContent3; }
+
+
+
+
+
 
 
 
