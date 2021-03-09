@@ -6,13 +6,15 @@
   
   @mixin atXSmall  {  
     max-width: 640px;
-    padding-top: 18.75rem;  }
-  @mixin atXSmallY {  padding-top: 10rem;  }
+    padding-top: 18.75rem; 
+  }
+  @mixin atXSmallY {  padding-top: 20rem;  }
   @mixin atSmall  {  
     max-width: 700px;
-    padding: 0;  
+    padding: 20rem 0 0;  
   }
-  @mixin atLarge  {  max-width: 880px;  }
+  @mixin atLarge  {  max-width: 880px;
+  }
   
   & > h6 {  margin: 0 0 1.5rem;  }
 }
