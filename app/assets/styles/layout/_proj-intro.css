@@ -2,15 +2,15 @@
 
   &-content {
 
-    & .col {
-      width: 100%;
+    & > div {
+      /* width: 100%; */
       
       /*  to test & checkout more right space on small devices and enough from Small to large  */
       &:first-of-type {
         margin-right: 3.125rem;
 
         @mixin atSmall {
-          width: 66.6%;
+          /* width: 66.6%; */
           margin-right: 6.25rem;
           padding-right: 1rem;
         }
@@ -21,7 +21,7 @@
         padding: 0;
         
         @mixin atSmall {
-          width: 33.3%;
+          /* width: 33.3%; */
           margin-top: 0;
           padding: 0 1rem;
         }
