@@ -1,6 +1,7 @@
 .txt-box {
-  /*  margin or padding => ??? */
-  @mixin atSmall {  margin: 0 1rem; }
+  padding: 0;
+
+  @mixin atSmall {  padding: 0 1rem; }
   
   &-reverse { 
     @mixin atSmall {  text-align: right;  }

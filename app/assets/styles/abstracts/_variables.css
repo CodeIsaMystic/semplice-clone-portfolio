@@ -1,7 +1,8 @@
+/*  typography  */
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
 $headingTypo:                   'Canela', Helvetica, serif;
 
-
+/*   color   */
 $colorDark:                     #222222;
 $colorDarkHover:                #545454;
 $colorWhite:                    #FFFFFF;

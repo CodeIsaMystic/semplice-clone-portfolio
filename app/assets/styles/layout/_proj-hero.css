@@ -1,21 +1,34 @@
 .proj-hero {
-  height: 70vh;
+  height: 60vh;
+  padding-top: 12rem;
   
-  @mixin atXSmall {  height: 85vh;  }
-  @mixin atSmall  {  height: 100vh; }
+  @mixin atXXSmall { height: 70vh; }
+  @mixin atXSmall  {  
+    height: 85vh;
+    padding-top: 15rem;
+  }
+  @mixin atSmall   {  height: 100vh; }
+  @mixin atXSmallY {  padding-top: 5rem;  }
   
-  &-content {
-    width: 100%;  
-    text-align: center;
-    
-    & > div {
-      max-width: 70rem;
-      margin: 0 auto;
+}
 
-      & > img {
-        @mixin atXSmallY {  width: 85%;  }
-      }
-    }
+.projH {
+  width: 100%;  
+  text-align: center;
+
+  & > h1 { 
+    padding: 1rem 0 3.5rem; 
+
+    @mixin atSmall   { padding: 1.5rem 0 1rem; }
+    @mixin atXSmallY { padding: 1rem 0 0; }
+  }
   
+  & > div {
+    max-width: 70rem;
+    margin: 0 auto;
+
+    & > img {
+      @mixin atXSmallY {  width: 85%;  }
+    }
   }
 }

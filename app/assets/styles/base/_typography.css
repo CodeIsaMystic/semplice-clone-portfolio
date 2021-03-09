@@ -24,20 +24,20 @@
     
     
     &-small {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       line-height: 3rem;
       
       @mixin atXSmall {
-      font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 4.25rem;
       }
     }
 
     &-large {
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 3rem;
       
-      @mixin atXXSmall {
+      @mixin atXSmall {
         font-size: 4rem;
         line-height: 5rem;
       }
@@ -52,8 +52,8 @@
     font-size: 1.8rem;
     line-height: 2rem;
     
-    @mixin atXSmall {
-      font-size: 2.625rem;
+    @mixin atXXSmall {
+      font-size: 2.3rem;
       line-height: 3rem;
     }
   }
@@ -72,7 +72,7 @@
     font-weight: 400;
     font-family: $mainTypo;
     font-size: .9rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
     word-spacing: 2px;
   }
   
@@ -98,9 +98,14 @@
   &-upper {
     font-weight: 100;
     font-family: $mainTypo;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: .15rem;
+    letter-spacing: .05rem;
+    
+    @mixin atXSmall { 
+      font-size: 0.875rem;
+      letter-spacing: .1rem; 
+    }
   }
   
   &-italic {

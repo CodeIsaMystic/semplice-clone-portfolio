@@ -17,11 +17,11 @@
         
         @mixin atMedium {  margin: 0 3.875rem;  }
 
-        @mixin atMediumY {
+        /* @mixin atMediumY {
           width: 40%;
           text-align: center;
           margin: 0 1rem;
-        }
+        } */
       }
       &:last-of-type {
         & p:first-of-type {  padding-top: 0;  }
@@ -33,10 +33,10 @@
         }
         @mixin atMedium {  margin-right: 3.875rem;  }
         
-        @mixin atMediumY {  
+        /* @mixin atMediumY {  
           width: 60%;
           margin-right: 1rem;
-        }
+        } */
       }
     }
   }
