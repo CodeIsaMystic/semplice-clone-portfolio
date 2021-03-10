@@ -58,8 +58,8 @@
       }
   
       & > p {
-        padding-bottom: 4.5rem;
         padding-top: 3rem;
+        padding-bottom: 12.5rem;
         
         @mixin atSmall { padding-bottom: 0; }
       }

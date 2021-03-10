@@ -1,3 +1,4 @@
+/*   Main Website Border   */
 .u-border {
   width: 100%;
   border: none;
@@ -25,6 +26,8 @@
 }
 
 
+
+/*   To Handling Backgrounds Colors   */
 .u-bg         { background-color: $colorWhite; }
 .u-bgLight    { background-color: $colorLight; }
 .u-bgLight2   { background-color: $colorGrayLight3; }
@@ -34,6 +37,7 @@
 
 
 
+/*   Container    */
 .u-container {
   height: auto;
   max-width: 100%;
@@ -42,130 +46,44 @@
   @mixin atLarge {  max-width: 78.125rem;  }
 } 
 
-/*************************************************************
-**************************************************************
-**************************************************************
-*/
-/*  changed html structure on proj-hero and proj-intro ...
-need to checking up the effects and consequences  */
-/* Paddings X on u-padd Or u-paddX  */
-.u-padd {
+
+
+/*   Utilities Paddings on Texts and Containers   */
+.u-px {
   padding: 0 1.25rem;
   
   @mixin atMedium {  padding: 0 1.875rem;  } 
-  
-  /*  removed from proj-hero h1 checkup utility  
-  wrong setting !!! must be X padding not Y
-  => thought on u-air-pY classname to unit with u-py 
-  */
-  &-tl {
-    padding: 1rem 0 0;
-    
-    @mixin atSmall   { padding: 1.5rem 0 1rem;  }
-    @mixin atXSmallY { padding: 1rem 0 0;  }
-  }
-}
-/************************************************************
-*/
-.u-px { 
-  padding: 0 1.25rem;
-  
-  @mixin atMedium { padding: 0 1.875rem; }
-}
-/************************************************************
-*************************************************************
-*************************************************************
-*/
-
-
-
-
-
-
-
-.u-pb {
-  @mixin atSmall { padding-bottom: 1rem;  }
-}
-
-
-
-
-
-
-
-/*************************************************************
-**************************************************************
-**************************************************************
-*/
-/*  Paddings Top on u-air class  */
-/*  Possibly insert rule on u-air-Y  */
-/*  to check and removed all u-pt utility */
-.u-pt {
-  &-xs {  padding-top: 3rem;  }
-  &-sm {  padding-top: 5rem; }
-  &-md {  padding-top: 12.5rem; }
-  &-lg { 
-    padding-top: 12.5rem;
-
-    @mixin atMedium { padding-top: 37.5rem; }
-  }
 }
 .u-py {
-  &-md { padding: 12.5rem 0; }
-}
-/*************************************************************
-*/
-.u-air {
-  &-xs  {  padding-top: 3rem; }
-  &-sm  {  padding-top: 5rem; }
-  &-md  {  padding-top: 12.5rem;  }
-  &-lg {  
-    padding-top: 12.5rem; 
+  padding: 1rem 0 0;
 
-    @mixin atMedium {  padding-top: 37.5rem;  }
-  }
+  @mixin atSmall   { padding: 1.5rem 0 1rem;  }
+  @mixin atXSmallY { padding: 1rem 0 0;  }
 
-  &Y {
-    padding: 12.5rem 0;
-  }
+  &-lg { padding: 12.5rem 0; }
 }
+.u-pt {
+  &-sm {  padding-top: 4.5rem; }
+  &-md {  padding-top: 12.5rem; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*************************************************************
 **************************************************************
 **************************************************************
 */
-
-
-
-
-
-
-/*   to unify as margin not padding then checkout render  */
-/*  removed from proj-coming div with u-bg 
-    & site-footer, proj-footer
- */
-.u-mt {
-  &-md { margin-top: 12.5rem; }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  think,fix and test
+/*  Decorative Mask on Mockups
+think,fix and test
 .u-mask-light { 
   background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
 
