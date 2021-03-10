@@ -29,11 +29,5 @@
       
       @mixin atSmall {  padding: 0 0 1.3rem;  }
     }
-    
-    & div a h6 span {
-      display: none;
-  
-      @mixin atSmall {  display: inline-block;  }
-    }
   }
 }
