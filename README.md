@@ -16,8 +16,8 @@
 
 <a href="#">
   <img
-    height="230"
-    width="450"
+    height="426"
+    width="916"
     alt="screen of jowd portfolio"
     src="app/assets/img/screen-portfolio/screen-semplice-portfolio.png"
   />
