@@ -22,7 +22,14 @@
 
     
     &-child2 {
-      & p:first-of-type {  padding-top: 0;  }
+      & p {  padding-top: 0;  }
+
+      & div ul {
+        & li {
+          list-style: disc;
+          margin-left: 3.5rem;
+        }
+      }
       
       @mixin atSmall {  
         width: 60%;
