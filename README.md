@@ -17,7 +17,7 @@
 
 # Getting Started
 
-Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [here](http://lifeofpai.com/), I believe it's a perfect model of student case explanations, and kind of efficient minimaistic design ...
+Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [lifeofpai.com](http://lifeofpai.com/), I believe it's a perfect model of student case explanations, and kind of efficient minimaistic design ...
 
 Inroducing myself, I'm an "unknown developer", self-educated from France, trying to upgrade my skills and experience learning with some of the best personnalities, professionnals, projects and contents I think we have chance to cross over the web.  
 
