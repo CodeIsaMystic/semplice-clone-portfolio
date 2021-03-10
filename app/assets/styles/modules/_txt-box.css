@@ -2,7 +2,8 @@
   /*  MUST BE a utility class appart, type u-padd OR u-paddX */
   padding: 0;
 
-  @mixin atSmall {  padding: 0 1rem; }
+  @mixin atSmall  {  padding: 0 .5rem; }
+  @mixin atMedium {  padding: 0 1rem; }
   /*  u-padd OR u-paddX  */
 
   &-reverse { 

@@ -18,10 +18,11 @@
     margin-top: 0;
   
     @mixin atSmall { 
-      width: 35.2%; 
-      margin-top: 3.375rem;
+      width: 37.5%; 
+      margin-top: 5rem;
     }
-    @mixin atLarge { margin-top: 7.5rem; }
+    @mixin atMedium { margin-top: 6.5rem; }
+    @mixin atLarge  { margin-top: 7.5rem; }
 
     & div {
       padding: 1.3rem 0 1rem;
@@ -35,12 +36,4 @@
       @mixin atSmall {  display: inline-block;  }
     }
   }
-  
-  /*  review class naming mr => margin right / margin-right reverse !!!???  */
-  .mr { 
-    @mixin atSmall {  margin-right: 1rem;  }
-  }
-  .mr-reverse { 
-    @mixin atSmall {  margin-left: 1rem;  }
-  }  
 }

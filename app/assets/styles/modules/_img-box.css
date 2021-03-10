@@ -10,10 +10,12 @@
        or 2- positioning on work.css file with margin   */
     margin-bottom: 1.5rem;
 
-    @mixin atXSmall {  padding-bottom: 66.5%;  }
+    @mixin atXSmall {  
+      padding-bottom: 66.5%;  
+    }
     
     @mixin atSmall {
-      width: 77%;
+      width: 62.5%;
       padding-bottom: 46%;
     }
 
@@ -22,13 +24,10 @@
       max-width: 16rem;
       
       @mixin atXXSmall {  max-width: 21.875rem;  }
-
-      @mixin atXSmall {
-        max-width: 26.25rem; 
-      }
-      
-      @mixin atMedium {  max-width: 34.375rem;  }
-      @mixin atLarge  {  max-width: 41.6875rem;  }
+      @mixin atXSmall  {  max-width: 28rem; }
+      @mixin atSmall   {  max-width: 22rem; } 
+      @mixin atMedium  {  max-width: 30rem;  }
+      @mixin atLarge   {  max-width: 38.5rem;  }
     }
   }
 
