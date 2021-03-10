@@ -10,18 +10,18 @@
   />
 </a>
 
-<p>Simple and complete Theme Model Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
+<p>Simple and complete Theme Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
 
 <br />
 </div>
 
 # Getting Started
 
-Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [lifeofpai.com](http://lifeofpai.com/), I believe it's a perfect model of student case explanations, and kind of efficient minimaistic design ...
+Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [lifeofpai.com](http://lifeofpai.com/), which I believe representing a perfect model of student case explanations, and efficient minimalist design ...
 
-Inroducing myself, I'm an "unknown developer", self-educated from France, trying to upgrade my skills and experience learning with some of the best personnalities, professionnals, projects and contents I think we have chance to cross over the web.  
+Inroducing myself, I'm Julien as Jowd another "unknown developer", self-educated from France, trying to upgrade my skills and experience learning with some of the best personnalities, professionnals, projects and contents I think we have chance to cross over the web.  
 
-[See Live](https://website-project-adress-link/)
+[Visit My Portfolio](https://website-project-adress-link/)
 
 ## Dependencies
 
