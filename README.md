@@ -13,6 +13,7 @@
 <p>Simple and complete Theme Model Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
 
 <br />
+</div>
 
 # Getting Started
 
