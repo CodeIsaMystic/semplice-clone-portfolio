@@ -1,3 +1,19 @@
+<div align="center">
+<h1>Semplice Theme</h1>
+
+<a href="https://www.emojione.com/emoji/1f410">
+  <img
+    height="80"
+    width="80"
+    alt="goat"
+    src="app/assets/img/icons/logo-thoth.svg"
+  />
+</a>
+
+<p>Simple and complete Theme Model Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
+
+<br />
+
 # Getting Started
 
 Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [here](http://lifeofpai.com/), I believe it's a perfect model of student case explanations, and kind of efficient minimaistic design ...

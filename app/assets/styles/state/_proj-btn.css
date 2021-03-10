@@ -30,17 +30,18 @@
   &-left {
     &:before, 
     &:after {
-      top: 0;
+      top: 1px;
       width: 0;
       height: 100%;
     }
     
     &:before {
-      top: -1px;
+      top: 0;
       right: 0;
       border: 1px solid $colorDark;
       border-left: 0;
-      border-right: 0;	
+      border-right: 0;
+      /* border-bottom: 0; */
     }
     
     &:after {  left: 0;  }
