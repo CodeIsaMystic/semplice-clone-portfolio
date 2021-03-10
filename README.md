@@ -1,11 +1,11 @@
 <div align="center">
 <h1>Semplice Theme</h1>
 
-<a href="https://www.emojione.com/emoji/1f410">
+<a href="#">
   <img
     height="80"
     width="80"
-    alt="goat"
+    alt="thoth-logo"
     src="app/assets/img/icons/logo-thoth.svg"
   />
 </a>
@@ -13,6 +13,18 @@
 <p>Simple and complete Theme Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
 
 <br />
+
+<a href="#">
+  <img
+    height="230"
+    width="450"
+    alt="screen of jowd portfolio"
+    src="app/assets/img/screen-portfolio/screen-semplice-portfolio.png"
+  />
+</a>
+
+<br />
+
 </div>
 
 # Getting Started
