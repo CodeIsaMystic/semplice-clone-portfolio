@@ -21,7 +21,7 @@
   
   &-on-load {
       & span {
-        /* background-color: red; */
+        background-color: red;
         /* background-color: #e8e8e8; */
         z-index: 1800;
       }

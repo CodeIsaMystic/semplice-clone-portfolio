@@ -4,6 +4,7 @@
   left: 0;
   width: 100%;
   background: transparent;
+  padding: 0 1.25rem;
   z-index: 150;
   
   @mixin atSmall {
