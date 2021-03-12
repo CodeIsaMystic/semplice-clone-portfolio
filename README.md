@@ -1,6 +1,8 @@
 <div align="center">
 <h1>Semplice Theme</h1>
 
+<br />
+
 <a href="#">
   <img
     height="80"
@@ -9,6 +11,8 @@
     src="./app/assets/img/icons/logo-thoth.svg"
   />
 </a>
+
+<br />
 
 <p>Simple and complete Theme Portfolio from Vai Pandana personal website, reproduced from scratch only with Dev Tools and Browser's Plugins and customized with personals infos for professionals purposes</p>
 
@@ -27,6 +31,7 @@
 
 </div>
 
+
 ## Getting Started
 
 Semplice-theme is a simple design portfolio for frontend developer, inspired and more than that, following a kind of "design & structure guidelines" from the Vandana Pai's own portfolio, a senior product designer working at Spotify. Of course you can visit her site [lifeofpai.com](http://lifeofpai.com/), which I believe representing a perfect model of student case explanations, and efficient minimalist design ...
@@ -35,11 +40,6 @@ Inroducing myself, I'm Julien as Jowd another "unknown developer", self-educated
 
 [Visit My Portfolio](https://website-project-adress-link/)
 
-## Dependencies
-
-### Webpack, Babel, PostCSS...
-
-I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
 
 ## Case Study, for student case...
 
@@ -56,6 +56,8 @@ This project was also an opportunity, reading the design, to create a quick styl
 
 <div align="center">
 
+  <br />
+
   <img
     height="1591"
     width="680"
@@ -69,6 +71,16 @@ This project was also an opportunity, reading the design, to create a quick styl
 ### B.E.M Methodology, Atomic Design...
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam suscipit explicabo officia distinctio quas sint recusandae nobis tenetur, similique illum ex totam provident consectetur.
+
+
+
+## Dependencies
+
+### Webpack, Babel, PostCSS...
+
+I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
+
+
 
 ## Developing
 
