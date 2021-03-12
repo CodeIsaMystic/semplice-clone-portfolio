@@ -1,11 +1,11 @@
-.proj-coming {
+.proj-more {
   padding-bottom: 0;
   margin-top: 12.5rem;
 
   @mixin atXSmall {  padding-bottom: 5rem;  }
   @mixin atSmall {  padding-bottom: 0;  }
 
-  .projC {
+  .projM {
     width: 100%;
 
     &-child1 {

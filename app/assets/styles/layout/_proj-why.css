@@ -1,0 +1,33 @@
+.proj-why {
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
+  
+  @mixin atSmall {
+    width: 50%;
+    margin-left: 15%;
+  }
+  @mixin atMedium {
+    padding: 0 1rem;
+  }
+
+  .projW {
+
+    &H {
+      padding-bottom: 2.5rem;
+
+    }
+
+    &T {
+      padding-top: 1.5rem;
+
+      & p {
+        padding-bottom: 2rem;
+      }
+
+      & ol {
+        padding-left: 0;
+      }
+    }
+  }
+}
