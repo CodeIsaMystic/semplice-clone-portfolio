@@ -50,22 +50,14 @@ On project#.html files, I've tried to demonstrate some parts of problems I've wo
 Reading the Vai's Design was a nice experience, because it's so clean, with lots of "air space", defining patterns in a really great way. The components are clearly designed, the layouts are clean and the hard parts was to define a grid because of the richness and mix of patterns so different from each other. 
 I used the B.E.M Methodology, the S.M.A.C.S.S files architecture and various notions of designing websites attempting to have in mind a great visual of her design.
 
-### Semplice Theme's Style Guide
+### Created and Following a Style Guide
 
-<div align="center">
+This project was also an opportunity, reading the design, to create a quick style guide to introduce rules to follow. Only colors, logo, typo, buttons and links,  in order to have a quick overview of the styles used on this project...
 
-  <img
-    height="1591"
-    width="680"
-    alt="showing principals styles and design rules"
-    src="./design-assets/semplice-style-guide.svg"
-  />
-
-<br />
-
-</div>
 
 ### B.E.M Methodology, Atomic Design...
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam suscipit explicabo officia distinctio quas sint recusandae nobis tenetur, similique illum ex totam provident consectetur.
 
 ## Developing
 

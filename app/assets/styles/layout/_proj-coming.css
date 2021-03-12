@@ -19,7 +19,6 @@
       }
       @mixin atMedium {  margin: 0 3.875rem;  }
     }
-
     
     &-child2 {
       & p {  padding-top: 0;  }
