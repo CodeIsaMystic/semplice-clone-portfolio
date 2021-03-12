@@ -54,6 +54,17 @@ I used the B.E.M Methodology, the S.M.A.C.S.S files architecture and various not
 
 This project was also an opportunity, reading the design, to create a quick style guide to introduce rules to follow. Only colors, logo, typo, buttons and links,  in order to have a quick overview of the styles used on this project...
 
+<div align="center">
+
+  <img
+    height="1591"
+    width="680"
+    alt="thoth-logo"
+    src="./design-assets/semplice-style-guide.png"
+  />
+
+</div>
+
 
 ### B.E.M Methodology, Atomic Design...
 
