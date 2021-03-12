@@ -6,7 +6,7 @@
     height="80"
     width="80"
     alt="thoth-logo"
-    src="app/assets/img/icons/logo-thoth.svg"
+    src="./app/assets/img/icons/logo-thoth.svg"
   />
 </a>
 
@@ -19,7 +19,7 @@
     height="426"
     width="916"
     alt="screen of jowd portfolio"
-    src="app/assets/img/screen-portfolio/screen-semplice-portfolio.png"
+    src="./app/assets/img/screen-portfolio/screen-semplice-portfolio.png"
   />
 </a>
 
@@ -58,7 +58,7 @@ I used the B.E.M Methodology, the S.M.A.C.S.S files architecture and various not
     height="1591"
     width="680"
     alt="showing principals styles and design rules"
-    src="design-assets/semplice-style-guide.png"
+    src="./design-assets/semplice-style-guide.png"
   />
 
 <br />
