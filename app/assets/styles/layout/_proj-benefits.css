@@ -31,6 +31,7 @@
 
   .proj-BI {
     max-width: 100%;
+    margin: 0 auto;
 
     
     /*
@@ -42,19 +43,24 @@
     }
     */
     
-    &-child1, &-child2, &-child3 {
+  }
+    .projBI-child1, .projBI-child2, .projBI-child3 {
       width: 100%;
-      height: 500px;
       margin: 0 auto;
-      background-color: #fff;
 
       @mixin atSmall { 
         max-width: 33%;
-        width: 373px; 
       }
-
+      
       & h6 {
         margin: 0 auto;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+      
+      & div > img {
+        width: 373px; 
+
       }
     }
 
@@ -77,6 +83,5 @@
     }
     */
 
-  }
 
 }

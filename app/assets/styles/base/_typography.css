@@ -105,6 +105,10 @@
       font-size: 0.875rem;
       letter-spacing: .1rem; 
     }
+
+    &-medium {
+      font-weight: 400;
+    }
   }
   
   &-italic {
