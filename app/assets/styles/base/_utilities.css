@@ -73,28 +73,3 @@
 
 
 
-
-
-
-
-/*************************************************************
-**************************************************************
-**************************************************************
-*/
-/*  Decorative Mask on Mockups
-think,fix and test
-.u-mask-light { 
-  background: linear-gradient(180deg, rgba(244, 241, 239, 0) 82.82%, rgba(244, 241, 239, 0.65) 88.43%, #F4F1EF 93.71%, #F4F1EF 100%);
-
-  position: absolute;
-  width: 1142px;
-  height: 809px;
-  left: -11px;
-  top: 0px;
-  margin: 0 auto;
-
-  position: relative;
-  z-index: 1500;
-  height: 37.5rem;
-}
- */
