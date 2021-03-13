@@ -1,0 +1,82 @@
+.proj-benefits {
+  width: 100%;
+  
+  & h4 {
+    width: 100%;
+    padding-bottom: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    
+    @mixin atXSmall { 
+      line-height: 3rem; 
+      width: 452px;
+    }
+    @mixin atSmall  { 
+      width: 576px;
+      line-height: 3.5rem;
+    }
+  }
+  
+  & p {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    
+    @mixin atXSmall { text-align: center; }
+    @mixin atSmall { 
+      width: 60%;
+      padding: 0 1rem; 
+    }
+  }
+
+  .proj-BI {
+    max-width: 100%;
+
+    
+    /*
+    & > div { 
+      width: 100%;
+      
+      @mixin atSmall {  width: 75%;  }
+      @mixin atLarge {  width: 100%; }
+    }
+    */
+    
+    &-child1, &-child2, &-child3 {
+      width: 100%;
+      height: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+
+      @mixin atSmall { 
+        max-width: 33%;
+        width: 373px; 
+      }
+
+      & h6 {
+        margin: 0 auto;
+      }
+    }
+
+
+    /*
+    &-child1 {
+      & div > img {
+        width: 90%;
+        
+        @mixin atSmall { width: 85%; }
+      }
+    } 
+    
+    &-child2 {
+      & div > img {
+        width: 75%;
+        
+        @mixin atSmall { width: 70%; }
+      }
+    }
+    */
+
+  }
+
+}

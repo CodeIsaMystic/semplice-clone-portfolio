@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   
-  & h2 {
+  & h4 {
     width: 420px;
     text-align: left;
     margin: 12.5rem auto;
@@ -17,11 +17,10 @@
       text-align: center;
       line-height: 3.5rem;
     }
-    @mixin atMedium {  }
   }
 
   & div {
-    margin-top: 10rem;
+    margin-bottom: 12.5rem;
     width: 100%;
     padding: 0;
     margin-left: 0;
