@@ -2,6 +2,14 @@
   color: $colorDark;
   font-style: normal;
 
+  /*  font-weight typo  */
+  &-100 { font-weight: 100; }
+  &-200 { font-weight: 200; }
+  &-300 { font-weight: 300; }
+  &-400 { font-weight: 400; }
+  &-500 { font-weight: 500; }
+  &-700 { font-weight: 700; }
+
   /*  nav-link typo  */
   &-nl {
     font-family: $headingTypo;
@@ -19,7 +27,6 @@
   /*  headings typo  */
   &-heading {
     font-family: $headingTypo;
-    font-weight: 200;
     
     
     &-small {
@@ -46,7 +53,6 @@
   
   /* sub headings typo  */
   &-subheading {
-    font-weight: 200;
     font-family: $headingTypo;
     font-size: 1.8rem;
     line-height: 2rem;
@@ -60,7 +66,6 @@
 
   /*  text typos  */
   &-txt {
-    font-weight: 400;
     font-family: $mainTypo;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -68,7 +73,6 @@
   }
   
   &-txt2 {
-    font-weight: 400;
     font-family: $mainTypo;
     font-size: .9rem;
     line-height: 1.3rem;
@@ -76,7 +80,6 @@
   }
   
   &-txt3 {
-    font-weight: 300;
     font-family: $mainTypo;
     font-size: 1.125rem;
     line-height: 2rem;
@@ -87,7 +90,6 @@
   /*  texts styled typo  */
   &-muted {
     color: $colorGrayMuted;
-    font-weight: 500;
     font-family: $mainTypo;
     font-size: 0.875rem;
     text-transform: uppercase;
@@ -95,7 +97,6 @@
     letter-spacing: 0.15rem;
   }
   &-upper {
-    font-weight: 100;
     font-family: $mainTypo;
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -106,14 +107,12 @@
       letter-spacing: .1rem; 
     }
 
-    &-bold {
-      font-weight: 700;
+    &-large {
       font-size: 0.75rem;
     }
   }
   
   &-italic {
-    font-weight: 100;
     font-style: oblique;
     font-size: 1.5rem;
   } 
@@ -121,7 +120,6 @@
   /*   small texts typo  */  
   &-sm {
     font-family: $mainTypo;
-    font-weight: 400;
     font-size: 0.89rem;
     line-height: 0.89rem;
 
