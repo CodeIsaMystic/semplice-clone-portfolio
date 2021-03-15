@@ -8,7 +8,7 @@
     height="80"
     width="80"
     alt="thoth-logo"
-    src="./app/assets/img/icons/logo-thoth.svg"
+    src="./adds-project-assets/logo-thoth.svg"
   />
 </a>
 
@@ -23,7 +23,7 @@
     height="426"
     width="916"
     alt="screen of jowd portfolio"
-    src="./app/assets/img/screen-portfolio/screen-semplice-portfolio.png"
+    src="./adds-project-assets/screen-semplice-portfolio.png"
   />
 </a>
 
@@ -61,8 +61,8 @@ This project was also an opportunity, reading the design, to create a quick styl
   <img
     height="1591"
     width="680"
-    alt="thoth-logo"
-    src="./design-assets/semplice-style-guide.png"
+    alt="mockup style guidelines"
+    src="./adds-project-assets/semplice-style-guide.png"
   />
 
 </div>
