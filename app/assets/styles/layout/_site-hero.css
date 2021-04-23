@@ -1,8 +1,8 @@
 .hero {
   width: 100%;
   max-width: 520px;
-  margin: 0 auto 0 0;
-  padding: 10rem .5rem 0;
+  margin:  0 auto 0 0;
+  padding: 10rem 0 0;
   
   @mixin atXSmall  {  
     max-width: 640px;
