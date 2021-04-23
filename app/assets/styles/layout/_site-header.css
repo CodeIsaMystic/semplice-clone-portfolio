@@ -3,20 +3,21 @@
   top: 0;
   left: 0;
   width: 100%;
+  padding: 0 1.25rem;
   background: transparent;
   z-index: 150;
 
- padding: 0 1.25rem;
-
-  @mixin atSmall {
-    position: fixed;
-  }
+  @mixin atSmall { position: fixed; }
 
   /*  JAVASCRIPT  to handle  */
   &--is-expanded {
-    background-color: $colorGrayLight3;
+    position: fixed;
     height: 100vh;
     padding: 0;
+    background-color: $colorGrayLight3;
+
+    @mixin atXXSmall { border: 1.25rem solid #FFF; }
+    @mixin atXSmallY { border: 1.25rem solid #FFF; }
     
     }
 }

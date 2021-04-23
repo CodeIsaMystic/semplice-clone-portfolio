@@ -2,7 +2,7 @@
   cursor: pointer;
 
   .line {
-    height: .09rem;
+    height: 3px;
     width: 1.5rem;
     background-color: $colorDark;
     margin-bottom: .3rem;

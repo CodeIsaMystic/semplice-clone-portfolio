@@ -1,42 +1,24 @@
 .top-bar {
   position: relative;
   width: auto;
+  padding: 1.25rem 0 0;
+  
+  
+  @mixin atXXSmall { padding: 2.5rem 1.25rem 0; }
+  @mixin atXSmall  { padding: 6.5rem 1.25rem 2.625rem; }
+  @mixin atMedium  { padding: 6.5rem 1.875rem 2.625rem; }
+  @mixin atLarge   { padding: 6.5rem 0 2.625rem; }
+  @mixin atXSmallY { padding: 1.25rem 0 0; }
 
-  padding-top:    1.25rem;
-  padding-bottom: 0;
-  padding-left:   0;  
-  padding-right:  0;  
-  
-  
-  @mixin atXXSmall {
-    padding-top:   2.5rem;   
-    padding-left:  1.25rem;  
-    padding-right: 1.25rem;  
-  }
-  
-  @mixin atXSmall {
-    padding-top:    6.5rem;
-    padding-bottom: 2.625rem;    
-  }
-  
-  @mixin atMedium {  
-    padding-left:  1.875rem;
-    padding-right: 1.875rem;
-  }
+  &--is-visible {
+    padding: 0 1.25rem;
 
-  @mixin atLarge {  
-    padding-left:  0;
-    padding-right: 0;
-  }
-  
-  @mixin atXSmallY {
-    padding-top:    1.25rem; 
-    padding-bottom: 0;
+    @mixin atXXSmall {  padding-top:   1.25rem; }
+    @mixin atXSmall  {  padding-top:   5.25rem; }
+    @mixin atXSmallY {  padding-top:   1.25rem; }
   }
   
   .logo {
-    & img {
-      width: 40px;
-    }
+      & img { width: 40px; }
   }
 }

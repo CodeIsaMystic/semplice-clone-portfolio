@@ -3,7 +3,6 @@
   position: absolute;
   top: 33.2vh;
   left: 0;
-  padding-left: 0;
   padding-left: 1.25rem;
   opacity: 0;
   
@@ -24,21 +23,15 @@
     .nav-item {
       margin: 4px 0;
 
-      @mixin atMedium {
-        margin: 0;
-      }
+      @mixin atMedium { margin: 0; }
 
       &:first-child {
       padding-right: 0;
       
-        @mixin atMedium {
-          padding-right: 1.66rem;
-        }
+        @mixin atMedium { padding-right: 1.66rem; }
       }
     }
   } 
-
-
   
   &--is-visible {
     display: block;
