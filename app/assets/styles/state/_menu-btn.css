@@ -2,8 +2,8 @@
   cursor: pointer;
 
   .line {
-    height: 3px;
-    width: 1.5rem;
+    height: 2px;
+    width: 26px;
     background-color: $colorDark;
     margin-bottom: .3rem;
     transition: all .3s ease-out;
@@ -15,13 +15,13 @@
     display: block;
 
     .line-1 {
-      width: 1.3rem;
-      transform: rotate(-408deg) translate(-5px, 3px);
+      width: 26px;
+      transform: rotate(-408deg) translate(-5px, 5px);
     }
     .line-2 {  opacity: 0;  }
     .line-3 {
-      width: 1.3rem;
-      transform: rotate(405deg) translate(-6px, -5px);
+      width: 26px;
+      transform: rotate(405deg) translate(-5px, -5px);
     }
   }
 }
