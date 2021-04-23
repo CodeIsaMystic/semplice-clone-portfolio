@@ -4,25 +4,8 @@
   border: none;
   z-index: 1000;
   
-  @mixin atXXSmall {
-    border-right: 1.25rem solid #FFF;
-    border-left: 1.25rem solid #FFF;
-  }
-  
-  @mixin atXSmallY {
-    border-right: 1.25rem solid #FFF;
-    border-left: 1.25rem solid #FFF;
-  }
-
-  &-t {
-    @mixin atXXSmall {  border-top: 1.25rem solid #FFF;  }
-    @mixin atXSmallY {  border-top: 1.25rem solid #FFF;  }
-  }
-
-  &-b {
-    @mixin atXXSmall {  border-bottom: 1.25rem solid #FFF;  }
-    @mixin atXSmallY {  border: none;  }
-  }
+  @mixin atXXSmall { border: 1.25rem solid #FFF; }
+  @mixin atXSmallY { border: 1.25rem solid #FFF; }
 }
 
 
@@ -48,7 +31,7 @@
 
 
 
-/*   Utilities Paddings on Texts and Containers   */
+/*   Utilities Paddings on Texts    */
 .u-px {
   padding: 0 1.25rem;
   
