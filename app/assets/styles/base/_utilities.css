@@ -1,4 +1,4 @@
-/*   Main Website Border   */
+/*============ Main Website Border =============*/
 .u-border {
   width: 100%;
   border: none;
@@ -10,7 +10,7 @@
 
 
 
-/*   To Handling Backgrounds Colors   */
+/*============ Backgrounds Colors  ===============*/
 .u-bg         { background-color: $colorWhite; }
 .u-bgLight    { background-color: $colorLight; }
 .u-bgLight2   { background-color: $colorGrayLight3; }
@@ -20,7 +20,7 @@
 
 
 
-/*   Container    */
+/*========== Container ==========*/
 .u-container {
   height: auto;
   max-width: 100%;
@@ -32,27 +32,26 @@
 
 
 
-
-/*  To check on project !!!!  */
-.u-py {
-  padding: 1rem 0 0;
-
-  /* removed from benefits <p> !!!!  */
-  @mixin atSmall   { padding: 1.5rem 0 1rem;  }
-  @mixin atXSmallY { padding: 1rem 0 0;  }
-
-  /*  = u-pt-md !!!  */
-  &-lg { padding: 12.5rem 0; }
-}
-
-
-/*   Utilities Margins & Paddings  */
-/*   Paddings    */
+/* ===============================
+  Utilities Margins & Paddings   /
+        PADDINGS               */
 .u-px {
   padding: 0 1.25rem;
   
   @mixin atMedium {  padding: 0 1.875rem;  } 
 }
+
+
+
+.u-py {
+  padding: 1rem 0 0;
+
+  @mixin atSmall   { padding: 1.5rem 0 1rem;  }
+  @mixin atXSmallY { padding: 1rem 0 0;  }
+}
+
+
+
 
 .u-pt {
   &-xxs{  padding-top: 1.5rem; }
@@ -67,7 +66,13 @@
   }
 }
 
+
+
+
+
 .u-pb {
+  padding-bottom: .75rem;
+
   &-xxs {  padding-bottom: 2rem;  }
   &-xs  {  padding-bottom: 3rem;  }
   &-md  {  
@@ -80,7 +85,10 @@
 }
 
 
-/*    Margins    */
+
+
+
+/*=========== MARGINS ============*/
 .u-mb {
   &-xxs {
     margin-bottom: 2rem;
@@ -98,46 +106,19 @@
 
 
 
+/*======== U-Lists Resets ==========*/
+.u-list-res { padding-left: 0; }
 
 
-/*  H6 Padding Bottom  */
-.u-h6-pb { padding: 0 0 .75rem; }
-/*  Text Margin Bottom  */
-.u-t-mb  { padding: 0 0 2rem; }
-
-
-
-
-
-
-
-/* U-Lists Resets */
-.u-list-res {
-  padding-left: 0;
-}
-/* Lists disc items */
+/*======== Lists disc items ========*/
 .u-li-disc {
   list-style: disc;
   margin-left: 3.5rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-/*  Text Center  */
+/*========= Text Center ==========*/
 .u-tc { text-align: center; }
 .u-tc-xs {  
   @mixin atXSmall { text-align: center; }
 }
-
-
-/*.u-tc-sm {  
-@mixin atSmall  { text-align: center; }
-}*/

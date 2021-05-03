@@ -1,8 +1,9 @@
+/*=============== TYPO =================*/
 .typo {
   color: $colorDark;
   font-style: normal;
 
-  /*  font-weight typo  */
+  /*==== font-weight typo ====*/
   &-100 { font-weight: 100; }
   &-200 { font-weight: 200; }
   &-300 { font-weight: 300; }
@@ -10,7 +11,7 @@
   &-500 { font-weight: 500; }
   &-700 { font-weight: 700; }
 
-  /*  nav-link typo  */
+  /*==== nav-link typo =====*/
   &-nl {
     font-family: $headingTypo;
     font-size: 2.5rem;
@@ -24,7 +25,7 @@
   }
 
 
-  /*  headings typo  */
+  /*====== headings typo ======*/
   &-heading {
     font-family: $headingTypo;
     
@@ -51,7 +52,7 @@
   }
 
   
-  /* sub headings typo  */
+  /*======= sub headings typo ========*/
   &-subheading {
     font-family: $headingTypo;
     font-size: 1.8rem;
@@ -64,7 +65,7 @@
   }
   
 
-  /*  text typos  */
+  /*========= text typos ========*/
   &-txt {
     font-family: $mainTypo;
     font-size: 1rem;
@@ -87,7 +88,7 @@
   }
   
 
-  /*  texts styled typo  */
+  /*======== texts styled typo ========*/
   &-muted {
     color: $colorGrayMuted;
     font-family: $mainTypo;
@@ -117,7 +118,7 @@
     font-size: 1.5rem;
   } 
 
-  /*   small texts typo  */  
+  /*========= small texts typo =========*/  
   &-sm {
     font-family: $mainTypo;
     font-size: 0.89rem;
@@ -129,7 +130,3 @@
     }
   }
 }
-  
-
-
-
