@@ -1,6 +1,6 @@
 /*  typography  */
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
-$headingTypo:                   'Canela', Helvetica, serif;
+$headingTypo:                   'Canela', 'Nanum Myeongjo', serif;
 
 /*   color   */
 $colorDark:                     #222222;
