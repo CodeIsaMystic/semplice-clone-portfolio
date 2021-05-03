@@ -37,6 +37,8 @@
   
   @mixin atMedium {  padding: 0 1.875rem;  } 
 }
+
+/* u text py !!?  */
 .u-py {
   padding: 1rem 0 0;
 
@@ -50,6 +52,13 @@
   &-md {  padding-top: 12.5rem; }
 }
 
+
+/*  H6 Padding Bottom  */
+.u-h6-pb { padding: 0 0 .75rem; }
+
+
+/*  Text Margin Bottom  */
+.u-t-mb { padding: 0 0 2rem; }
 
 
 

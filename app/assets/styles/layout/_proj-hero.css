@@ -9,26 +9,26 @@
   }
   @mixin atSmall   {  height: 100vh; }
   @mixin atXSmallY {  padding-top: 5rem;  }
-  
-}
 
-.projH {
-  width: 100%;  
-  text-align: center;
-
-  & > h1 { 
-    padding: 1rem 0 3.5rem; 
-
-    @mixin atSmall   { padding: 1.5rem 0 1rem; }
-    @mixin atXSmallY { padding: 1rem 0 0; }
-  }
-  
-  & > div {
-    max-width: 70rem;
-    margin: 0 auto;
-
-    & > img {
-      @mixin atXSmallY {  width: 85%;  }
+  &__content {
+    width: 100%;  
+    text-align: center;
+    
+    & > h1 { 
+      padding: 1rem 0 3.5rem; 
+    
+      @mixin atSmall   { padding: 1.5rem 0 1rem; }
+      @mixin atXSmallY { padding: 1rem 0 0; }
+    }
+    
+    & > div {
+      max-width: 70rem;
+      margin: 0 auto;
+    
+      & > img {
+        @mixin atXSmallY {  width: 85%;  }
+      }
     }
   }
+  
 }

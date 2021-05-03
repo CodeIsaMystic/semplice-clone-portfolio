@@ -1,0 +1,31 @@
+.align-x {
+  width: 100%;
+
+  &--66 {
+    width: 100%;
+    margin-right: 3.125rem;
+    
+    @mixin atSmall {
+      width: 66%;
+      margin-right: 4.125rem;
+      padding-right: 1rem;
+    }
+  }
+
+  &--33 {
+    width: 100%;
+    margin-top: 2rem;
+    
+    @mixin atSmall {
+      width: 33.3%;
+      margin-top: 0;
+    }
+  }
+
+  &--img-100 {
+    width: 100%;
+    padding-top: 5rem;
+    
+    @mixin atSmall { padding-top: 12.5rem ; }
+  }
+}

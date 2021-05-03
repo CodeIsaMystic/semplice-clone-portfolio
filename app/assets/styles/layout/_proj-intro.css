@@ -5,39 +5,3 @@
   @mixin atXSmall  { padding-top: 24.5rem; }
   @mixin atMedium  { padding-top: 32rem; }
 }
-
-.projIH {
-  width: 100%;
-
-  /*  to test & checkout more right space on small devices and enough from Small to large */
-  &-child1 {
-    width: 100%;
-    margin-right: 3.125rem;
-    
-    @mixin atSmall {
-      width: 66%;
-      margin-right: 4.125rem;
-      padding-right: 1rem;
-    }
-  }
-
-  &-child2 {
-    width: 100%;
-    margin-top: 2rem;
-    
-    @mixin atSmall {
-      width: 33.3%;
-      margin-top: 0;
-    }
-
-    & h6 {  padding: 0 0 .75rem;  }
-    & div:not(:last-child) {  margin-bottom: 2rem;  }
-  }
-}
-
-.projII {
-  width: 100%;
-  padding-top: 5rem;
-
-  @mixin atSmall { padding-top: 12.5rem ; }
-}

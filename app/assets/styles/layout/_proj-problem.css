@@ -2,7 +2,7 @@
   max-width: 100%;
   margin-left: 0;
   
-  .projPH {
+  &__head {
     width: 100%;
     padding: 0;
 
@@ -15,7 +15,7 @@
     & h4 { margin-top: 1.625rem; }
   }
 
-  .projPT {
+  &__text {
     margin-top: 10rem;
     width: 100%;
     padding: 0;
@@ -68,8 +68,12 @@
     &-child2 {
       & div > img {
         width: 75%;
+        padding-top: 12.5rem;
 
-        @mixin atSmall { width: 70%; }
+        @mixin atSmall { 
+          width: 70%;
+          padding-top: 0; 
+        }
       }
 
       & > p { padding-top: 3rem; }
