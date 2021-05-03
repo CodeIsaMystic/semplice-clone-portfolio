@@ -41,12 +41,12 @@
     align-items: top;
   } 
 }
+
 .flx-rowOnSM {
   display: flex;
   flex-direction: column;
 
   @mixin atSmall {  flex-direction: row;  }
-  /*@mixin atMediumY { flex-direction: row; }*/
 }
 
 

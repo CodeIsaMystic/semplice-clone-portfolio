@@ -9,6 +9,8 @@
 @import 'base/_typography';
 @import 'base/_flex';
 @import 'base/_utilities';
+@import 'base/_align-x';
+@import 'base/_align-y';
 @import 'base/_offset-txt';
 
 
@@ -20,17 +22,10 @@
 @import 'layout/_about-gallery';
 @import 'layout/_proj-hero';
 @import 'layout/_proj-intro';
-@import 'layout/_proj-problem';
-@import 'layout/_proj-design';
-@import 'layout/_proj-why';
-@import 'layout/_proj-focus';
-@import 'layout/_proj-benefits';
-@import 'layout/_proj-more';
 @import 'layout/_proj-footer';
 @import 'layout/_site-footer';
 
 
-@import 'modules/_align-x';
 @import 'modules/_top-bar';
 @import 'modules/_navbar';
 @import 'modules/_img-box';

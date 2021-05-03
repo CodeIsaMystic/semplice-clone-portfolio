@@ -1,0 +1,24 @@
+.align-y {
+  width: 100%;
+  
+  @mixin atSmall { width: 75%; }
+  @mixin atLarge { width: 100%; }
+
+  &__content {
+    &--1img {
+      width: 90%;
+      @mixin atSmall { width: 85%; }
+    }
+
+    &--2img {
+      width: 75%;
+      @mixin atSmall {  width: 70%; }
+    }
+
+    &--txt {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

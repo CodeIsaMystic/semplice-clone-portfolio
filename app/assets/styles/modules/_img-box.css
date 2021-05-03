@@ -50,4 +50,12 @@
       @mixin atSmall {  padding: 0 1rem;  }
     }
   }
+
+  &--pres50 {
+    height: 80%;
+    margin: 0 auto;
+
+    @mixin atSmall {  max-height: 29.625rem;  }
+    @mixin atLarge {  max-height: 33.375rem;  } 
+  }
 }

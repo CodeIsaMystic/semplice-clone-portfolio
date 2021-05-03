@@ -31,37 +31,113 @@
 
 
 
-/*   Utilities Paddings on Texts    */
+
+
+/*  To check on project !!!!  */
+.u-py {
+  padding: 1rem 0 0;
+
+  /* removed from benefits <p> !!!!  */
+  @mixin atSmall   { padding: 1.5rem 0 1rem;  }
+  @mixin atXSmallY { padding: 1rem 0 0;  }
+
+  /*  = u-pt-md !!!  */
+  &-lg { padding: 12.5rem 0; }
+}
+
+
+/*   Utilities Margins & Paddings  */
+/*   Paddings    */
 .u-px {
   padding: 0 1.25rem;
   
   @mixin atMedium {  padding: 0 1.875rem;  } 
 }
 
-/* u text py !!?  */
-.u-py {
-  padding: 1rem 0 0;
-
-  @mixin atSmall   { padding: 1.5rem 0 1rem;  }
-  @mixin atXSmallY { padding: 1rem 0 0;  }
-
-  &-lg { padding: 12.5rem 0; }
-}
 .u-pt {
+  &-xxs{  padding-top: 1.5rem; }
+  &-xs {  padding-top: 3rem; }
   &-sm {  padding-top: 4.5rem; }
-  &-md {  padding-top: 12.5rem; }
+  &-md {  
+    padding-top: 12.5rem; 
+
+    &--untilSM {
+      @mixin atSmall { padding-top: 0; }
+    }
+  }
 }
+
+.u-pb {
+  &-xxs {  padding-bottom: 2rem;  }
+  &-xs  {  padding-bottom: 3rem;  }
+  &-md  {  
+    padding-bottom: 12.5rem;
+    
+    &--untilSM {
+      @mixin atSmall {  padding-bottom: 0;  }
+    }
+  }
+}
+
+
+/*    Margins    */
+.u-mb {
+  &-xxs {
+    margin-bottom: 2rem;
+
+    @mixin atSmall { margin-bottom: 0; }
+  }
+  &-md  {  margin-bottom: 12.5rem;  }
+}
+
+
+
+
+
+
+
+
+
 
 
 /*  H6 Padding Bottom  */
 .u-h6-pb { padding: 0 0 .75rem; }
-
-
 /*  Text Margin Bottom  */
-.u-t-mb { padding: 0 0 2rem; }
+.u-t-mb  { padding: 0 0 2rem; }
 
 
 
 
 
 
+
+/* U-Lists Resets */
+.u-list-res {
+  padding-left: 0;
+}
+/* Lists disc items */
+.u-li-disc {
+  list-style: disc;
+  margin-left: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  Text Center  */
+.u-tc { text-align: center; }
+.u-tc-xs {  
+  @mixin atXSmall { text-align: center; }
+}
+
+
+/*.u-tc-sm {  
+@mixin atSmall  { text-align: center; }
+}*/

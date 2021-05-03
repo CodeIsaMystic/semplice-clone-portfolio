@@ -1,0 +1,138 @@
+.align-x {
+  width: 100%;
+  margin: 0;
+
+
+  /*   layout 100%   */
+  &--100 {
+    width: 100%;
+
+    @mixin atSmall {
+      width: 75%;
+      margin-left: 25%;
+    }
+  }
+
+
+
+  /*   layout 66% / 33%   */
+  &--66 {
+    width: 100%;
+    
+    @mixin atSmall { width: 66%;}
+
+    &--heading  { 
+      margin-right: 3.125rem;
+      
+      @mixin atSmall {
+        margin-right: 4.125rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+  &--33 {
+    width: 100%;
+    
+    @mixin atSmall {
+      width: 33.3%;
+    }
+  }
+
+
+
+  /*  layout 60% / 40%  */
+  &--60 {
+    @mixin atSmall {
+      width: 60%;
+      margin-right: 1rem;
+    }
+    @mixin atMedium { margin-right: 3.875rem; }
+  }
+  &--40 {
+    padding-bottom: 1.5rem;
+
+    @mixin atSmall {
+      width: 40%;
+      margin: 0 1rem;
+      padding-bottom: 0;
+    }
+    @mixin atMedium { margin: 0 3.875rem; }
+  }
+
+  /*   layout image full width  */
+  &--img-100 {
+    width: 100%;
+    padding-top: 5rem;
+    
+    @mixin atSmall { padding-top: 12.5rem ; }
+  }
+
+  /*  layout image 33% width  */
+  &--img-33 {
+    max-width: 100%;
+    
+    @mixin atSmall { max-width: 33%; }
+    
+    & div {
+      max-width:100%;
+      margin: 0 auto;
+
+      & > img {  max-width: 373px;  }
+    }
+  }
+
+
+  /*  layout shifted content   */
+  &--shifted-75 {
+    width: 100%;
+    padding: 0;
+
+    @mixin atSmall { 
+      width: 75%;
+      padding: 0 1rem; 
+      margin-left: 5.3125rem;
+    }
+
+  }
+
+  &--shifted-60 {
+    margin-top: 10rem;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    
+    @mixin atSmall { 
+      width: 60%;
+      padding: 0 1rem; 
+      margin-left: 33%;
+    }
+  }
+
+  &--shifted-57 {
+    width: 100%;
+    margin: 0 auto;
+    
+    @mixin atSmall { width: 57%; }
+  }
+
+  &--shifted-50 {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    
+    @mixin atSmall {
+      width: 50%;
+      margin-left: 15%;
+    }
+    @mixin atMedium { padding: 0 1rem; }
+
+    &--max {
+      margin-left: 0;
+
+      @mixin atSmall {
+        margin-left: 40%;
+      }
+    }
+
+  }
+}
