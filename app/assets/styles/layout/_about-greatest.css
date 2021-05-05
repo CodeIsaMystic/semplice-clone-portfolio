@@ -1,17 +1,12 @@
 .greatest {
-  width: 100%;
   padding-bottom: 4.45rem;
   margin-top: 10rem auto 0;
   
   @mixin atXSmall {  margin: 6.5rem auto 0;  }
-  /* @mixin atXSmall {  margin-top: 7rem;  } */
   @mixin atSmall {  margin-top: 3.5rem;  }
   
   .col {
-    width: 100%;
-
     @mixin atSmall {
-      width: 33.3%;
 
       &:nth-of-type(2) {  margin-right: 20px;  }
 
