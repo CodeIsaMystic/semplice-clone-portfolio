@@ -34,18 +34,6 @@
 }
 
 
-.links-up {
-  display: inline-block;
-  line-height: 1.1rem;
-  transition: all .3s ease-in-out;
-  
-  &:hover,
-  &:focus {
-    box-shadow: inset 0 -.9rem 0 0 $colorDark;
-    color: $colorWhite;
-  } 
-}
-
 .links-hover {
   color: $colorGrayLight;
   transition: color .2s linear;
@@ -54,5 +42,3 @@
     color: $colorDark;
   }
 }
-
-
