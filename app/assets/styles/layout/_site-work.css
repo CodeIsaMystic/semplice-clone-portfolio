@@ -23,11 +23,5 @@
     }
     @mixin atMedium { margin-top: 6.5rem; }
     @mixin atLarge  { margin-top: 7.5rem; }
-
-    & div {
-      padding: 1.3rem 0 1rem;
-      
-      @mixin atSmall {  padding: 0 0 1.3rem;  }
-    }
   }
 }
