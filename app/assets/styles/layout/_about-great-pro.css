@@ -1,6 +1,6 @@
-.greatest {
-  padding-bottom: 4.45rem;
+.great-pro {
   margin-top: 10rem auto 0;
+  padding-bottom: 4.45rem;
   
   @mixin atXSmall {  margin: 6.5rem auto 0;  }
   @mixin atSmall {  margin-top: 3.5rem;  }
