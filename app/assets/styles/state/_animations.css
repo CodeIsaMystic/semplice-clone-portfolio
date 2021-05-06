@@ -1,3 +1,5 @@
+ /*=== progress-bar ===*/
+/*  ===> to implement */
 .progress-bar {
   display: none;
   /* display: block;*/
@@ -29,11 +31,13 @@
   }
 }
 
+/*=== nav-item active ===*/
 .nav-item  > .is-active {
     color: $colorDark!important;
 }
 
-
+ /*=== links hover ===*/
+/* ===> to add new styles button */
 .links-hover {
   color: $colorGrayLight;
   transition: color .2s linear;

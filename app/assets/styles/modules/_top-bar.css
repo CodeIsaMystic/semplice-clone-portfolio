@@ -1,21 +1,21 @@
+/*===  top-bar  ===*/
 .top-bar {
   position: relative;
   width: auto;
-  padding: 1.25rem 0 0;
+  padding: 1.25rem 0;  
   
-  
-  @mixin atXXSmall { padding: 2.5rem 1.25rem 0; }
-  @mixin atXSmall  { padding: 6.5rem 1.25rem 2.625rem; }
-  @mixin atMedium  { padding: 6.5rem 1.875rem 2.625rem; }
-  @mixin atLarge   { padding: 6.5rem 0 2.625rem; }
-  @mixin atXSmallY { padding: 1.25rem 0 0; }
+  @mixin atXXSmall { padding: 2.5rem 1.25rem ; }
+  @mixin atXSmall  { padding: 6.5rem 1.25rem 6.5rem; }
+  @mixin atMedium  { padding: 6.5rem 1.875rem 6.5rem; }
+  @mixin atLarge   { padding: 6.5rem 0 6.5rem; }
+  @mixin atXSmallY { padding: 1.25rem 0; }
 
   &--is-visible {
-    padding: 1.25rem 1.25rem 0;
+    padding: 1.25rem 1.25rem;
 
-    @mixin atXXSmall {  padding-top:   1.25rem; }
-    @mixin atXSmall  {  padding-top:   5.25rem; }
-    @mixin atXSmallY {  padding-top:   1.25rem; }
+    @mixin atXXSmall {  padding:   1.25rem 0; }
+    @mixin atXSmall  {  padding:   5.25rem 0; }
+    @mixin atXSmallY {  padding:   1.25rem 0; }
   }
   
   .logo {

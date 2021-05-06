@@ -1,4 +1,4 @@
-/*============ Main Website Border =============*/
+/*===Main Website Border ===*/
 .u-border {
   width: 100%;
   border: none;
@@ -10,7 +10,7 @@
 
 
 
-/*============ Backgrounds Colors  ===============*/
+/*=== Backgrounds Colors ===*/
 .u-bg         { background-color: $colorWhite; }
 .u-bgLight    { background-color: $colorLight; }
 .u-bgLight2   { background-color: $colorGrayLight3; }
@@ -20,7 +20,7 @@
 
 
 
-/*========== Container ==========*/
+/*=== Container ===*/
 .u-container {
   height: auto;
   max-width: 100%;
@@ -41,8 +41,6 @@
   @mixin atMedium {  padding: 0 1.875rem;  } 
 }
 
-
-
 .u-py {
   padding: 1rem 0 0;
 
@@ -54,7 +52,6 @@
 
 
 .u-pt {
-  
   &-xxs{  padding-top: 1.5rem; }
   &-xs {  padding-top: 3rem; }
   &-sm {  padding-top: 4.5rem; }
@@ -66,7 +63,6 @@
     }
   }
 }
-
 
 
 
@@ -89,7 +85,7 @@
 
 
 
-/*=========== MARGINS ============*/
+/*=== MARGINS ===*/
 .u-mb {
   &-xxs {
     margin-bottom: 2rem;
@@ -107,18 +103,16 @@
 
 
 
-/*======== U-Lists Resets ==========*/
+/*===U-Lists Resets ===*/
 .u-list-res { padding-left: 0; }
 
-
-/*======== Lists disc items ========*/
+/*=== Lists disc items ===*/
 .u-li-disc {
   list-style: disc;
   margin-left: 3.5rem;
 }
 
-
-/*========= Text Center ==========*/
+/*=== Text Center ===*/
 .u-tc { text-align: center; }
 .u-tc-xs {  
   @mixin atXSmall { text-align: center; }

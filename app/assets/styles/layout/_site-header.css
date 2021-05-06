@@ -1,15 +1,19 @@
+/*=== site-header ===*/
 .site-header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0 1.25rem;
-  background: transparent;
+  /*background: transparent;*/
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0) 100%);
   z-index: 150;
+
+
 
   @mixin atSmall { position: fixed; }
 
-  /*  JAVASCRIPT  to handle  */
   &--is-expanded {
     position: fixed;
     height: 100vh;
