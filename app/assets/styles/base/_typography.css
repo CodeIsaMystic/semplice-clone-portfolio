@@ -1,4 +1,4 @@
-/*=============== TYPO =================*/
+/*====== TYPO ======*/
 .typo {
   color: $colorDark;
   font-style: normal;
@@ -25,7 +25,7 @@
   }
 
 
-  /*====== headings typo ======*/
+  /*===== headings typo =====*/
   &-heading {
     font-family: $headingTypo;
     
@@ -52,7 +52,7 @@
   }
 
   
-  /*======= sub headings typo ========*/
+  /*=== sub headings typo ===*/
   &-subheading {
     font-family: $headingTypo;
     font-size: 1.8rem;
@@ -65,7 +65,7 @@
   }
   
 
-  /*========= text typos ========*/
+  /*=== text typos ===*/
   &-txt {
     font-family: $mainTypo;
     font-size: 1rem;
@@ -88,7 +88,7 @@
   }
   
 
-  /*======== texts styled typo ========*/
+  /*=== texts styled typo ===*/
   &-muted {
     color: $colorGrayMuted;
     font-family: $mainTypo;
@@ -118,7 +118,7 @@
     font-size: 1.5rem;
   } 
 
-  /*========= small texts typo =========*/  
+  /*=== small texts typo ===*/  
   &-sm {
     font-family: $mainTypo;
     font-size: 0.89rem;

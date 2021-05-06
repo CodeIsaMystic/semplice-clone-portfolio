@@ -1,8 +1,9 @@
-/*  typography  */
+/*===  typography  ===*/
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
-$headingTypo:                   'Canela', 'Nanum Myeongjo', serif;
+$headingTypo:                   'Canela', 'Spectral', serif;
+/*$headingTypo:                   'Canela', 'Spectral', serif;*/
 
-/*   color   */
+/*===   color   ===*/
 $colorDark:                     #222222;
 $colorDarkHover:                #545454;
 $colorWhite:                    #FFFFFF;
