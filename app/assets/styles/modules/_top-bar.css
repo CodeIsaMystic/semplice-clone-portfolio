@@ -13,9 +13,9 @@
   &--is-visible {
     padding: 1.25rem 1.25rem;
 
-    @mixin atXXSmall {  padding:   1.25rem 0; }
-    @mixin atXSmall  {  padding:   5.25rem 0; }
-    @mixin atXSmallY {  padding:   1.25rem 0; }
+    @mixin atXXSmall {  padding:   1.25rem 1.25rem; }
+    @mixin atXSmall  {  padding:   5.25rem 1.25rem; }
+    @mixin atXSmallY {  padding:   1.25rem 1.25rem; }
   }
   
   .logo {
