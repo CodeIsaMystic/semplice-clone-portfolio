@@ -11,6 +11,9 @@
   &-500 { font-weight: 500; }
   &-700 { font-weight: 700; }
 
+  /*==== underline ====*/
+  &-und { text-decoration: underline;}
+
   /*==== nav-link typo =====*/
   &-nl {
     font-family: $headingTypo;
