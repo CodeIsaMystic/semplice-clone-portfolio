@@ -111,6 +111,7 @@
   list-style: disc;
   margin-left: 3.5rem;
 }
+.u-li-circle { list-style: inside; }
 
 /*=== Text Center ===*/
 .u-tc { text-align: center; }
