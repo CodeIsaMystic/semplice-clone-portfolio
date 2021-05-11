@@ -149,6 +149,11 @@
       <div class="u-container u-pt-md">
         <section class="u-px">
 
+          <!--  badge dev process  --->
+          <div class="align-x--img-100">
+            <img src="assets/img/badge-dev-process.png" alt="badge explaining the project is in development">
+          </div>
+
           <div class="align-x--shifted-75">
             <h6 class="typo typo-500 typo-muted">Problème</h6>
             <h4 class="typo typo-200 typo-subheading u-pt-xxs">
@@ -194,12 +199,19 @@
 
 
           <div class="flx-rowOnSM">
-            <h4 class="align-x--66 align-x--66--heading typo typo-200 typo-subheading">
+            <h4 class="align-x--66 align-x--66--heading typo typo-200 typo-subheading u-mb-xxs">
               Bella Design est un projet inspiré du site web "stockdutchdesign.com". L'objectif était d'implémenter plusieurs librairies Javascript sur un même projet et de tenter de se rapprocher du model.
             </h4>
 
             
             <div class="align-x--33 txt-box">
+              <h6 class="typo typo-500 typo-muted u-pb">Objectif</h6>
+              <div class="u-pb-xxs">
+                <p class="typo typo-400 typo-txt2">
+                  Implémenter différentes animations avec différentes librairies sur un même projet.
+                </p>
+              </div>
+
               <h6 class="typo typo-500 typo-muted u-pb">Stack</h6>
               <div class="u-pb-xxs">
                 <p class="typo typo-400 typo-txt2">Greensock & BarbaJS</p>
@@ -220,10 +232,11 @@
 
           <div class="align-x--66">
             <p class="typo typo-300 typo-txt3 u-pt-xs">
-              Maiores exercitationem enim error debitis laboriosam architecto officiis voluptatum consectetur iure aut mollitia magni placeat suscipit molestiae sint repellat, consequuntur at deleniti odit deserunt atque, voluptates sit.
+              Il a été utilisé <span class="typo-700">4 librairies sur ce projet</span>. <span class="typo-700"></span>La principale reste Greensock</span>, avec laquelle est géré la quasi-totalité des animations. Greensock est très utile pour cela, elle permet très rapidement l'implémentation d'animations et de les combiner les unes aprés les autres. 
+              Pour les transitions, <span class="typo-700">la librairie BarbaJS</span> est idéale pour les changements de pages, rajoutant des naimations lors des changements de pages, changements de styles CSS. Elle se marie très bien avec Greensock, formant à elles deux, déjà un bon combo.
             </p>
             <p class="typo typo-300 typo-txt3 u-pt-xxs">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem enim error debitis laboriosam architecto officiis voluptatum consectetur iure aut mollitia magni placeat suscipit molestiae sint repellat, consequuntur at deleniti odit deserunt atque, voluptates sit. Exercitationem eos ducimus libero qui illo asperiores dolorum ipsam mollitia facilis aliquid. Corporis, rerum sequi.
+              Pour le reste, c'est plus un souci de finaliser le produit avec des librairies qui permettent <span class="typo-700">d'animer la "scrollbar" ou bien de charger les images</span> d'une certaine manière...
             </p>
           </div>
 
@@ -244,7 +257,7 @@
         <section class="u-px">
 
           <div class="flx-rowOnSM">
-            <div class="align-x--66 align-x--66--headingu u-mb-xxs">
+            <div class="align-x--66 align-x--66--heading u-mb-xxs">
               <h4 class="typo typo-200 typo-subheading">
                 Pen Reveal Animation, est un projet qui prend en main le plugin ScrollTrigger de la librairie Greensock. Ce projet reprend le concept d'un site web qui justement décomposait le stylo sur une section de sa page principale lors du "scrolling".
               </h4>
@@ -276,8 +289,11 @@
           </div>
 
           <div class="align-x--66">
-            <p class="typo typo-300 typo-txt3 u-pt-xxs">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem enim error debitis laboriosam architecto officiis voluptatum consectetur iure aut mollitia magni placeat suscipit molestiae sint repellat, consequuntur at deleniti odit deserunt atque, voluptates sit. Exercitationem eos ducimus libero qui illo asperiores dolorum ipsam mollitia facilis aliquid. Corporis, rerum sequi.
+            <p class="typo typo-300 typo-txt3 u-pt-xs">
+              <span class="typo-700">Le plugin "ScrollTrigger"</span> de Greensock peut réaliser de belles choses avec de simples réglages. Sur ce projet, il a été question de placer des points de fixation. <br> Tout d'abord, <span class="typo-700">régler la structure HTML, les styles & les images</span>. Puis, sur le viewport il s'agissait <span class="typo-700">des fixer des "trigger points" qui déclencherai l'animation</span>.  
+            </p>
+              <p class="typo typo-300 typo-txt3 u-pt-xxs">
+              Gràce à ses "markers" prévus pour le développement, il a été assez facile à mettre en place le déploiement. Cela a permis d'avoir des repères pour faire démarrer le mouvement de l'image et de la faire stopper pour passer alors à l'étape suivante.
             </p>
           </div>
           
@@ -337,7 +353,11 @@
 
           <div class="align-x--66">
             <p class="typo typo-300 typo-txt3 u-pt-xs">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem enim error debitis laboriosam architecto officiis voluptatum consectetur iure aut mollitia magni placeat suscipit molestiae sint repellat, consequuntur at deleniti odit deserunt atque, voluptates sit. Exercitationem eos ducimus libero qui illo asperiores dolorum ipsam mollitia facilis aliquid. Corporis, rerum sequi.
+              Les vecteurs sont de plus en plus utilisés sur le web. Ils sont légers en terme de chargement, avec une bonne qualité visuelle et surtout permettent une manipulation avec plus de facilité qu'avec une image par exemple. 
+              Cependant, dès lors qu'<span class="typo-700">un projet ambitieux a besoin d'animer des SVG</span>, cela peut devenir très longs. Voici une raison de plus pourquoi <span class="typo-700">Greensock est devenue une librairie très populaire</span>. Avec cette perpétuelle volonté de nous faciliter le travail, GSAP montre qu'il s'adapte très bien à ce genre de cas. 
+            </p>
+            <p class="typo typo-300 typo-txt3 u-pt-xxs">
+              Il a été d'une grande aide que de pouvoir compter sur GSAP, que ce soit pour donc <span class="typo-700">manipuler ce complexe SVG</span> mais également pour <span class="typo-700">l'utilisation du "TextPlugin"...</span> 
             </p>
           </div>
             
