@@ -63,6 +63,20 @@
       @mixin atSmall { padding-top: 0; }
     }
   }
+  &-lg {
+    padding-top: 12.5rem;
+
+    @mixin atSmall {
+      padding-top: 18rem;
+    }
+  }
+  &-xl {
+    padding-top: 20rem;
+
+    @mixin atSmall {
+      padding-top: 25rem;
+    }
+  }
 }
 
 
