@@ -132,4 +132,12 @@
       line-height: 1rem;
     }
   }
+
+}
+
+
+/*=== links disabled ===*/
+.disabled {
+  color: rgba($colorDark, .75);
+  cursor: not-allowed;
 }
