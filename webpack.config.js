@@ -18,8 +18,6 @@ class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap('Copy images', function() {
       fse.copySync('./app/assets/img', './docs/assets/img');
-      fse.copySync('./app/browserconfig.xml', './docs/browserconfig.xml');
-      fse.copySync('./app/site.webmanifest', './docs/site.webmanifest');
     });
   }
 }
