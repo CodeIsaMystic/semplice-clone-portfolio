@@ -8,7 +8,7 @@
     height="80"
     width="80"
     alt="thoth-logo"
-    src="./adds-project-assets/logo-thoth.svg"
+    src="./project-assets/logo-thoth.svg"
   />
 </a>
 
@@ -23,7 +23,7 @@
     height="426"
     width="916"
     alt="screen of jowd portfolio"
-    src="./adds-project-assets/screen-semplice-portfolio.png"
+    src="./project-assets/screen-semplice-portfolio.png"
   />
 </a>
 
@@ -43,8 +43,7 @@ Semplice-theme is a simple design portfolio for frontend developer, inspired and
 
 Inroducing myself, I'm Julien as Jowd another "unknown developer", self-educated from France, trying to upgrade my skills and experience learning with some of the best personnalities, professionnals, projects and contents I think we have chance to cross over the web.  
 
-[Visit My Portfolio](https://website-project-adress-link/)
-
+[Visit My Portfolio]([https://website-project-adress-link/](https://codeisamystic.github.io/semplice-clone-portfolio/))
 
 ## Case Study, for student case...
 
@@ -67,7 +66,7 @@ This project was also an opportunity, reading the design, to create a quick styl
     height="1591"
     width="680"
     alt="mockup style guidelines"
-    src="./adds-project-assets/semplice-style-guide.png"
+    src="./project-assets/semplice-style-guide.png"
   />
 
 </div>
@@ -97,21 +96,8 @@ cd name-of-your-app-folder
 npm install
 ```
 
-You can now run the frontend on your `localhost`.
+You can now run the frontend on your `localhost:3000`.
 
 ```shell
 npm run dev
-```
-
-## Privacy
-
-About data collected...
-
-## License
-
-```text
-
-HERE Copyright (c) & Permission
-
-MIT License
 ```
