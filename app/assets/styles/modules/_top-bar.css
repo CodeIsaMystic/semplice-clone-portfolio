@@ -8,7 +8,7 @@
   @mixin atXSmall  { padding: 6.5rem 1.25rem 6.5rem; }
   @mixin atMedium  { padding: 6.5rem 1.875rem 6.5rem; }
   @mixin atLarge   { padding: 6.5rem 0 6.5rem; }
-  @mixin atXSmallY { padding: 1.25rem 0; }
+  @mixin atXSmallY { padding: 1.25rem; }
 
   &--is-visible {
     padding: 1.25rem 1.25rem;
