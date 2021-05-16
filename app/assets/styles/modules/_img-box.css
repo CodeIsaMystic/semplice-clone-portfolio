@@ -5,9 +5,6 @@
 
   &-work {
     padding-bottom: 69.5%;
-    /*   margin ???? :
-          1- padding 
-       or 2- positioning on work.css file with margin   */
     margin-bottom: 1.5rem;
 
     @mixin atXSmall {  
@@ -20,11 +17,8 @@
     }
 
     & img {  
-      /*max-width: 14.0625rem;*/
-      max-width: 16rem;
+      width: 95%;
       
-      @mixin atXXSmall {  max-width: 21.875rem;  }
-      @mixin atXSmall  {  max-width: 28rem; }
       @mixin atSmall   {  max-width: 22rem; } 
       @mixin atMedium  {  max-width: 30rem;  }
       @mixin atLarge   {  max-width: 38.5rem;  }
