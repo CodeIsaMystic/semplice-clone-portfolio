@@ -46,10 +46,10 @@
   }
 
   &--pres50 {
-    height: 80%;
     margin: 0 auto;
+    height: 80%;
 
-    @mixin atSmall {  max-height: 29.625rem;  }
+    @mixin atSmall {  max-height: 26rem;  }
     @mixin atLarge {  max-height: 33.375rem;  } 
   }
 }
