@@ -20,7 +20,7 @@
 
 <a href="#">
   <img
-    height="426"
+    height="auto"
     width="916"
     alt="screen of jowd portfolio"
     src="./project-assets/screen-semplice-portfolio.png"
@@ -63,7 +63,7 @@ This project was also an opportunity, reading the design, to create a quick styl
   <br />
 
   <img
-    height="1591"
+    height="auto"
     width="680"
     alt="mockup style guidelines"
     src="./project-assets/semplice-style-guide.png"
