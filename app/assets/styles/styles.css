@@ -2,20 +2,15 @@
 
 
 @import 'abstracts/_mixins';
-<<<<<<< HEAD
-=======
 @import 'abstracts/_variables';
-@import 'abstracts/_flex';
-@import 'abstracts/_utilities';
->>>>>>> progressBarOnLoad
 
 
 @import 'base/_global';
 @import 'base/_typography';
 @import 'base/_flex';
-@import 'base/_utilities';
 @import 'base/_align-x';
 @import 'base/_align-y';
+@import 'base/_utilities';
 @import 'base/_offset-txt';
 
 
@@ -38,11 +33,5 @@
 
 
 @import 'state/_menu-btn';
-<<<<<<< HEAD
 @import 'state/_proj-btn';
 @import 'state/_animations';
-@import 'state/_page-transitions';
-=======
-@import 'state/_animation-enter';
->>>>>>> progressBarOnLoad
-

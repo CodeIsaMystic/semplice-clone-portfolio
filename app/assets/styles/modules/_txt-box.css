@@ -1,5 +1,5 @@
 .txt-box {
-  /*  MUST BE a utility class appart, type u-padd OR u-paddX */
+  /*  MUST BE a utility class a part, type u-padd OR u-paddX */
   padding: 0;
 
   @mixin atSmall  {  padding: 0 .5rem; }

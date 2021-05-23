@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 /*===  typography  ===*/
 $mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
 $headingTypo:                   'Canela', 'Spectral', serif;
-/*$headingTypo:                   'Canela', 'Spectral', serif;*/
 
 /*===   color   ===*/
 $colorDark:                     #222222;
@@ -18,50 +16,3 @@ $colorGrayLight:                #888888;
 $colorContent1:                 #B4C6D9;
 $colorContent2:                 #F6DCB4;
 $colorContent3:                 #AED6DC;
-=======
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
-@import url('https://db.onlinewebfonts.com/c/b1edfa746f416280b3502ba39df2c3ae?family=Canela');
-
-
-
-
-$documentBackground:            #fff;
-$background:                    #E7E7E3;
-$textColorLight:                #888888;
-$textColor:                     #222222;
-
-$typoMuted:                     #c6b9b1;
-
-$contentBg1:                    #F6DCB4;
-$contentBg2:                    #B4C6D9;
-$contentBg3:                    #AED6DC;
-$contentBg4:                    #EFE7E3;
-
-
-
-$mainTypo:                      'IBM Plex Sans', 'Open Sans Condensed', sans-serif;
-$headingTypo:                   'Canela', Helvetica, serif;
-
-
-
-.bgHome {
-  background-color:              #E7E7E3;
-  
-  @mixin atXSmallY {
-    background-color:              #E7E7E3;
-  }
-
-}
-
-
-.bgAbout {
-  background-color:              #EFE7E3;
-  
-  @mixin atXSmallY {
-    background-color:              #EFE7E3;
-  }
-}
-
-
-
->>>>>>> progressBarOnLoad
