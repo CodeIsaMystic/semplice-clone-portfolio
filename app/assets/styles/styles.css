@@ -1,8 +1,13 @@
 @import 'normalize.css';
 
 
-@import 'abstracts/_variables';
 @import 'abstracts/_mixins';
+<<<<<<< HEAD
+=======
+@import 'abstracts/_variables';
+@import 'abstracts/_flex';
+@import 'abstracts/_utilities';
+>>>>>>> progressBarOnLoad
 
 
 @import 'base/_global';
@@ -33,7 +38,11 @@
 
 
 @import 'state/_menu-btn';
+<<<<<<< HEAD
 @import 'state/_proj-btn';
 @import 'state/_animations';
 @import 'state/_page-transitions';
+=======
+@import 'state/_animation-enter';
+>>>>>>> progressBarOnLoad
 
