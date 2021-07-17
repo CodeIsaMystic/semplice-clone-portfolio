@@ -38,11 +38,15 @@
 
  /*=== links hover ===*/
 /* ===> to add new styles button */
-.links-hover {
-  color: $colorGrayLight;
-  transition: color .2s linear;
+.links {
+  text-decoration: underline;
+  transition: color .3s ease-in-out;
 
-  &:hover {
+  &--hover {
     color: $colorDark;
+    
+    &:hover {
+      color: $colorGrayLight;
+    }
   }
 }

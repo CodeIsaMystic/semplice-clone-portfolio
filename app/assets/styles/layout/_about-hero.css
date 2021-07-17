@@ -26,7 +26,7 @@
       padding: 0 1rem;
       margin: 0;
     }
-    @mixin atLarge { margin: 0 5rem 0 0;  }
+    @mixin atLarge { margin: 0 5rem 0 0; }
 
     & > div:first-of-type {
       padding-top: 22.5rem;
