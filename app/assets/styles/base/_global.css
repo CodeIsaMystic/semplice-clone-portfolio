@@ -35,7 +35,13 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: $colorDark;
+  /**
+  * ISSUE TO FIX
+  * => set background color to black for PWA purposes
+  * => and add a Black border to project's pages 
+  *  on desktop device 
+  * background-color: $colorDark;
+  */
 }
 
 h1, h2, h3, h4, h6, p, a { margin: 0; }
