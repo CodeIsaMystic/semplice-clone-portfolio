@@ -3,6 +3,8 @@
 
   &-child1 {
     position: relative;
+
+    & a { cursor: help; }
   
     & img {
       position: absolute;
